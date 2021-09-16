@@ -20,6 +20,7 @@ class userController {
           return res.status(201).json({
             success: true,
             message: "User Registered successfully",
+            data: data,
           });
         }
       });

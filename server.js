@@ -1,6 +1,8 @@
+require('dotenv').config()
 // We import express.
 const express = require("express");
-const port = process.env.PORT || 8080;
+const bodyParser = require("body-parser");
+const PORT = process.env.PORT;
 
 // create express app
 const app = express();
@@ -13,23 +15,7 @@ app.use(express.json());
 
 // configuring the database
 const dbConfig = require("./config/database.config.js");
-const mongoose = require("mongoose");
-
-mongoose.Promise = global.Promise;
-
-// Connecting to the database
-mongoose
-  .connect(dbConfig.url, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("Successfully connected to the database");
-  })
-  .catch((err) => {
-    console.log("Could not connect to the database. Exiting now...", err);
-    process.exit();
-  });
+dbConfig.database();
 
 // define a simple route
 app.get("/", (req, res) => {
@@ -44,6 +30,6 @@ require("./routes/user.route.js")(app);
 // ........
 
 // listen for requests
-app.listen(port, () => {
-  console.log(`Server is running at port no ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running at port no ${PORT}`);
 });
