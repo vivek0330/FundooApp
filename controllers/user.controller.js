@@ -1,4 +1,5 @@
 const userService = require("../service/user.service.js");
+const utility = require("../utility/joiValidation");
 
 class userController {
   registration = (req, res) => {
@@ -10,6 +11,15 @@ class userController {
         password: req.body.password,
       };
 
+      const registerValidation = utility.registraionAuth.validate(user);
+      if (registerValidation.error) {
+        console.log(registerValidation.error);
+        return res.status(400).send({
+          success: false,
+          message: "Wrong Input Validations",
+          data: registerValidation,
+        });
+      }
       userService.registerUser(user, (error, data) => {
         if (error) {
           return res.status(409).json({
