@@ -49,6 +49,15 @@ class userController {
         password: req.body.password,
       };
 
+      const loginValidation = utility.loginAuth.validate(signInInfo);
+      if (loginValidation.error) {
+        return res.status(400).send({
+          success: false,
+          message: "Wrong Input Validations",
+          data: loginValidation,
+        });
+      }
+
       userService.signInUser(signInInfo, (error, data) => {
         if (error) {
           return res.status(403).json({
