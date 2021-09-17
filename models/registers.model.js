@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcrypt");
 
 const userSchema = new mongoose.Schema(
   {
@@ -26,20 +26,21 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-/**
- * @description     : It is converting password content to a encrypted to form using pre middleware
- *                    of mongoose and bcrypt npm package.
- * @middleware      : pre is the middleware of mongoose schema
- * @package         : bcrypt is used to encrpt the password we are getting from client side
-*/
-userSchema.pre('save', async function (next) {
+// /**
+//  * @description     : It is converting password content to a encrypted to form using pre middleware
+//  *                    of mongoose and bcrypt npm package.
+//  * @middleware      : pre is the middleware of mongoose schema
+//  * @package         : bcrypt is used to encrpt the password we are getting from client side
+userSchema.pre("save", async function (next) {
   try {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(this.password, salt);
+    //console.log(hashedPassword);
     this.password = hashedPassword;
+    //console.log(this.password);
     next();
   } catch (error) {
-    next(error)
+    next(error);
   }
 });
 
@@ -49,6 +50,11 @@ const Register = new mongoose.model("Register", userSchema);
 module.exports = Register;
 
 class userModel {
+  /**
+   * @description     : It is use to create and save a newUser in data base.
+   * @param           : userDetails, callback
+   * @method          : save to save the coming data in data base
+   */
   registerUser = (userDetails, callback) => {
     const newUser = new Register({
       firstName: userDetails.firstName,
@@ -56,18 +62,26 @@ class userModel {
       email: userDetails.email,
       password: userDetails.password,
     });
-    try {
-      Register.findOne({ email: userDetails.email }, (error, data) => {
-        if (data) {
-          return callback("User already exits", null);
-        } else {
-          newUser.save();
-          return callback(null, newUser);
-        }
-      });
-    } catch (error) {
-      return callback("Internal error !!", null);
-    }
+    Register.findOne({ firstName: userDetails.firstName }, (error, data) => {
+      if (data) {
+        return callback("User already exits", null);
+      } else {
+        newUser.save();
+        return callback(null, newUser);
+      }
+    });
+  };
+
+  signInUser = (signInData, callback) => {
+    Register.findOne({ email: signInData.email }, (error, data) => {
+      if (error) {
+        return callback(error, null);
+      } else if (!data) {
+        return callback("invalid Credentials", null);
+      } else {
+        return callback(null, data);
+      }
+    });
   };
 }
 
