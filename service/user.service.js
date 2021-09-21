@@ -1,7 +1,7 @@
 const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const utility = require("../utility/token.js");
+const utility = require("../utility/hash&token.js");
 
 class userService {
   registerUser = (user, callback) => {

@@ -2,15 +2,15 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 class Helper {
-  //   hashing = (password, callback) => {
-  //     bcrypt.hash(password, 10, function (err, hash) {
-  //       if (err) {
-  //         throw err;
-  //       } else {
-  //         return callback(null, hash);
-  //       }
-  //     });
-  //   };
+  hashing = (password, callback) => {
+    bcrypt.hash(password, 10, function (err, hash) {
+      if (err) {
+        throw err;
+      } else {
+        return callback(null, hash);
+      }
+    });
+  };
 
   token = (data, callback) => {
     jwt.sign(

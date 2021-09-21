@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const utility = require("../utility/hash&token.js");
 
 const userSchema = new mongoose.Schema(
   {
@@ -27,24 +28,6 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-// /**
-//  * @description     : It is converting password content to a encrypted to form using pre middleware
-//  *                    of mongoose and bcrypt npm package.
-//  * @middleware      : pre is the middleware of mongoose schema
-//  * @package         : bcrypt is used to encrpt the password we are getting from client side
-userSchema.pre("save", async function (next) {
-  try {
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(this.password, salt);
-    //console.log(hashedPassword);
-    this.password = hashedPassword;
-    //console.log(this.password);
-    next();
-  } catch (error) {
-    next(error);
-  }
-});
-
 // now we need to create a collection
 const Register = new mongoose.model("Register", userSchema);
 
@@ -63,14 +46,19 @@ class userModel {
       email: userDetails.email,
       password: userDetails.password,
     });
-    Register.findOne({ firstName: userDetails.firstName }, (error, data) => {
-      if (data) {
-        return callback("User already exits", null);
-      } else {
-        newUser.save();
-        return callback(null, newUser);
-      }
-    });
+    try {
+      utility.hashing(userDetails.password, (error, hash) => {
+        if (hash) {
+          newUser.password = hash;
+          newUser.save();
+          return callback(null, newUser);
+        } else {
+          throw err;
+        }
+      });
+    } catch (error) {
+      return callback("Internal error", null);
+    }
   };
 
   signInUser = (signInData, callback) => {
