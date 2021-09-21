@@ -42,6 +42,9 @@ class userController {
       });
     }
   };
+
+  // sign in user
+
   signIn = (req, res) => {
     try {
       const signInInfo = {
@@ -49,14 +52,14 @@ class userController {
         password: req.body.password,
       };
 
-      const loginValidation = utility.loginAuth.validate(signInInfo);
-      if (loginValidation.error) {
-        return res.status(400).send({
-          success: false,
-          message: "Wrong Input Validations",
-          data: loginValidation,
-        });
-      }
+      // const loginValidation = utility.loginAuth.validate(signInInfo);
+      // if (loginValidation.error) {
+      //   return res.status(400).send({
+      //     success: false,
+      //     message: "Wrong Input Validations",
+      //     data: loginValidation,
+      //   });
+      // }
 
       userService.signInUser(signInInfo, (error, data) => {
         if (error) {
@@ -69,7 +72,8 @@ class userController {
           return res.status(200).json({
             success: true,
             message: "User successfully logged In",
-            data,
+            // data: data,
+            token: data,
           });
         }
       });

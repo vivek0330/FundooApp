@@ -4,15 +4,10 @@ class Validation {
   registraionAuth = Joi.object({
     firstName: Joi.string()
       .min(3)
-      .max(30)
       .required()
       .pattern(new RegExp("^[A-Z]{1}[a-z]{1,}$")),
 
-    lastName: Joi.string()
-      .min(3)
-      .max(10)
-      .required()
-      .pattern(new RegExp("^[A-Z]{1}[a-z]{1,}$")),
+    lastName: Joi.string().min(2).required(),
 
     email: Joi.string()
       .required()
