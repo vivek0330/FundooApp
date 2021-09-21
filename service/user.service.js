@@ -1,6 +1,7 @@
 const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const utility = require("../utility/token.js");
 
 class userService {
   registerUser = (user, callback) => {
@@ -23,16 +24,23 @@ class userService {
         if (check == false) {
           return callback("invalid Password", null);
         } else {
+          utility.token(signInInfo, (error, token) => {
+            if (error) {
+              throw error;
+            } else {
+              return callback(null, token);
+            }
+          });
           // return callback(null, data);
-          const token = jwt.sign(
-            {
-              id: data._id,
-              username: data.firstName,
-              lastname: data.lastName,
-            },
-            process.env.SECRET_KEY
-          );
-          return callback(null, token);
+          // const token = jwt.sign(
+          //   {
+          //     id: data._id,
+          //     username: data.firstName,
+          //     lastname: data.lastName,
+          //   },
+          //   process.env.SECRET_KEY
+          // );
+          // return callback(null, token);
         }
       } else {
         return callback("Please check your email and password !!");
