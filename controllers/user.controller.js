@@ -1,5 +1,5 @@
 const userService = require("../service/user.service.js");
-const utility = require("../utility/joiValidation");
+const utility = require("../helpers/joiValidation");
 
 class userController {
   registration = (req, res) => {

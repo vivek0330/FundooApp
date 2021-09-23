@@ -1,4 +1,4 @@
-require('dotenv').config()
+require("dotenv").config();
 // We import express.
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -33,3 +33,5 @@ require("./routes/user.route.js")(app);
 app.listen(PORT, () => {
   console.log(`Server is running at port no ${PORT}`);
 });
+
+module.exports = app;

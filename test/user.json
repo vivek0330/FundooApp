@@ -1,0 +1,10 @@
+{
+    "user" : {
+        "registerAuth" : {
+            "firstName" : "Lalit",
+            "lastName" : "Soni",
+            "email" : "Lalit@gmail.com",
+            "password" : "Lalit@@"
+        }
+    }
+}
