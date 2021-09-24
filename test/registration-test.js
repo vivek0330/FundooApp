@@ -1,6 +1,8 @@
+/* eslint-disable node/handle-callback-err */
+/* eslint-disable no-undef */
 const server = require("../server");
 
-//Require the dependencies
+// Require the dependencies
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const userDB = require("./user.json");
@@ -11,7 +13,7 @@ chai.use(chaiHttp);
 // test for registration Api
 describe("registration API", () => {
   it("User Registration", (done) => {
-    let registrationDetails = userDB.user.register;
+    const registrationDetails = userDB.user.register;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -24,7 +26,7 @@ describe("registration API", () => {
   });
 
   it("givenRegistrationDetails_whenDataExits_shouldNotSaveInDB", (done) => {
-    let registrationDetails = userDB.user.registerCopy;
+    const registrationDetails = userDB.user.registerCopy;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -39,7 +41,7 @@ describe("registration API", () => {
   });
 
   it("givenRegistrationDetails_whenNolastName_shouldNotSaveInDB", (done) => {
-    let registrationDetails = userDB.user.registerWithNoLastName;
+    const registrationDetails = userDB.user.registerWithNoLastName;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -54,7 +56,7 @@ describe("registration API", () => {
   });
 
   it("givenRegistrationDetails_whenNoemailId_shouldNotSaveInDB", (done) => {
-    let registrationDetails = userDB.user.registerWithNoemail;
+    const registrationDetails = userDB.user.registerWithNoemail;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -69,7 +71,7 @@ describe("registration API", () => {
   });
 
   it("givenRegistrationDetails_whenNoPassword_shouldNotSaveInDB", (done) => {
-    let registrationDetails = userDB.user.registerWithNoPassword;
+    const registrationDetails = userDB.user.registerWithNoPassword;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -87,7 +89,7 @@ describe("registration API", () => {
 // test for login Api
 describe("signin API", () => {
   it("givenloginDetails_whenProper_shouldAbleToLogin", (done) => {
-    let registrationDB = userDB.user.login;
+    const registrationDB = userDB.user.login;
     console.log(registrationDB);
     chai
       .request(server)
@@ -104,7 +106,7 @@ describe("signin API", () => {
   });
 
   it("givenLoginDetails_whenInvalidEmailId_shouldNotAbleToLogin", (done) => {
-    let registrationDB = userDB.user.loginwithWrongInput;
+    const registrationDB = userDB.user.loginwithWrongInput;
     console.log(registrationDB);
     chai
       .request(server)
