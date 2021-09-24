@@ -1,3 +1,12 @@
+/*******************************************************************************************
+ * @description   : It is use to create schema in data base and doing schema vlidation and
+ *                  encrypting password (Hashing).
+ * @module        : mongoose, bcrypt, jsonwebtoken
+ * @file          : registers.model.js
+ * @author        : Vivek Varshney
+ ******************************************************************************************/
+
+// importing mongoose, bcrypt, jsonwebtoken module
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -50,8 +59,14 @@ class userModel {
       utility.hashing(userDetails.password, (error, hash) => {
         if (hash) {
           newUser.password = hash;
-          newUser.save();
-          return callback(null, newUser);
+          newUser.save((error, data) => {
+            if (error) {
+              callback(error, null);
+            } else {
+              callback(null, data);
+            }
+          });
+          // return callback(null, newUser);
         } else {
           throw err;
         }
@@ -61,6 +76,10 @@ class userModel {
     }
   };
 
+  /**
+   * @description     : It uses to login the registered user
+   * @param           : signInData, callback
+   */
   signInUser = (signInData, callback) => {
     Register.findOne({ email: signInData.email }, (error, data) => {
       if (error) {

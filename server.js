@@ -1,5 +1,13 @@
+/**
+ * @description   : It is use to establish the connection between the database and server and also start server
+ * @package       : express.js
+ * @file          : server.js
+ * @author        : Vivek Varshney
+ */
+
 require("dotenv").config();
-// We import express.
+
+// importing express and body-parser modules.
 const express = require("express");
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT;
@@ -13,6 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 // parse requests of content-type - application/json
 app.use(express.json());
 
+// importing from database configuration to server.js and connecting to the database using mongoose.
 // configuring the database
 const dbConfig = require("./config/database.config.js");
 dbConfig.database();
@@ -29,6 +38,7 @@ require("./routes/user.route.js")(app);
 
 // ........
 
+// listen on port 8080 for incoming connects
 // listen for requests
 app.listen(PORT, () => {
   console.log(`Server is running at port no ${PORT}`);

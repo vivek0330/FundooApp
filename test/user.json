@@ -1,6 +1,6 @@
 {
     "user" : {
-        "registerAuth" : {
+        "register" : {
             "firstName" : "Lalit",
             "lastName" : "Soni",
             "email" : "Lalit@gmail.com",
