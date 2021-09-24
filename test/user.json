@@ -1,8 +1,13 @@
 {
     "user" : {
         "register" : {
-            "firstName" : "Lalit",
-            "lastName" : "Soni",
+            "firstName" : "Deekshaa",
+            "lastName" : "Sonia",
+            "email" : "sonai@gmail.com",
+            "password" : "deeakshat@@"
+        },
+
+        "login" : {
             "email" : "Lalit@gmail.com",
             "password" : "Lalit@@"
         }
