@@ -1,15 +1,45 @@
 {
     "user" : {
         "register" : {
+            "firstName" : "Payallllll",
+            "lastName" : "Soniaaalll",
+            "email" : "payallllli@gmail.com",
+            "password" : "dpaallyalshat@@"
+        },
+
+        "registerCopy" : {
+            "firstName" : "Dee",
+            "lastName" : "Sona",
+            "email" : "sonai@gmail.com",
+            "password" : "deehat@@"
+        },
+
+        "registerWithNoLastName" : {
             "firstName" : "Deekshaa",
-            "lastName" : "Sonia",
             "email" : "sonai@gmail.com",
             "password" : "deeakshat@@"
+        },
+        
+        "registerWithNoemail" : {
+            "firstName" : "Deekshaa",
+            "lastName" : "Sonia",
+            "password" : "deeakshat@@"
+        },
+        
+        "registerWithNoPassword" : {
+            "firstName" : "Deekshaa",
+            "lastName" : "Sonia",
+            "email" : "sonai@gmail.com"
         },
 
         "login" : {
             "email" : "Lalit@gmail.com",
             "password" : "Lalit@@"
+        },
+
+        "loginwithWrongInput" : {
+            "email" : "Lt@gmail.com",
+            "password" : "Lat@@"
         },
 
         "registerAuth" : {
