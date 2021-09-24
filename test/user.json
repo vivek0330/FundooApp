@@ -10,6 +10,21 @@
         "login" : {
             "email" : "Lalit@gmail.com",
             "password" : "Lalit@@"
+        },
+
+        "registerAuth" : {
+            "firstName" : "Deekshaa",
+            "lastName" : "Sonia",
+            "email" : "sonai@gmail.com",
+            "password" : "deeakshat@@"
+        },
+
+        "registerAuth1" : {
+            "firstName" : "deekshaa",
+            "lastName" : "Sonia",
+            "email" : "sonai@gmail.com",
+            "password" : "deeakshat@@"
         }
+
     }
 }
