@@ -1,0 +1,146 @@
+{
+    "swagger": "2.0",
+    "definitions": {
+        "userinfo": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string",
+                    "description": "First Name of user."
+                },
+                "lastName": {
+                    "type": "string",
+                    "description": "First Name of user."
+                },
+                "email": {
+                    "type": "string",
+                    "description": "Email ID of user."
+                },
+                "password": {
+                    "type": "string",
+                    "description": "Password of user."
+                }
+            },
+            "example": {
+                "firstName": "Vini",
+                "lastName": "kushwah",
+                "email": "vini@gmail.com",
+                "password": "vinikush@@"
+            }
+        },
+        "logininfo": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "description": "Email ID of user."
+                },
+                "password": {
+                    "type": "string",
+                    "description": "Password of user."
+                }
+            },
+            "example": {
+                "email": "vini@gmail.com",
+                "password": "vinikush@@"
+            }
+        }
+    },
+    "info": {
+        "version": "1.0.0",
+        "title": "fundoonotes",
+        "description": "fundoo Note is a note taking services. The app offers a variety of tools for taking notes. Never miss a thing in Life. Take notes quickly.",
+        "license": {
+            "name": "ISC License",
+            "url": "https://opensource.org/licenses/ISC"
+        }
+    },
+    "host": "localhost:8080",
+    "tags": [
+        {
+            "name": "Fundoo Notes",
+            "description": "API for Registration And Login"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/register": {
+            "post": {
+                "tags": [
+                    "Registration"
+                ],
+                "description": "Create a new user in the FundooNotes App",
+                "parameters": [
+                    {
+                        "name": "User Registration",
+                        "in": "body",
+                        "description": "User that we wants to create",
+                        "schema": {
+                            "$ref": "#/definitions/userinfo"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "schema": {
+                    "$ref": "#/definitions/userinfo"
+                },
+                "responses": {
+                    "201": {
+                        "description": "User created successfully !!"
+                    },
+                    "409": {
+                        "description": "User already exist !!"
+                    },
+                    "500": {
+                        "description": "Internal server error !!"
+                    }
+                }
+            }
+        },
+        "/signin": {
+            "post": {
+                "tags": [
+                    "User Login"
+                ],
+                "description": "Already registered ? Then login using email and password",
+                "parameters": [
+                    {
+                        "name": "User Login",
+                        "in": "body",
+                        "description": "login here with login info ",
+                        "schema": {
+                            "$ref": "#/definitions/logininfo"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "schema": {
+                    "$ref": "#/definitions/logininfo"
+                },
+                "responses": {
+                    "200": {
+                        "description": "User logged in successfully !!"
+                    },
+                    "403": {
+                        "description": "Unable to login !!. Please enter correct login information"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        }
+    }
+}

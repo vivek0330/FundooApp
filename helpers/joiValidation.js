@@ -1,3 +1,4 @@
+/* eslint-disable prefer-regex-literals */
 const Joi = require("joi");
 
 class Validation {
@@ -20,7 +21,7 @@ class Validation {
     password: Joi.string()
       .min(6)
       .required()
-      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}")),
+      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
   });
 
   loginAuth = Joi.object({
@@ -34,7 +35,7 @@ class Validation {
 
     password: Joi.string()
       .required()
-      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}")),
+      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
   });
 }
 

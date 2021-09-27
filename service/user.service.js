@@ -1,9 +1,10 @@
+/* eslint-disable node/no-callback-literal */
+/* eslint-disable node/handle-callback-err */
 const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 const utility = require("../helpers/hash&token.js");
 
-class userService {
+class UserService {
   registerUser = (user, callback) => {
     userModel.registerUser(user, (error, data) => {
       if (error) {
@@ -18,10 +19,10 @@ class userService {
   signInUser = (signInInfo, callback) => {
     userModel.signInUser(signInInfo, (error, data) => {
       if (data) {
-        //const check = signInInfo.password == data.password;
+        // const check = signInInfo.password == data.password;
         const check = bcrypt.compare(signInInfo.pasword, data.pasword);
 
-        if (check == false) {
+        if (check === false) {
           return callback("invalid Password", null);
         } else {
           utility.token(signInInfo, (error, token) => {
@@ -39,4 +40,4 @@ class userService {
   };
 }
 
-module.exports = new userService();
+module.exports = new UserService();

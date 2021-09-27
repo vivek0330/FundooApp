@@ -17,7 +17,7 @@ class Helper {
       {
         username: data.firstName,
         lastname: data.lastName,
-        password: data.password,
+        password: data.password
       },
       process.env.SECRET_KEY,
       (err, token) => {

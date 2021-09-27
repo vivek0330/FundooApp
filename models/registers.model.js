@@ -1,3 +1,6 @@
+/* eslint-disable node/no-callback-literal */
+/* eslint-disable node/handle-callback-err */
+/* eslint-disable new-cap */
 /*******************************************************************************************
  * @description   : It is use to create schema in data base and doing schema vlidation and
  *                  encrypting password (Hashing).
@@ -8,32 +11,30 @@
 
 // importing mongoose, bcrypt, jsonwebtoken module
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 const utility = require("../helpers/hash&token.js");
 
 const userSchema = new mongoose.Schema(
   {
     firstName: {
       type: String,
-      required: true,
+      required: true
     },
     lastName: {
       type: String,
-      required: true,
+      required: true
     },
     email: {
       type: String,
       required: true,
-      unique: true,
+      unique: true
     },
     password: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
   {
-    timestamps: true,
+    timestamps: true
   }
 );
 
@@ -42,7 +43,7 @@ const Register = new mongoose.model("Register", userSchema);
 
 module.exports = Register;
 
-class userModel {
+class UserModel {
   /**
    * @description     : It is use to create and save a newUser in data base.
    * @param           : userDetails, callback
@@ -53,7 +54,7 @@ class userModel {
       firstName: userDetails.firstName,
       lastName: userDetails.lastName,
       email: userDetails.email,
-      password: userDetails.password,
+      password: userDetails.password
     });
     try {
       utility.hashing(userDetails.password, (error, hash) => {
@@ -68,7 +69,7 @@ class userModel {
           });
           // return callback(null, newUser);
         } else {
-          throw err;
+          throw error;
         }
       });
     } catch (error) {
@@ -93,4 +94,4 @@ class userModel {
   };
 }
 
-module.exports = new userModel();
+module.exports = new UserModel();

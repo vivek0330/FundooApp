@@ -1,4 +1,5 @@
 module.exports = {
+  "parser": "@babel/eslint-parser",
   env: {
     browser: true,
     commonjs: true,
@@ -7,9 +8,10 @@ module.exports = {
   extends: ["standard"],
   parserOptions: {
     ecmaVersion: 12,
+    requireConfigFile: false,
   },
   rules: {
-    quotes: ["error", "double"],
+    quotes: ["warn", "double"],
     semi: ["error", "always"],
   },
 };

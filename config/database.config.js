@@ -5,12 +5,12 @@
 const mongoose = require("mongoose");
 const url = process.env.URL;
 
-class dbConnection {
+class DbConnection {
   database = () => {
     // mongoose connect method help us to connect with DB
     mongoose
       .connect(url, {
-        useNewUrlParser: true,
+        useNewUrlParser: true
       })
       .then(() => {
         console.log("sucessfully connected to the database");
@@ -21,4 +21,4 @@ class dbConnection {
       });
   };
 }
-module.exports = new dbConnection();
+module.exports = new DbConnection();

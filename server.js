@@ -10,6 +10,12 @@ require("dotenv").config();
 // importing express and body-parser modules.
 const express = require("express");
 const PORT = process.env.PORT;
+const swagger = require("swagger-ui-express");
+const swaggerJson = require("./swagger/swagger.json");
+
+const option = {
+  explorer: true
+};
 
 // create express app
 const app = express();
@@ -19,6 +25,8 @@ app.use(express.urlencoded({ extended: true }));
 
 // parse requests of content-type - application/json
 app.use(express.json());
+
+app.use("/api-docs", swagger.serve, swagger.setup(swaggerJson, option));
 
 // importing from database configuration to server.js and connecting to the database using mongoose.
 // configuring the database
