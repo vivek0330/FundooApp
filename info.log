@@ -2,3 +2,298 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T13:11:59.641Z"}
 {"level":"info","message":"getting data","timestamp":"2021-09-30T13:14:59.416Z"}
 {"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T13:14:59.417Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T13:46:10.328Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T13:46:10.366Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T13:46:44.428Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T13:52:22.009Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T13:52:22.042Z"}
+{"level":"error","message":"250 2.0.0 OK  1633010632 x9sm5288025pjp.50 - gsmtp","timestamp":"2021-09-30T14:03:53.313Z"}
+{"level":"error","message":"250 2.0.0 OK  1633010774 u6sm3328751pgc.68 - gsmtp","timestamp":"2021-09-30T14:06:15.148Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:11:50.433Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:12:18.377Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:12:42.981Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:13:45.801Z"}
+{"address":"172.217.194.108","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","port":587,"syscall":"connect","timestamp":"2021-09-30T14:14:40.615Z"}
+{"level":"error","message":"250 2.0.0 OK  1633011353 v7sm2952053pjk.37 - gsmtp","timestamp":"2021-09-30T14:15:54.399Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:17:08.985Z"}
+{"level":"error","message":"250 2.0.0 OK  1633012926 l11sm4981875pjg.22 - gsmtp","timestamp":"2021-09-30T14:42:07.276Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:46:19.493Z"}
+{"code":"EAUTH","command":"API","level":"error","timestamp":"2021-09-30T14:48:15.524Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:20:22.568Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:20:22.599Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:21:49.131Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:21:49.185Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:22:19.841Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:24:05.410Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:24:05.471Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:24:09.809Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:24:15.890Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:24:37.283Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:24:37.339Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:30:12.860Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:30:12.923Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:30:18.093Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:31:06.237Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:31:06.282Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:31:09.319Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:33:03.570Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:33:05.655Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:33:06.862Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:33:09.285Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:33:10.286Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:33:45.981Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:33:46.052Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:34:07.766Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:34:07.812Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:34:11.597Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:34:34.230Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:34:34.310Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:34:36.736Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:36:49.071Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:36:49.112Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:36:54.477Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:36:56.180Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:36:57.081Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:36:57.782Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:37:00.636Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:38:19.726Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:38:19.762Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:38:24.376Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:40:14.193Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:40:14.229Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:40:50.005Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:40:50.060Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:40:55.888Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:40:58.421Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-09-30T15:40:59.313Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:42:19.052Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:42:19.096Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T15:42:23.638Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:43:16.499Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:43:16.544Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T15:43:23.546Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:44:13.602Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:44:13.648Z"}
+{"level":"error","message":"250 2.0.0 OK  1633016661 i29sm3521927pfk.207 - gsmtp","timestamp":"2021-09-30T15:44:22.767Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:51:03.987Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:51:04.062Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017072 x12sm3501673pfa.98 - gsmtp","timestamp":"2021-09-30T15:51:13.824Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:57:20.280Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:57:20.312Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017450 l18sm3712519pfu.202 - gsmtp","timestamp":"2021-09-30T15:57:31.560Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T15:58:44.969Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T15:58:45.011Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017534 b11sm3588746pge.57 - gsmtp","timestamp":"2021-09-30T15:58:55.369Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017537 u6sm3359209pgr.3 - gsmtp","timestamp":"2021-09-30T15:58:58.109Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:00:58.726Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:00:58.737Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017681 k29sm3586811pfp.200 - gsmtp","timestamp":"2021-09-30T16:01:22.334Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017684 m12sm3096043pjv.29 - gsmtp","timestamp":"2021-09-30T16:01:25.114Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-09-30T16:02:08.485Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:02:20.086Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:02:20.086Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017756 11sm3404834pfl.41 - gsmtp","timestamp":"2021-09-30T16:02:37.036Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017757 u24sm3682888pfm.85 - gsmtp","timestamp":"2021-09-30T16:02:38.716Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:03:03.548Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:03:03.592Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017791 x71sm3687042pfc.146 - gsmtp","timestamp":"2021-09-30T16:03:12.499Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017909 b5sm3148251pjq.2 - gsmtp","timestamp":"2021-09-30T16:05:09.893Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:05:51.075Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:05:51.108Z"}
+{"level":"error","message":"250 2.0.0 OK  1633017960 3sm2989525pjk.18 - gsmtp","timestamp":"2021-09-30T16:06:01.645Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:07:20.739Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:07:20.764Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018047 65sm3493090pfu.187 - gsmtp","timestamp":"2021-09-30T16:07:28.209Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018100 z4sm3838208pfz.99 - gsmtp","timestamp":"2021-09-30T16:08:21.546Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018103 ga22sm1723246pjb.12 - gsmtp","timestamp":"2021-09-30T16:08:23.940Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018104 n66sm3668883pfd.21 - gsmtp","timestamp":"2021-09-30T16:08:25.173Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018104 q3sm3484503pgf.18 - gsmtp","timestamp":"2021-09-30T16:08:25.623Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018105 u6sm3604312pgc.68 - gsmtp","timestamp":"2021-09-30T16:08:26.061Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018106 s10sm5265343pjn.38 - gsmtp","timestamp":"2021-09-30T16:08:27.358Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018106 17sm3875258pgr.10 - gsmtp","timestamp":"2021-09-30T16:08:27.601Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018108 y3sm672544pfq.53 - gsmtp","timestamp":"2021-09-30T16:08:29.392Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018108 fz20sm343337pjb.31 - gsmtp","timestamp":"2021-09-30T16:08:29.720Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018111 e13sm3480581pfd.205 - gsmtp","timestamp":"2021-09-30T16:08:31.931Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018112 d137sm3711683pfd.72 - gsmtp","timestamp":"2021-09-30T16:08:33.521Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018116 x20sm3197204pjp.48 - gsmtp","timestamp":"2021-09-30T16:08:36.921Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018117 i9sm224532pfd.32 - gsmtp","timestamp":"2021-09-30T16:08:38.331Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018154 q16sm3996920pfk.214 - gsmtp","timestamp":"2021-09-30T16:09:15.213Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:10:36.087Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:10:36.130Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018252 c3sm3637036pgn.76 - gsmtp","timestamp":"2021-09-30T16:10:53.663Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:11:55.628Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:11:55.684Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018328 j6sm3386691pgh.17 - gsmtp","timestamp":"2021-09-30T16:12:09.668Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018476 a7sm2834300pfn.150 - gsmtp","timestamp":"2021-09-30T16:14:37.863Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:15:59.698Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:15:59.699Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018583 p17sm5279960pjg.54 - gsmtp","timestamp":"2021-09-30T16:16:24.267Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:19:04.595Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:19:04.653Z"}
+{"level":"error","message":"250 2.0.0 OK  1633018752 y5sm2157769pju.33 - gsmtp","timestamp":"2021-09-30T16:19:12.993Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T16:22:03.290Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:23:04.210Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:23:04.278Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T16:23:15.395Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:23:56.301Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:23:56.338Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T16:24:02.500Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:24:53.409Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:24:53.453Z"}
+{"level":"error","message":"250 2.0.0 OK  1633019104 p189sm3621132pfp.167 - gsmtp","timestamp":"2021-09-30T16:25:04.943Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:27:01.251Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:27:01.253Z"}
+{"level":"error","message":"250 2.0.0 OK  1633019237 u17sm3122108pjn.30 - gsmtp","timestamp":"2021-09-30T16:27:18.499Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:28:25.591Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:28:25.631Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:28:30.773Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:28:30.774Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:29:42.976Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:29:43.004Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:29:49.199Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:29:49.200Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:29:51.380Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:29:51.390Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:32:13.793Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:32:14.060Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:32:24.824Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:33:07.331Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:34:08.789Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:34:08.852Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:34:09.950Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:34:09.953Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:35:10.627Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:35:10.709Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:35:12.087Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:35:12.088Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:35:24.157Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:35:24.286Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:35:29.369Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:36:12.334Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:36:12.380Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:36:18.521Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:37:06.427Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:37:06.470Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:37:09.745Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:38:00.287Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:38:00.318Z"}
+{"code":"EENVELOPE","command":"API","level":"error","timestamp":"2021-09-30T16:38:05.884Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:38:19.782Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:38:19.814Z"}
+{"level":"error","message":"250 2.0.0 OK  1633019904 x21sm3584441pfa.186 - gsmtp","timestamp":"2021-09-30T16:38:25.721Z"}
+{"level":"error","message":"250 2.0.0 OK  1633019939 n12sm3499232pff.166 - gsmtp","timestamp":"2021-09-30T16:39:00.233Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:39:35.167Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:39:35.196Z"}
+{"level":"error","message":"250 2.0.0 OK  1633019981 g27sm3635425pfk.173 - gsmtp","timestamp":"2021-09-30T16:39:42.533Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:41:55.769Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:41:55.820Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:41:59.844Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:41:59.857Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:42:18.258Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:42:18.322Z"}
+{"level":"error","message":"250 2.0.0 OK  1633020143 f205sm3644220pfa.92 - gsmtp","timestamp":"2021-09-30T16:42:24.241Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:43:50.810Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:43:50.861Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:43:52.684Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:43:52.685Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:44:46.527Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:44:46.558Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:44:50.512Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-09-30T16:44:50.530Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:47:49.319Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:47:49.360Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:47:53.032Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:49:54.312Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:49:54.348Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:49:58.501Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:49:59.976Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:01.841Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:02.757Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:03.510Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:04.207Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:04.879Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-09-30T16:50:09.942Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T16:50:40.909Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T16:50:40.954Z"}
+{"level":"error","message":"250 2.0.0 OK  1633020649 z9sm3616131pfr.124 - gsmtp","timestamp":"2021-09-30T16:50:50.198Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:52:09.483Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:52:09.484Z"}
+{"address":"142.251.10.109","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","port":465,"syscall":"connect","timestamp":"2021-09-30T16:52:49.906Z"}
+{"level":"error","message":"250 2.0.0 OK  1633020824 h10sm5432174pjs.51 - gsmtp","timestamp":"2021-09-30T16:53:45.063Z"}
+{"level":"error","message":"250 2.0.0 OK  1633020851 a13sm3661838pfn.24 - gsmtp","timestamp":"2021-09-30T16:54:11.954Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T16:55:07.205Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T16:55:07.207Z"}
+{"level":"error","message":"250 2.0.0 OK  1633020931 o2sm3559198pgc.47 - gsmtp","timestamp":"2021-09-30T16:55:32.777Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:09:16.700Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:09:16.724Z"}
+{"level":"error","message":"250 2.0.0 OK  1633021765 t1sm3220984pgf.78 - gsmtp","timestamp":"2021-09-30T17:09:26.397Z"}
+{"level":"error","message":"250 2.0.0 OK  1633021787 h13sm3620574pgf.14 - gsmtp","timestamp":"2021-09-30T17:09:47.914Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:10:37.821Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:10:37.843Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:11:10.308Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:11:10.393Z"}
+{"level":"error","message":"250 2.0.0 OK  1633021877 t6sm3730201pfh.63 - gsmtp","timestamp":"2021-09-30T17:11:18.287Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:11:49.152Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:11:49.178Z"}
+{"level":"error","message":"250 2.0.0 OK  1633021916 26sm4156647pgx.72 - gsmtp","timestamp":"2021-09-30T17:11:57.462Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:37:12.713Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:37:12.741Z"}
+{"level":"error","message":"250 2.0.0 OK  1633023484 x17sm2474976pfn.169 - gsmtp","timestamp":"2021-09-30T17:38:05.125Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:39:02.914Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:39:02.967Z"}
+{"level":"error","message":"250 2.0.0 OK  1633023548 u24sm3837504pfm.85 - gsmtp","timestamp":"2021-09-30T17:39:08.975Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:40:02.800Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:40:02.842Z"}
+{"level":"error","message":"250 2.0.0 OK  1633023608 e8sm3194876pfn.45 - gsmtp","timestamp":"2021-09-30T17:40:09.117Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:41:39.135Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:41:39.172Z"}
+{"level":"error","message":"250 2.0.0 OK  1633023705 j6sm3596320pgq.0 - gsmtp","timestamp":"2021-09-30T17:41:46.380Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:42:57.668Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:42:57.711Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:42:59.217Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:44:10.185Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:44:10.225Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:44:12.574Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:45:27.453Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:45:27.501Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:45:32.651Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:45:56.103Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:45:56.145Z"}
+{"level":"error","message":"250 2.0.0 OK  1633023961 l10sm3674749pgn.22 - gsmtp","timestamp":"2021-09-30T17:46:02.024Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:48:20.558Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:48:20.594Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:48:35.581Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:48:51.404Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:48:51.438Z"}
+{"level":"error","message":"250 2.0.0 OK  1633024138 t9sm5497410pjq.20 - gsmtp","timestamp":"2021-09-30T17:48:59.488Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:50:39.429Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:50:39.515Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:50:44.018Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:51:50.256Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:51:50.303Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-09-30T17:51:51.948Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:52:06.688Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:52:06.728Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:55:07.008Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:55:07.060Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:55:58.915Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:55:58.959Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:56:29.145Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:56:29.187Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T17:56:45.038Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T17:56:45.079Z"}
+{"level":"error","message":"250 2.0.0 OK  1633024611 y3sm3827260pfr.140 - gsmtp","timestamp":"2021-09-30T17:56:52.117Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T18:00:09.310Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T18:00:09.362Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T18:02:00.366Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T18:02:00.392Z"}
+{"level":"error","message":"250 2.0.0 OK  1633024926 t5sm3361200pji.1 - gsmtp","timestamp":"2021-09-30T18:02:07.672Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T18:06:16.789Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T18:06:16.837Z"}
+{"level":"error","message":"250 2.0.0 OK  1633025183 ci18sm3247379pjb.11 - gsmtp","timestamp":"2021-09-30T18:06:24.261Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T18:51:38.234Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T18:51:38.482Z"}
+{"level":"error","message":"250 2.0.0 OK  1633027921 d19sm3810327pfn.102 - gsmtp","timestamp":"2021-09-30T18:52:01.880Z"}
+{"address":"74.125.68.108","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","port":465,"syscall":"connect","timestamp":"2021-09-30T18:52:05.143Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T18:53:18.886Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T18:53:18.931Z"}

@@ -34,6 +34,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    resetLink: {
+      data: String,
+      default: ""
+    }
   },
   {
     timestamps: true,
@@ -94,6 +98,17 @@ class UserModel {
         return callback("invalid Credentials", null);
       } else {
         logger.info("Something is good");
+        return callback(null, data);
+      }
+    });
+  };
+
+  forgotPassword = (data, callback) => {
+    Register.findOne({ email: data.email }, (err, data) => {
+      if (err || !data) {
+        logger.error("User with email id doesnt exists");
+        return callback("User with email id doesnt exists", null);
+      } else {
         return callback(null, data);
       }
     });

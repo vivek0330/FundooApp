@@ -37,6 +37,12 @@ class Validation {
       .required()
       .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
   });
+
+  authenticateLogin = Joi.object({
+    email: Joi.string()
+      .pattern(new RegExp("^[a-z0-9.+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,6}$"))
+      .required()
+  })
 }
 
 module.exports = new Validation();

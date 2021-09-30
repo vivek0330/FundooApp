@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable comma-dangle */
 const userService = require("../service/user.service.js");
 const utility = require("../helpers/joiValidation");
@@ -94,6 +95,39 @@ class UserController {
       });
     }
   };
+
+  // forgot password
+  forgotPassword=(req, res) => {
+    try {
+      const email = req.body;
+      // const loginValid = utility.authenticateLogin.validate(email);
+      // if (loginValid.error) {
+      //   logger.error("Invalid email id");
+      //   res.status(400).send({
+      //     success: false,
+      //     message: "Invalid email id"
+      //   });
+      //   return;
+      // }
+      userService.forgotPassword(email, (error, data) => {
+        if (error) {
+          return res.status(400).send({ error });
+        } else {
+          return res.status(200).json({
+            success: true,
+            message: "Email reset link sent succesfully"
+          });
+        }
+      });
+    } catch (error) {
+      logger.error("Internal server error");
+      return res.status(500).send({
+        success: false,
+        message: "Internal server error",
+        data: null,
+      });
+    }
+  }
 }
 
 module.exports = new UserController();

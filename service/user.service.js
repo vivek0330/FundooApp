@@ -4,6 +4,7 @@ const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
 const utility = require("../helpers/hash&token.js");
 const logger = require("../logger/logger");
+const nodemailer = require("../helpers/nodemailer");
 
 class UserService {
   registerUser = (user, callback) => {
@@ -34,6 +35,7 @@ class UserService {
               throw error;
             } else {
               logger.info("token generate");
+              // console.log(token);
               return callback(null, token);
             }
           });
@@ -44,6 +46,17 @@ class UserService {
       }
     });
   };
+
+   forgotPassword = (email, callback) => {
+     userModel.forgotPassword(email, (error, data) => {
+       if (error || !data) {
+         logger.error(error);
+         return callback(error, null);
+       } else {
+         return callback(null, nodemailer.sendEmail(data));
+       }
+     });
+   }
 }
 
 module.exports = new UserService();

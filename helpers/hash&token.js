@@ -15,16 +15,14 @@ class Helper {
   token = (data, callback) => {
     jwt.sign(
       {
-        username: data.firstName,
-        lastname: data.lastName,
-        password: data.password
+        email: data.email
       },
       process.env.SECRET_KEY,
-      (err, token) => {
+      (err, data) => {
         if (err) {
           return callback(err, null);
         } else {
-          return callback(null, token);
+          return callback(null, data);
         }
       }
     );
