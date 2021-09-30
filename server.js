@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 /**
  * @description   : It is use to establish the connection between the database and server and also start server
  * @package       : express.js
@@ -12,9 +13,10 @@ const express = require("express");
 const PORT = process.env.PORT;
 const swagger = require("swagger-ui-express");
 const swaggerJson = require("./swagger/swagger.json");
+const logger = require("./logger/logger");
 
 const option = {
-  explorer: true
+  explorer: true,
 };
 
 // create express app
@@ -49,6 +51,7 @@ require("./routes/user.route.js")(app);
 // listen for requests
 app.listen(PORT, () => {
   console.log(`Server is running at port no ${PORT}`);
+  logger.info(`Server is listing on port: ${PORT}`);
 });
 
 module.exports = app;

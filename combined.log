@@ -1,0 +1,23 @@
+{"level":"info","message":"Server is listing on port: 8080"}
+{"level":"info","message":"sucessfully connected to the database"}
+{"level":"info","message":"Server is listing on port: 8080"}
+{"level":"info","message":"sucessfully connected to the database"}
+{"level":"error","message":"getting some error"}
+{"level":"info","message":"User Already Exit"}
+{"level":"error","message":"getting some error"}
+{"level":"info","message":"User Already Exit"}
+{"level":"error","message":"Wrong Validation"}
+{"level":"error","message":"Wrong Validation"}
+{"level":"error","message":"Wrong Validation"}
+{"level":"info","message":"Something is good"}
+{"level":"info","message":"token generate"}
+{"level":"info","message":"User successfully logged In"}
+{"level":"error","message":"Invalid Credentials"}
+{"level":"info","message":"Please check your email and password !!"}
+{"level":"error","message":"Incorrect email and password"}
+{"level":"info","message":"Server is listing on port: 8080"}
+{"level":"info","message":"sucessfully connected to the database"}
+{"level":"info","message":"getting data"}
+{"level":"info","message":"USer Registered Successfully"}
+{"level":"error","message":"getting some error"}
+{"level":"info","message":"User Already Exit"}

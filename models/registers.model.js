@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 /* eslint-disable node/no-callback-literal */
 /* eslint-disable node/handle-callback-err */
 /* eslint-disable new-cap */
@@ -12,29 +13,30 @@
 // importing mongoose, bcrypt, jsonwebtoken module
 const mongoose = require("mongoose");
 const utility = require("../helpers/hash&token.js");
+const logger = require("../logger/logger");
 
 const userSchema = new mongoose.Schema(
   {
     firstName: {
       type: String,
-      required: true
+      required: true,
     },
     lastName: {
       type: String,
-      required: true
+      required: true,
     },
     email: {
       type: String,
       required: true,
-      unique: true
+      unique: true,
     },
     password: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   {
-    timestamps: true
+    timestamps: true,
   }
 );
 
@@ -54,7 +56,7 @@ class UserModel {
       firstName: userDetails.firstName,
       lastName: userDetails.lastName,
       email: userDetails.email,
-      password: userDetails.password
+      password: userDetails.password,
     });
     try {
       utility.hashing(userDetails.password, (error, hash) => {
@@ -73,6 +75,7 @@ class UserModel {
         }
       });
     } catch (error) {
+      logger.info("Internal Error");
       return callback("Internal error", null);
     }
   };
@@ -84,10 +87,13 @@ class UserModel {
   signInUser = (signInData, callback) => {
     Register.findOne({ email: signInData.email }, (error, data) => {
       if (error) {
+        logger.error("Something is wrong");
         return callback(error, null);
       } else if (!data) {
+        logger.error("Invalid Credentials");
         return callback("invalid Credentials", null);
       } else {
+        logger.info("Something is good");
         return callback(null, data);
       }
     });
