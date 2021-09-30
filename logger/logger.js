@@ -1,23 +1,28 @@
 /* eslint-disable comma-dangle */
-const winston = require("winston");
+const { format, createLogger, transports, winston } = require("winston");
+const { timestamp, combine, json } = format;
 
-const logger = winston.createLogger({
-  level: "info",
-  json: true,
-  format: winston.format.json(),
+const logger = createLogger({
   transports: [
-    // - Write all logs with level `error` and below to `error.log`
-    // - Write all logs with level `info` and below to `combined.log`
-
-    new winston.transports.File({ filename: "error.log", level: "error" }),
-    new winston.transports.File({ filename: "combined.log" }),
-  ],
+    new transports.File({
+      filename: "./info.log",
+      level: "info",
+      format: format.combine(
+        format.timestamp(), format.json())
+    }),
+    new transports.File({
+      filename: "./error.log",
+      level: "error",
+      format: combine(
+        timestamp(), json())
+    })
+  ]
 });
 
 //  displaying logger message in console
 logger.add(
-  new winston.transports.Console({
-    format: winston.format.simple(),
+  new transports.Console({
+    format: format.simple(),
   })
 );
 

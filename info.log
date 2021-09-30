@@ -1,0 +1,4 @@
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-09-30T13:11:59.598Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-09-30T13:11:59.641Z"}
+{"level":"info","message":"getting data","timestamp":"2021-09-30T13:14:59.416Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-09-30T13:14:59.417Z"}
