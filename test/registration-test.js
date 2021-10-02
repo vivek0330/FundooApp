@@ -8,6 +8,7 @@ const assert = require("chai").assert;
 const chaiHttp = require("chai-http");
 const userDB = require("./user.json");
 const userValidate = require("../helpers/joiValidation.js");
+const faker = require("faker");
 
 chai.should();
 chai.use(chaiHttp);
@@ -15,12 +16,17 @@ chai.use(chaiHttp);
 // test cases for registration Api
 describe("registration API", () => {
   it("User Registration", (done) => {
-    const registrationDetails = userDB.user.register;
-    console.log(registrationDetails);
+    const register = {
+      firstName: faker.name.findName(),
+      lastName: faker.name.lastName(),
+      email: faker.internet.email(),
+      password: faker.internet.password()
+    };
+    console.log(register);
     chai
       .request(server)
       .post("/register")
-      .send(registrationDetails)
+      .send(register)
       .end((err, res) => {
         res.should.have.status(201);
         done();

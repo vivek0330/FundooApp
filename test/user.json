@@ -1,16 +1,10 @@
 {
     "user": {
-        "register": {
-            "firstName": "Payalllllllll",
-            "lastName": "Soniaaallllll",
-            "email": "payalllllllli@gmail.com",
-            "password": "dpaalllllyalshat@@"
-        },
         "registerCopy": {
-            "firstName": "Dee",
-            "lastName": "Sona",
-            "email": "sonai@gmail.com",
-            "password": "deehat@@"
+            "firstName": "Kathy Leuschke MD",
+            "lastName": "Bechtelar",
+            "email": "Bradford90@hotmail.com",
+            "password": "1GgaLU1KIkiRBV5"
         },
         "registerWithNofirstName": {
             "lastName": "Shamra",
@@ -78,13 +72,13 @@
             "firstName": "Deekshaa",
             "lastName": "Sonia",
             "email": "sonai@gmail.com",
-            "password": "deeakshat@@"
+            "password": "YcvaqEHuXUhzdM4"
         },
         "registerAuth1": {
             "firstName": "Deekshaa",
             "lastName": "Sonia",
             "email": "sonai@gmail.com",
-            "password": "deeakshat@@"
+            "password": "YcvaqEHuXUhzdM4"
         }
     }
 }

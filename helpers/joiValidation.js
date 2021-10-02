@@ -6,7 +6,8 @@ class Validation {
     firstName: Joi.string()
       .min(3)
       .required()
-      .pattern(new RegExp("^[A-Z]{1}[a-z]{1,}$")),
+      // .pattern(new RegExp("^[A-Z]{1}[a-z]{1,}$")),
+      .pattern(new RegExp("^([A-Z]?[a-zA-Z]{1,30}[ ]?[.]?[']?[ ]?[a-zA-Z]{1,30}[ ]?[.]?[']?[ ]?[a-zA-Z]{0,30}[ ]?[a-zA-Z]{0,30}?)")),
 
     lastName: Joi.string().min(2).required(),
 
@@ -21,7 +22,8 @@ class Validation {
     password: Joi.string()
       .min(6)
       .required()
-      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
+      // eslint-disable-next-line no-control-regex
+      .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
   loginAuth = Joi.object({
@@ -35,7 +37,8 @@ class Validation {
 
     password: Joi.string()
       .required()
-      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
+      // eslint-disable-next-line no-control-regex
+      .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
   authenticateLogin = Joi.object({
