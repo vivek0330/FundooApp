@@ -123,3 +123,29 @@
 {"level":"error","message":"250 2.0.0 OK  1633025183 ci18sm3247379pjb.11 - gsmtp","timestamp":"2021-09-30T18:06:24.261Z"}
 {"level":"error","message":"250 2.0.0 OK  1633027921 d19sm3810327pfn.102 - gsmtp","timestamp":"2021-09-30T18:52:01.880Z"}
 {"address":"74.125.68.108","code":"ESOCKET","command":"CONN","errno":-4039,"level":"error","port":465,"syscall":"connect","timestamp":"2021-09-30T18:52:05.143Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:34:50.046Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:34:50.065Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:34:50.082Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T04:34:50.185Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T04:34:50.187Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T04:34:50.243Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T04:34:50.246Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T04:39:55.442Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T04:39:55.579Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:39:55.594Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:39:55.607Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T04:39:55.623Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T04:39:55.740Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T04:39:55.743Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T05:21:53.953Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T05:21:54.078Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.096Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.110Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.133Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.151Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.169Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.183Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.194Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:21:54.205Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T05:21:54.251Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T05:21:54.252Z"}

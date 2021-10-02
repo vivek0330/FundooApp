@@ -1,60 +1,86 @@
 {
-    "user" : {
-        "register" : {
-            "firstName" : "Payalllllllll",
-            "lastName" : "Soniaaallllll",
-            "email" : "payalllllllli@gmail.com",
-            "password" : "dpaalllllyalshat@@"
+    "user": {
+        "register": {
+            "firstName": "Payalllllllll",
+            "lastName": "Soniaaallllll",
+            "email": "payalllllllli@gmail.com",
+            "password": "dpaalllllyalshat@@"
         },
-
-        "registerCopy" : {
-            "firstName" : "Dee",
-            "lastName" : "Sona",
-            "email" : "sonai@gmail.com",
-            "password" : "deehat@@"
+        "registerCopy": {
+            "firstName": "Dee",
+            "lastName": "Sona",
+            "email": "sonai@gmail.com",
+            "password": "deehat@@"
         },
-
-        "registerWithNoLastName" : {
-            "firstName" : "Deekshaa",
-            "email" : "sonai@gmail.com",
-            "password" : "deeakshat@@"
+        "registerWithNofirstName": {
+            "lastName": "Shamra",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         },
-        
-        "registerWithNoemail" : {
-            "firstName" : "Deekshaa",
-            "lastName" : "Sonia",
-            "password" : "deeakshat@@"
+        "registerWithfirstNameNotStartingWithCapitalLetter": {
+            "firstName": "dee",
+            "lastName": "Shamra",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         },
-        
-        "registerWithNoPassword" : {
-            "firstName" : "Deekshaa",
-            "lastName" : "Sonia",
-            "email" : "sonai@gmail.com"
+        "registerWithfirstNameLessThreeCharacter": {
+            "firstName": "de",
+            "lastName": "Shamra",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         },
-
-        "login" : {
-            "email" : "Lalit@gmail.com",
-            "password" : "Lalit@@"
+        "registerWithNoLastName": {
+            "firstName": "Deekshaa",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         },
-
-        "loginwithWrongInput" : {
-            "email" : "Lt@gmail.com",
-            "password" : "Lat@@"
+        "registerWithLastNameLessThenTwoCharacter": {
+            "firstName": "Mohan",
+            "lastName": "S",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         },
-
-        "registerAuth" : {
-            "firstName" : "Deekshaa",
-            "lastName" : "Sonia",
-            "email" : "sonai@gmail.com",
-            "password" : "deeakshat@@"
+        "registerWithNoemail": {
+            "firstName": "Deekshaa",
+            "lastName": "Sonia",
+            "password": "deeakshat@@"
         },
-
-        "registerAuth1" : {
-            "firstName" : "deekshaa",
-            "lastName" : "Sonia",
-            "email" : "sonai@gmail.com",
-            "password" : "deeakshat@@"
+        "registerWithNoPassword": {
+            "firstName": "Deekshaa",
+            "lastName": "Sonia",
+            "email": "sonai@gmail.com"
+        },
+        "registerWithPasswordLessThenSixCharacter": {
+            "firstName": "Deekshaa",
+            "lastName": "Sonia",
+            "email": "sonai@gmail.com",
+            "password": "la@@"
+        },
+        "registerWithPasswordNotFollowRegex": {
+            "firstName": "Deekshaa",
+            "lastName": "Sonia",
+            "email": "sonai@gmail.com",
+            "password": "lhgssa@"
+        },
+        "login": {
+            "email": "payalllllllli@gmail.com",
+            "password": "dpaalllllyalshat@@"
+        },
+        "loginwithWrongInput": {
+            "email": "Lt@gmail.com",
+            "password": "Lat@@"
+        },
+        "registerAuth": {
+            "firstName": "Deekshaa",
+            "lastName": "Sonia",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
+        },
+        "registerAuth1": {
+            "firstName": "deekshaa",
+            "lastName": "Sonia",
+            "email": "sonai@gmail.com",
+            "password": "deeakshat@@"
         }
-
     }
 }

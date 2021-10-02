@@ -40,8 +40,68 @@ describe("registration API", () => {
       });
   });
 
+  it("givenRegistrationDetails_whenNofirstName_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithNofirstName;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
+  it("givenRegistrationDetails_whenfirstNameNotStartingWithCapitalLetter_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithfirstNameNotStartingWithCapitalLetter;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
+  it("givenRegistrationDetails_whenfirstNameLessThreeCharacter_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithfirstNameLessThreeCharacter;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
   it("givenRegistrationDetails_whenNolastName_shouldNotSaveInDB", (done) => {
     const registrationDetails = userDB.user.registerWithNoLastName;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
+  it("givenRegistrationDetails_whenlastNameLessThenTwoCharacter_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithLastNameLessThenTwoCharacter;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -72,6 +132,36 @@ describe("registration API", () => {
 
   it("givenRegistrationDetails_whenNoPassword_shouldNotSaveInDB", (done) => {
     const registrationDetails = userDB.user.registerWithNoPassword;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
+  it("givenRegistrationDetails_whenPasswordLessThenSixCharacter_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithPasswordLessThenSixCharacter;
+    console.log(registrationDetails);
+    chai
+      .request(server)
+      .post("/register")
+      .send(registrationDetails)
+      .end((err, res) => {
+        res.should.have.status(400);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have.property("message").eql("Wrong Input Validations");
+        done();
+      });
+  });
+
+  it("givenRegistrationDetails_whenPasswordNotFollowRegex_shouldNotSaveInDB", (done) => {
+    const registrationDetails = userDB.user.registerWithPasswordLessThenSixCharacter;
     console.log(registrationDetails);
     chai
       .request(server)
