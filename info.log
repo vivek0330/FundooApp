@@ -560,3 +560,27 @@
 {"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T05:52:08.801Z"}
 {"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T05:52:08.801Z"}
 {"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T05:52:08.802Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-02T05:53:16.157Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-02T05:53:16.195Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T05:53:16.339Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-02T05:53:16.340Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T05:53:16.453Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-02T05:53:16.454Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.470Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.486Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.502Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.541Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.584Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.601Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.635Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.651Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T05:53:16.667Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-02T05:53:16.691Z"}
+{"level":"info","message":"token generate","timestamp":"2021-10-02T05:53:16.697Z"}
+{"level":"info","message":"User successfully logged In","timestamp":"2021-10-02T05:53:16.698Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T05:53:16.706Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T05:53:16.707Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T05:53:16.707Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T05:53:16.720Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T05:53:16.721Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T05:53:16.721Z"}
