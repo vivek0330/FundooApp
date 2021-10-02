@@ -4,13 +4,15 @@ const server = require("../server");
 
 // Require the dependencies
 const chai = require("chai");
+const assert = require("chai").assert;
 const chaiHttp = require("chai-http");
 const userDB = require("./user.json");
+const userValidate = require("../helpers/joiValidation.js");
 
 chai.should();
 chai.use(chaiHttp);
 
-// test for registration Api
+// test cases for registration Api
 describe("registration API", () => {
   it("User Registration", (done) => {
     const registrationDetails = userDB.user.register;
@@ -161,7 +163,7 @@ describe("registration API", () => {
   });
 
   it("givenRegistrationDetails_whenPasswordNotFollowRegex_shouldNotSaveInDB", (done) => {
-    const registrationDetails = userDB.user.registerWithPasswordLessThenSixCharacter;
+    const registrationDetails = userDB.user.registerWithPasswordNotFollowRegex;
     console.log(registrationDetails);
     chai
       .request(server)
@@ -197,6 +199,23 @@ describe("signin API", () => {
 
   it("givenLoginDetails_whenInvalidEmailId_shouldNotAbleToLogin", (done) => {
     const registrationDB = userDB.user.loginwithWrongInput;
+    console.log(registrationDB);
+    chai
+      .request(server)
+      .post("/signin")
+      .send(registrationDB)
+      .end((err, res) => {
+        res.should.have.status(403);
+        res.body.should.have.property("success").eql(false);
+        res.body.should.have
+          .property("message")
+          .eql("Incorrect email and password");
+        done();
+      });
+  });
+
+  it("givenLoginDetails_whenInvalidPassword_shouldNotAbleToLogin", (done) => {
+    const registrationDB = userDB.user.loginwithWrongPassword;
     console.log(registrationDB);
     chai
       .request(server)

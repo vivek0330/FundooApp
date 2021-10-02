@@ -67,7 +67,11 @@
             "password": "dpaalllllyalshat@@"
         },
         "loginwithWrongInput": {
-            "email": "Lt@gmail.com",
+            "email": "Lt@gail.com",
+            "password": "Lt@@"
+        },
+        "loginwithWrongPassword": {
+            "email": "pallllllli@gmail.com",
             "password": "Lat@@"
         },
         "registerAuth": {
@@ -77,7 +81,7 @@
             "password": "deeakshat@@"
         },
         "registerAuth1": {
-            "firstName": "deekshaa",
+            "firstName": "Deekshaa",
             "lastName": "Sonia",
             "email": "sonai@gmail.com",
             "password": "deeakshat@@"
