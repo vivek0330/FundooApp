@@ -17,7 +17,7 @@ class UserController {
       const registerValidation = utility.registraionAuth.validate(user);
       if (registerValidation.error) {
         console.log(registerValidation.error);
-        logger.error("Wrong Validation");
+        logger.error("if getting a Wrong Validation");
         return res.status(400).send({
           success: false,
           message: "Wrong Input Validations",
@@ -100,15 +100,15 @@ class UserController {
   forgotPassword=(req, res) => {
     try {
       const email = req.body;
-      // const loginValid = utility.authenticateLogin.validate(email);
-      // if (loginValid.error) {
-      //   logger.error("Invalid email id");
-      //   res.status(400).send({
-      //     success: false,
-      //     message: "Invalid email id"
-      //   });
-      //   return;
-      // }
+      const loginValid = utility.authenticateLogin.validate(email);
+      if (loginValid.error) {
+        logger.error("Invalid email id");
+        res.status(400).send({
+          success: false,
+          message: "Invalid email id"
+        });
+        return;
+      }
       userService.forgotPassword(email, (error, data) => {
         if (error) {
           return res.status(400).send({ error });

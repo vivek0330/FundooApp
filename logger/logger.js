@@ -1,5 +1,5 @@
 /* eslint-disable comma-dangle */
-const { format, createLogger, transports, winston } = require("winston");
+const { format, createLogger, transports } = require("winston");
 const { timestamp, combine, json } = format;
 
 const logger = createLogger({

@@ -50,7 +50,7 @@ require("./routes/user.route.js")(app);
 // listen on port 8080 for incoming connects
 // listen for requests
 app.listen(PORT, () => {
-  console.log(`Server is running at port no ${PORT}`);
+  // console.log(`Server is running at port no ${PORT}`);
   logger.info(`Server is listing on port: ${PORT}`);
 });
 

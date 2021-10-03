@@ -16,11 +16,11 @@ class DbConnection {
       })
       .then(() => {
         logger.info("sucessfully connected to the database");
-        console.log("sucessfully connected to the database");
+        // console.log("sucessfully connected to the database");
       })
       .catch((err) => {
         logger.error("Could not connect to the database. Exiting now..", err);
-        console.log("Could not connect to the database. Exiting now..", err);
+        // console.log("Could not connect to the database. Exiting now..", err);
         process.exit();
       });
   };
