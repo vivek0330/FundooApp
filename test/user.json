@@ -79,6 +79,15 @@
             "lastName": "Sonia",
             "email": "sonai@gmail.com",
             "password": "YcvaqEHuXUhzdM4"
+        },
+        "forgottenPasswordWithCorrectEmail": {
+            "email": "vivek.iitd93@gmail.com"
+        },
+        "forgottenPasswordWithInvalidEmail": {
+            "email": "vivek.iid93@gmail.com"
+        },
+        "validEmailButNotExits": {
+            "email": "mukul.iid93@gmail.com"
         }
     }
 }
