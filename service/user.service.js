@@ -10,10 +10,10 @@ class UserService {
   registerUser = (user, callback) => {
     userModel.registerUser(user, (error, data) => {
       if (error) {
-        logger.error("getting some error");
+        logger.error("getting some error registration");
         return callback(error, null);
       } else {
-        logger.info("getting data");
+        logger.info("getting user data");
         return callback(null, data);
       }
     });
@@ -31,10 +31,11 @@ class UserService {
           return callback("invalid Password", null);
         } else {
           const token = helper.token(signInInfo);
+          logger.info("getting token");
           return callback(null, token);
         }
       } else {
-        logger.info("Please check your email and password !!");
+        logger.info("Please check your email and password first !!");
         return callback("Please check your email and password !!");
       }
     });

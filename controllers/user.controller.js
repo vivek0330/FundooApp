@@ -111,11 +111,13 @@ class UserController {
       }
       userService.forgotPassword(email, (error, data) => {
         if (error) {
+          logger.error("Incorrect email for forgotten password");
           return res.status(400).send({ error });
         } else {
+          logger.info("Email forgot password link sent succesfully");
           return res.status(200).json({
             success: true,
-            message: "Email reset link sent succesfully"
+            message: "Email forgot password link sent succesfully"
           });
         }
       });

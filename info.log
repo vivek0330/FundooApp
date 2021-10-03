@@ -1011,3 +1011,11 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T13:48:05.041Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T13:52:29.627Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T13:52:29.691Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T14:00:06.308Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T14:00:06.336Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T14:00:14.386Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T14:00:14.387Z"}
+{"level":"error","message":"Incorrect email for forgotten password","timestamp":"2021-10-03T14:00:14.388Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T14:04:21.584Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T14:04:21.614Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-03T14:04:42.996Z"}
