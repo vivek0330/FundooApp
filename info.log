@@ -1113,3 +1113,45 @@
 {"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T15:15:26.124Z"}
 {"level":"error","message":"Incorrect email for forgotten password","timestamp":"2021-10-03T15:15:26.124Z"}
 {"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-03T15:15:26.147Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T15:15:48.877Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T15:15:48.907Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-03T15:15:49.070Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-03T15:15:49.071Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-03T15:15:49.185Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-03T15:15:49.186Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.204Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.220Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.236Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.254Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.271Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.290Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.306Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.323Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-03T15:15:49.340Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-03T15:15:49.370Z"}
+{"level":"info","message":"getting token","timestamp":"2021-10-03T15:15:49.373Z"}
+{"level":"info","message":"User successfully logged In","timestamp":"2021-10-03T15:15:49.373Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-03T15:15:49.388Z"}
+{"level":"info","message":"Please check your email and password first !!","timestamp":"2021-10-03T15:15:49.388Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-03T15:15:49.389Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-03T15:15:49.402Z"}
+{"level":"info","message":"Please check your email and password first !!","timestamp":"2021-10-03T15:15:49.403Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-03T15:15:49.403Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T15:15:49.434Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T15:15:49.435Z"}
+{"level":"error","message":"Incorrect email for forgotten password","timestamp":"2021-10-03T15:15:49.435Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T15:15:49.447Z"}
+{"level":"error","message":"User with email id doesnt exists","timestamp":"2021-10-03T15:15:49.448Z"}
+{"level":"error","message":"Incorrect email for forgotten password","timestamp":"2021-10-03T15:15:49.448Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-03T15:15:49.473Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T15:59:31.020Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T15:59:31.052Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T16:00:50.586Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T16:00:50.612Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T16:02:30.201Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T16:02:30.242Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T16:19:57.053Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T16:19:57.087Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T16:24:25.493Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T16:24:25.522Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-03T16:24:38.434Z"}

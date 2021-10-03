@@ -44,6 +44,18 @@
                 "email": "vini@gmail.com",
                 "password": "vinikush@@"
             }
+        },
+        "forgotPassword": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "description": "Email ID of user."
+                }
+            },
+            "example": {
+                "email": "vivek.iitd93@gmail.com"
+            }
         }
     },
     "info": {
@@ -135,6 +147,41 @@
                     },
                     "403": {
                         "description": "Unable to login !!. Please enter correct login information"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/forgotPassword": {
+            "put": {
+                "tags": [
+                    "forgot password"
+                ],
+                "description": "Already registered ? Then forgot password link sent !!",
+                "parameters": [
+                    {
+                        "name": "forgot Password",
+                        "in": "body",
+                        "description": "Forgot Password with registered email id",
+                        "schema": {
+                            "$ref": "#/definitions/forgotPassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "schema": {
+                    "$ref": "#/definitions/forgotPassword"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Email forgot password link sent succesfully !!"
+                    },
+                    "400": {
+                        "description": "Incorrect email for forgotten password"
                     },
                     "500": {
                         "description": "Internal server error"
