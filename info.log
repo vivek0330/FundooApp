@@ -935,3 +935,71 @@
 {"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T10:45:09.764Z"}
 {"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T10:45:09.765Z"}
 {"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T10:45:09.766Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-02T11:52:55.753Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-02T11:52:55.795Z"}
+{"level":"info","message":"getting data","timestamp":"2021-10-02T11:52:55.995Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-02T11:52:55.996Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-02T11:52:56.158Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-02T11:52:56.159Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.182Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.200Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.226Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.253Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.280Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.316Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.356Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.381Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T11:52:56.408Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-02T11:52:56.457Z"}
+{"level":"info","message":"token generate","timestamp":"2021-10-02T11:52:56.475Z"}
+{"level":"info","message":"User successfully logged In","timestamp":"2021-10-02T11:52:56.484Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T11:52:56.508Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T11:52:56.513Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T11:52:56.514Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-02T11:52:56.538Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-02T11:52:56.539Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-02T11:52:56.539Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-02T15:57:29.026Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-02T15:57:29.075Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T16:01:47.343Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T16:02:04.444Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-02T16:02:27.128Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-02T16:03:18.009Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-02T16:03:18.044Z"}
+{"level":"info","message":"getting data","timestamp":"2021-10-02T16:03:35.097Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-02T16:03:35.098Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-02T20:59:09.727Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-02T20:59:09.762Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T06:43:54.731Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T06:43:54.801Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:44:36.232Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T06:47:00.573Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T06:47:00.610Z"}
+{"level":"info","message":"getting data","timestamp":"2021-10-03T06:47:00.845Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-03T06:47:00.845Z"}
+{"level":"error","message":"getting some error","timestamp":"2021-10-03T06:47:00.980Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-03T06:47:00.981Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:00.998Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.015Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.037Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.251Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.269Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.290Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.309Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.328Z"}
+{"level":"error","message":"Wrong Validation","timestamp":"2021-10-03T06:47:01.349Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-03T06:47:01.389Z"}
+{"level":"info","message":"token generate","timestamp":"2021-10-03T06:47:01.396Z"}
+{"level":"info","message":"User successfully logged In","timestamp":"2021-10-03T06:47:01.397Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-03T06:47:01.412Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-03T06:47:01.412Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-03T06:47:01.413Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-03T06:47:01.428Z"}
+{"level":"info","message":"Please check your email and password !!","timestamp":"2021-10-03T06:47:01.429Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-03T06:47:01.430Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T06:47:40.539Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T06:47:40.590Z"}
+{"level":"info","message":"getting data","timestamp":"2021-10-03T06:47:57.031Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-03T06:47:57.032Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-03T06:56:31.190Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-03T06:56:31.231Z"}

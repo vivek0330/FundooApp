@@ -12,20 +12,13 @@ class Helper {
     });
   };
 
-  token = (data, callback) => {
-    jwt.sign(
-      {
-        email: data.email
-      },
-      process.env.SECRET_KEY,
-      (err, data) => {
-        if (err) {
-          return callback(err, null);
-        } else {
-          return callback(null, data);
-        }
-      }
-    );
-  };
+  token = (data) => {
+    const dataForToken = {
+      firstName: data.firstName,
+      lastName: data.lastName,
+      email: data.email
+    };
+    return jwt.sign({ dataForToken }, process.env.SECRET_KEY, { expiresIn: "1H" });
+  }
 }
 module.exports = new Helper();

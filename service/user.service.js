@@ -2,7 +2,7 @@
 /* eslint-disable node/handle-callback-err */
 const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
-const utility = require("../helpers/hash&token.js");
+const helper = require("../helpers/hash&token.js");
 const logger = require("../logger/logger");
 const nodemailer = require("../helpers/nodemailer");
 
@@ -30,15 +30,8 @@ class UserService {
           logger.error("invalid Password");
           return callback("invalid Password", null);
         } else {
-          utility.token(signInInfo, (error, token) => {
-            if (error) {
-              throw error;
-            } else {
-              logger.info("token generate");
-              // console.log(token);
-              return callback(null, token);
-            }
-          });
+          const token = helper.token(signInInfo);
+          return callback(null, token);
         }
       } else {
         logger.info("Please check your email and password !!");
