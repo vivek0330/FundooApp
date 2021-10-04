@@ -103,7 +103,7 @@ class UserController {
        const loginValid = utility.authenticateLogin.validate(email);
        if (loginValid.error) {
          logger.error("Invalid email id");
-         res.status(400).send({
+         res.status(422).send({
            success: false,
            message: "Invalid email id"
          });
@@ -142,7 +142,7 @@ class UserController {
       const resetVlaidation = utility.validateReset.validate(userData);
       if (resetVlaidation.error) {
         logger.error("Invalid password");
-        res.status(400).send({
+        res.status(422).send({
           success: false,
           message: "Invalid password"
         });

@@ -15,12 +15,11 @@ class Helper {
 
   token = (data) => {
     const dataForToken = {
-      id: data._id,
       firstName: data.firstName,
       lastName: data.lastName,
       email: data.email
     };
-    return jwt.sign({ dataForToken }, process.env.SECRET_KEY, { expiresIn: "1H" });
+    return jwt.sign({ dataForToken }, process.env.SECRET_KEY);
   }
 
   getEmailFromToken (token, callback) {
