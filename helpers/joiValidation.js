@@ -51,8 +51,7 @@ class Validation {
   validateReset = Joi.object({
     token: Joi.string().required(),
     password: Joi.string().min(8)
-      // .pattern(new RegExp("^(?=.*[!@#$%^&+=])(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"))
-      .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
+      .pattern(new RegExp("[A-Za-z0-9]{4,}[$&+,:;=?@#|<>.^*()%!-]{2,}"))
       .required()
   })
 }

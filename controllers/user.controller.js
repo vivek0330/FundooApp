@@ -138,6 +138,17 @@ class UserController {
         token: req.body.token,
         password: req.body.password
       };
+
+      const resetVlaidation = utility.validateReset.validate(userData);
+      if (resetVlaidation.error) {
+        logger.error("Invalid password");
+        res.status(400).send({
+          success: false,
+          message: "Invalid password"
+        });
+        return;
+      }
+
       userService.resetPassword(userData, (error, userData) => {
         if (error) {
           return res.status(400).send({
