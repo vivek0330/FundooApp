@@ -14,6 +14,7 @@
 const mongoose = require("mongoose");
 const utility = require("../helpers/hash&token.js");
 const logger = require("../logger/logger");
+const bcrypt = require("bcrypt");
 
 const userSchema = new mongoose.Schema(
   {
@@ -33,10 +34,6 @@ const userSchema = new mongoose.Schema(
     password: {
       type: String,
       required: true,
-    },
-    resetLink: {
-      data: String,
-      default: ""
     }
   },
   {
@@ -103,11 +100,24 @@ class UserModel {
     });
   };
 
-  forgotPassword = (data, callback) => {
-    Register.findOne({ email: data.email }, (err, data) => {
-      if (err || !data) {
-        logger.error("User with email id doesnt exists");
-        return callback("User with email id doesnt exists", null);
+   forgotPassword = (data, callback) => {
+     Register.findOne({ email: data.email }, (error, data) => {
+       if (error) {
+         logger.error("User with email id doesnt exists");
+         return callback("User with email id doesnt exists", null);
+       } else {
+         return callback(null, data);
+       }
+     });
+   };
+
+  resetPassword = async (userData, callback) => {
+    const hashPass = bcrypt.hashSync(userData.password, 10);
+    const data = await Register.findOne({ email: userData.email });
+    Register.findByIdAndUpdate(data.id, { firstName: data.firstName, lastName: data.lastName, password: hashPass }, { new: true }, (error, data) => {
+      if (error) {
+        logger.error(error);
+        return callback(error, null);
       } else {
         return callback(null, data);
       }

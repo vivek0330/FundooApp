@@ -97,36 +97,67 @@ class UserController {
   };
 
   // forgot password
-  forgotPassword=(req, res) => {
+   forgotPassword=(req, res) => {
+     try {
+       const email = req.body;
+       const loginValid = utility.authenticateLogin.validate(email);
+       if (loginValid.error) {
+         logger.error("Invalid email id");
+         res.status(400).send({
+           success: false,
+           message: "Invalid email id"
+         });
+         return;
+       }
+       userService.forgotPassword(email, (error, data) => {
+         if (error) {
+           logger.error("Incorrect email for forgotten password");
+           return res.status(400).send({ error });
+         } else {
+           logger.info("Email forgot password link sent succesfully");
+           return res.status(200).json({
+             success: true,
+             message: "Email forgot password link sent succesfully"
+           });
+         }
+       });
+     } catch (error) {
+       logger.error("Internal server error");
+       return res.status(500).send({
+         success: false,
+         message: "Internal server error",
+         data: null,
+       });
+     }
+   }
+
+  // reset password
+  resetPassword=(req, res) => {
     try {
-      const email = req.body;
-      const loginValid = utility.authenticateLogin.validate(email);
-      if (loginValid.error) {
-        logger.error("Invalid email id");
-        res.status(400).send({
-          success: false,
-          message: "Invalid email id"
-        });
-        return;
-      }
-      userService.forgotPassword(email, (error, data) => {
+      const userData = {
+        token: req.body.token,
+        password: req.body.password
+      };
+      userService.resetPassword(userData, (error, userData) => {
         if (error) {
-          logger.error("Incorrect email for forgotten password");
-          return res.status(400).send({ error });
+          return res.status(400).send({
+            message: error,
+            success: false
+          });
         } else {
-          logger.info("Email forgot password link sent succesfully");
           return res.status(200).json({
             success: true,
-            message: "Email forgot password link sent succesfully"
+            message: "Password reset succesfully",
+            data: userData
           });
         }
       });
     } catch (error) {
-      logger.error("Internal server error");
+      // logger.error("Internal server error");
       return res.status(500).send({
         success: false,
         message: "Internal server error",
-        data: null,
+        data: null
       });
     }
   }

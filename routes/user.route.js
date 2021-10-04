@@ -10,5 +10,6 @@ module.exports = (app) => {
   // Create a new Note
   app.post("/register", userController.registration);
   app.post("/signin", userController.signIn);
-  app.put("/forgotPassword", userController.forgotPassword);
+  app.post("/forgotPassword", userController.forgotPassword);
+  app.put("/reset-Password", userController.resetPassword);
 };

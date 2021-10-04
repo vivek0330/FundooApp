@@ -1,3 +1,4 @@
+/* eslint-disable no-control-regex */
 /* eslint-disable prefer-regex-literals */
 const Joi = require("joi");
 
@@ -44,6 +45,14 @@ class Validation {
   authenticateLogin = Joi.object({
     email: Joi.string()
       .pattern(new RegExp("^[a-z0-9.+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,6}$"))
+      .required()
+  })
+
+  validateReset = Joi.object({
+    token: Joi.string().required(),
+    password: Joi.string().min(8)
+      // .pattern(new RegExp("^(?=.*[!@#$%^&+=])(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"))
+      .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
       .required()
   })
 }
