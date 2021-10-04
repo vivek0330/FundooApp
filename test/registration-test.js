@@ -289,3 +289,20 @@ describe("Forgot Password API", () => {
       });
   }).timeout(10000);
 });
+
+// reset password test cases
+
+describe("Reset Password API", () => {
+  it("givenresetdetails_whenproper_shouldberesetlinkSent", (done) => {
+    const resetPassword = userDB.user.validDetails;
+    console.log(resetPassword);
+    chai
+      .request(server)
+      .put("/reset-Password")
+      .send(resetPassword)
+      .end((error, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+});
