@@ -255,3 +255,37 @@ describe("user data Validation", () => {
     assert.equal(userValidate.registraionAuth.validate(user).data, null);
   });
 });
+
+// Forgot password test case
+describe("Forgot Password API", () => {
+  it("givenforgetdetails_whenproper_shouldbeforgotlinkSent", (done) => {
+    const forgottenPassword = userDB.user.forgottenPasswordWithInvalidEmail;
+    console.log(forgottenPassword);
+    chai
+      .request(server)
+      .post("/forgotPassword")
+      .send(forgottenPassword)
+      .end((error, res) => {
+        res.should.have.status(422);
+        done();
+      });
+  });
+
+  it("givenforgetdetails_whenproper_shouldbeforgotlinkSent", (done) => {
+    const forgottenPassword = userDB.user.forgottenPasswordWithCorrectEmail;
+    console.log(forgottenPassword);
+    chai
+      .request(server)
+      .post("/forgotPassword")
+      .send(forgottenPassword)
+      .end((error, res) => {
+        if (error) {
+          return done(error);
+        }
+        res.should.have.status(200);
+        res.body.should.have.property("success").eql(true);
+        res.body.should.have.property("message").eql("Email forgot password link sent succesfully");
+        done();
+      });
+  }).timeout(10000);
+});

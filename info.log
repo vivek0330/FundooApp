@@ -1451,3 +1451,6 @@
 {"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-04T18:51:01.669Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T18:51:38.969Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T18:51:39.034Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T18:52:16.418Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T18:52:16.462Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-04T18:52:16.651Z"}
