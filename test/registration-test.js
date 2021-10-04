@@ -305,4 +305,17 @@ describe("Reset Password API", () => {
         done();
       });
   });
+
+  it("givenresetdetails_whenproper_shouldberesetlinkSent", (done) => {
+    const resetPassword = userDB.user.invalidDetails;
+    console.log(resetPassword);
+    chai
+      .request(server)
+      .put("/reset-Password")
+      .send(resetPassword)
+      .end((error, res) => {
+        res.should.have.status(422);
+        done();
+      });
+  });
 });
