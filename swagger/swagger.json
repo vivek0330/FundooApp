@@ -56,6 +56,23 @@
             "example": {
                 "email": "vivek.iitd93@gmail.com"
             }
+        },
+        "resetPassword": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string",
+                    "description": "token"
+                },
+                "password": {
+                    "type": "string",
+                    "description": "new password for user."
+                }
+            },
+            "example": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTJiZjAwMWQwMjEzZGNlNjQ4MGQiLCJmaXJzdE5hbWUiOiJLYWthIiwibGFzdE5hbWUiOiJndiIsImVtYWlsIjoidml2ZWsuaWl0ZDkzQGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzMzNjcwNjMsImV4cCI6MTYzMzM3MDY2M30.8TfcrpZ9d5FHwayB0kYBTdZURd0_7VpnYFCV8dfKkhM",
+                "password": "cllwit@@"
+            }
         }
     },
     "info": {
@@ -155,7 +172,7 @@
             }
         },
         "/forgotPassword": {
-            "put": {
+            "post": {
                 "tags": [
                     "forgot password"
                 ],
@@ -182,6 +199,41 @@
                     },
                     "400": {
                         "description": "Incorrect email for forgotten password"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/reset-Password": {
+            "put": {
+                "tags": [
+                    "reset password"
+                ],
+                "description": "Already registered ? Then reset password successfully !!",
+                "parameters": [
+                    {
+                        "name": "Reset Password",
+                        "in": "body",
+                        "description": "Reset Password with token",
+                        "schema": {
+                            "$ref": "#/definitions/resetPassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "schema": {
+                    "$ref": "#/definitions/resetPassword"
+                },
+                "responses": {
+                    "200": {
+                        "description": "reset password succesfully !!"
+                    },
+                    "400": {
+                        "description": "Incorrect Password for reset password"
                     },
                     "500": {
                         "description": "Internal server error"

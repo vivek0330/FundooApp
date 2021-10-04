@@ -1298,3 +1298,14 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T17:11:55.641Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-04T17:12:00.455Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-04T17:12:01.888Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T17:34:34.934Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T17:34:34.963Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T17:34:58.169Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T17:34:58.199Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T17:41:49.062Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T17:41:49.094Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-04T17:42:48.917Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-04T17:42:48.954Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-04T17:43:14.379Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-04T17:43:17.475Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-04T17:44:09.168Z"}
