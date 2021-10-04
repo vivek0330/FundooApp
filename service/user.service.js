@@ -55,6 +55,7 @@ class UserService {
    resetPassword = (userData, callback) => {
      helper.getEmailFromToken(userData.token, (error, data) => {
        if (error) {
+         logger.error(error);
          return callback(error, null);
        } else {
          const inputData = {

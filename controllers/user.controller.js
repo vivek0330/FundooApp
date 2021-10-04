@@ -151,11 +151,13 @@ class UserController {
 
       userService.resetPassword(userData, (error, userData) => {
         if (error) {
+          logger.error(error);
           return res.status(400).send({
             message: error,
             success: false
           });
         } else {
+          logger.info("Password reset succesfully");
           return res.status(200).json({
             success: true,
             message: "Password reset succesfully",
@@ -164,7 +166,7 @@ class UserController {
         }
       });
     } catch (error) {
-      // logger.error("Internal server error");
+      logger.error("Internal server error");
       return res.status(500).send({
         success: false,
         message: "Internal server error",
