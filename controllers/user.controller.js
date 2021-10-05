@@ -1,7 +1,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable comma-dangle */
 const userService = require("../service/user.service.js");
-const utility = require("../helpers/joiValidation");
+const utility = require("../middleware/joiValidation");
+const helper = require("../middleware/hash&token");
 const logger = require("../logger/logger");
 
 class UserController {
@@ -132,26 +133,20 @@ class UserController {
    }
 
   // reset password
-  resetPassword=(req, res) => {
+  resetPassword = (req, res) => {
     try {
-      const userData = {
-        token: req.body.token,
+      const header = req.headers.authorization;
+      const myArr = header.split(" ");
+      const token = myArr[1];
+      const tokenData = helper.getEmailFromToken(token);
+      const inputData = {
+        email: tokenData.dataForToken.email,
         password: req.body.password
       };
 
-      const resetVlaidation = utility.validateReset.validate(userData);
-      if (resetVlaidation.error) {
-        logger.error("Invalid password");
-        res.status(422).send({
-          success: false,
-          message: "Invalid password"
-        });
-        return;
-      }
-
-      userService.resetPassword(userData, (error, userData) => {
+      userService.resetPassword(inputData, (error, userData) => {
         if (error) {
-          logger.error(error);
+          logger.error("did not data from service to controller");
           return res.status(400).send({
             message: error,
             success: false
@@ -173,7 +168,7 @@ class UserController {
         data: null
       });
     }
-  }
+  };
 }
 
 module.exports = new UserController();

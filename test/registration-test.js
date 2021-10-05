@@ -7,7 +7,7 @@ const chai = require("chai");
 const assert = require("chai").assert;
 const chaiHttp = require("chai-http");
 const userDB = require("./user.json");
-const userValidate = require("../helpers/joiValidation.js");
+const userValidate = require("../middleware/joiValidation");
 const faker = require("faker");
 
 chai.should();

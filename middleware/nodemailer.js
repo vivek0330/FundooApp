@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-expressions */
 const nodemailer = require("nodemailer");
 require("dotenv").config();
-const helper = require("../helpers/hash&token");
+const helper = require("./hash&token");
 // const { callbackPromises } = require("nodemailer/lib/shared");
 const logger = require("../logger/logger");
 

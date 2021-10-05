@@ -12,7 +12,7 @@
 
 // importing mongoose, bcrypt, jsonwebtoken module
 const mongoose = require("mongoose");
-const utility = require("../helpers/hash&token.js");
+const utility = require("../middleware/hash&token.js");
 const logger = require("../logger/logger");
 const bcrypt = require("bcrypt");
 

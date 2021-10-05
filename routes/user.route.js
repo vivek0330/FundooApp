@@ -5,11 +5,12 @@
  *****************************************************************************/
 
 const userController = require("../controllers/user.controller.js");
+const middleware = require("../middleware/hash&token");
 
 module.exports = (app) => {
   // Create a new Note
   app.post("/register", userController.registration);
   app.post("/signin", userController.signIn);
   app.post("/forgotPassword", userController.forgotPassword);
-  app.put("/reset-Password", userController.resetPassword);
+  app.put("/reset-Password", middleware.validateToken, userController.resetPassword);
 };

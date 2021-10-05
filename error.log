@@ -715,3 +715,131 @@
 {"level":"error","message":"Invalid Credentials","timestamp":"2021-10-04T19:00:13.606Z"}
 {"level":"error","message":"Incorrect email and password","timestamp":"2021-10-04T19:00:13.609Z"}
 {"level":"error","message":"Invalid email id","timestamp":"2021-10-04T19:00:13.640Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-04T19:02:52.694Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.710Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.728Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.745Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.767Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.790Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.810Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.822Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.835Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-04T19:02:52.849Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-04T19:02:52.890Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-04T19:02:52.891Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-04T19:02:52.906Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-04T19:02:52.906Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-04T19:02:52.918Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-04T19:02:53.063Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T03:17:53.997Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.017Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.034Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.057Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.087Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.125Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.160Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.204Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.234Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:17:54.269Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:17:54.385Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:17:54.386Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:17:54.404Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:17:54.406Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T03:17:54.426Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:17:54.557Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:17:54.559Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T03:17:54.609Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T03:18:08.052Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.099Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.134Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.171Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.202Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.252Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.300Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.332Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.360Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:08.374Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:08.424Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:08.431Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:08.466Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:08.468Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T03:18:08.518Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:08.651Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:08.654Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T03:18:08.704Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T03:18:19.073Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.094Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.114Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.133Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.154Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.182Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.202Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.229Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.265Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:19.309Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:19.400Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:19.402Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:19.432Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:19.435Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T03:18:19.463Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:19.616Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:19.617Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T03:18:19.668Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T03:18:31.616Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.637Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.661Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.689Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.737Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.809Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.837Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.862Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.881Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T03:18:31.926Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:32.027Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:32.028Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T03:18:32.047Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T03:18:32.048Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T03:18:32.082Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:32.230Z"}
+{"expiredAt":"2021-10-04T19:29:46.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","timestamp":"2021-10-05T03:18:32.232Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T03:18:32.279Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T16:44:28.489Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-05T16:44:57.442Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:45:21.899Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:45:21.901Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:27.038Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:27.040Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:48.230Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:48.231Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:49.930Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:47:49.932Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:40.631Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:40.633Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:42.281Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:42.282Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:46.476Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:48:46.483Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:40.658Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:40.662Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:42.566Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:42.568Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:59.341Z"}
+{"level":"error","message":"jwt must be provided","name":"JsonWebTokenError","timestamp":"2021-10-05T16:49:59.342Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:13:27.585Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:13:27.586Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:18:48.608Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:18:48.617Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:19:54.755Z"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","timestamp":"2021-10-05T17:19:54.756Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:41:16.714Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:29.775Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:31.675Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:32.742Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:33.791Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:34.662Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:35.526Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:44:36.997Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:46:32.227Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:46:35.234Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:49:22.628Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:51:50.362Z"}

@@ -2,9 +2,9 @@
 /* eslint-disable node/handle-callback-err */
 const userModel = require("../models/registers.model.js");
 const bcrypt = require("bcrypt");
-const helper = require("../helpers/hash&token.js");
+const helper = require("../middleware/hash&token.js");
 const logger = require("../logger/logger");
-const nodemailer = require("../helpers/nodemailer");
+const nodemailer = require("../middleware/nodemailer");
 
 class UserService {
   registerUser = (user, callback) => {
@@ -52,24 +52,14 @@ class UserService {
      });
    };
 
-   resetPassword = (userData, callback) => {
-     helper.getEmailFromToken(userData.token, (error, data) => {
+   resetPassword = (inputData, callback) => {
+     userModel.resetPassword(inputData, (error, data) => {
        if (error) {
-         logger.error(error);
+         logger.error("password not update in model");
          return callback(error, null);
        } else {
-         const inputData = {
-           email: data.dataForToken.email,
-           password: userData.password
-         };
-         userModel.resetPassword(inputData, (error, data) => {
-           if (error) {
-             logger.error(error);
-             return callback(error, null);
-           } else {
-             return callback(null, data);
-           }
-         });
+         logger.info("getting upadated password in data");
+         return callback(null, data);
        }
      });
    }
