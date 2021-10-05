@@ -135,6 +135,15 @@ class UserController {
   // reset password
   resetPassword = (req, res) => {
     try {
+      const loginValidation = utility.resetSchema.validate(req.body.inputData);
+      if (loginValidation.error) {
+        logger.error("Invalid password");
+        res.status(422).send({
+          success: false,
+          message: "Invalid password"
+        });
+        return;
+      }
       const header = req.headers.authorization;
       const myArr = header.split(" ");
       const token = myArr[1];

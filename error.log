@@ -843,3 +843,33 @@
 {"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:46:35.234Z"}
 {"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:49:22.628Z"}
 {"level":"error","message":"Internal server error","timestamp":"2021-10-05T18:51:50.362Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T18:54:38.110Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.133Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.161Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.209Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.242Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.262Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.294Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.321Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.346Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T18:54:38.376Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T18:54:38.449Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T18:54:38.451Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T18:54:38.474Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T18:54:38.477Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T18:54:38.513Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-05T19:00:09.497Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.517Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.534Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.563Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.610Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.696Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.745Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.764Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.783Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-05T19:00:09.806Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T19:00:09.855Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T19:00:09.856Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-05T19:00:09.876Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-05T19:00:09.878Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-05T19:00:09.894Z"}
