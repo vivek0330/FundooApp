@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const logger = require("../logger/logger");
 
 const noteSchema = mongoose.Schema({
 
@@ -25,6 +26,7 @@ class Model {
       });
       note.save((error, data) => {
         if (error) {
+          logger.error(error);
           return callback(error, null);
         } else {
           return callback(null, data);

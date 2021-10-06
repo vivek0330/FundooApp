@@ -2070,3 +2070,7 @@
 {"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T19:54:42.162Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T19:54:42.163Z"}
 {"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-06T19:54:45.886Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T20:03:59.011Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T20:03:59.036Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T20:04:22.282Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T20:04:22.283Z"}
