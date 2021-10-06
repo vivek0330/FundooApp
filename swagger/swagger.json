@@ -60,17 +60,12 @@
         "resetPassword": {
             "type": "object",
             "properties": {
-                "token": {
-                    "type": "string",
-                    "description": "token"
-                },
                 "password": {
                     "type": "string",
                     "description": "new password for user."
                 }
             },
             "example": {
-                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTJiZjAwMWQwMjEzZGNlNjQ4MGQiLCJmaXJzdE5hbWUiOiJLYWthIiwibGFzdE5hbWUiOiJndiIsImVtYWlsIjoidml2ZWsuaWl0ZDkzQGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzMzNjcwNjMsImV4cCI6MTYzMzM3MDY2M30.8TfcrpZ9d5FHwayB0kYBTdZURd0_7VpnYFCV8dfKkhM",
                 "password": "cllwit@@"
             }
         }
@@ -214,6 +209,14 @@
                 "description": "Already registered ? Then reset password successfully !!",
                 "parameters": [
                     {
+                        "name": "Authorization",
+                        "in": "header",
+                        "description": "token for validation",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
                         "name": "Reset Password",
                         "in": "body",
                         "description": "Reset Password with token",
@@ -225,9 +228,6 @@
                 "produces": [
                     "application/json"
                 ],
-                "schema": {
-                    "$ref": "#/definitions/resetPassword"
-                },
                 "responses": {
                     "200": {
                         "description": "reset password succesfully !!"

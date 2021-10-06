@@ -1859,3 +1859,33 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:00:43.725Z"}
 {"level":"info","message":"getting upadated password in data","timestamp":"2021-10-05T19:00:51.553Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-10-05T19:00:51.553Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-05T19:10:38.591Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:10:38.623Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-05T19:12:20.109Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:12:20.136Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-05T19:23:08.209Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:23:08.235Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-05T19:29:24.146Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:29:24.184Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-05T19:30:16.765Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-05T19:30:16.797Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T11:51:41.758Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T11:51:41.787Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T11:51:49.222Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T11:51:49.251Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-06T11:52:17.933Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-06T11:52:21.179Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T11:55:51.907Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T11:55:51.907Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T11:57:26.029Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T11:57:26.054Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T11:59:47.382Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T11:59:47.428Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T12:00:42.758Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T12:00:42.784Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T12:58:36.386Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T12:58:36.417Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T12:58:47.432Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T12:58:47.433Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T12:59:48.373Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T12:59:48.373Z"}
