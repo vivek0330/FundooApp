@@ -15,6 +15,7 @@ class Helper {
 
   token = (data) => {
     const dataForToken = {
+      id: data._id,
       firstName: data.firstName,
       lastName: data.lastName,
       email: data.email
@@ -33,6 +34,7 @@ class Helper {
 
   validateToken = (req, res, next) => {
     try {
+      console.log("validation done");
       const header = req.headers.authorization;
       const myArr = header.split(" ");
       const token = myArr[1];

@@ -57,7 +57,7 @@ class Validation {
 
    resetSchema = Joi.object({
      email: Joi.string().required(),
-     password: Joi.string().required()
+     password: Joi.string().min(8).required()
    })
 }
 

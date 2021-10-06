@@ -135,16 +135,16 @@ class UserController {
   // reset password
   resetPassword = (req, res) => {
     try {
-      const loginValidation = utility.resetSchema.validate(req.body.inputData);
-      if (loginValidation.error) {
-        logger.error("Invalid password");
-        res.status(422).send({
-          success: false,
-          message: "Invalid password"
-        });
-        return;
-      }
-      // console.log(req.headers.authorization);
+      // const loginValidation = utility.resetSchema.validate(req.body.inputData);
+      // if (loginValidation.error) {
+      //   logger.error("Invalid password");
+      //   res.status(422).send({
+      //     success: false,
+      //     message: "Invalid password"
+      //   });
+      //   return;
+      // }
+      console.log(req.headers.authorization);
       const header = req.headers.authorization;
       const myArr = header.split(" ");
       const token = myArr[1];
@@ -157,12 +157,14 @@ class UserController {
       userService.resetPassword(inputData, (error, userData) => {
         if (error) {
           logger.error("did not data from service to controller");
-          return res.status(400).send({
+          console.log("did not data from service to controller");
+          return res.status(401).send({
             message: error,
             success: false
           });
         } else {
           logger.info("Password reset succesfully");
+          console.log("Password reset succesfully");
           return res.status(200).json({
             success: true,
             message: "Password reset succesfully",
