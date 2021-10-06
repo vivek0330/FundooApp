@@ -162,10 +162,8 @@ class UserController {
           });
         } else {
           logger.info("Password reset succesfully");
-
           return res.status(200).json({
             success: true,
-            message: "Password reset succesfully",
             data: userData
           });
         }
@@ -174,7 +172,6 @@ class UserController {
       logger.error("Internal server error");
       return res.status(500).send({
         success: false,
-        message: "Internal server error",
         data: null
       });
     }
