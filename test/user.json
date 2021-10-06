@@ -93,12 +93,13 @@
         "validEmailButNotExits": {
             "email": "mukul.iid93@gmail.com"
         },
-        "validDetails": {
+        "validDetailss": {
             "password": "cllwittt@@"
         },
         "invalidDetails": {
-            "password": "clt@@"
+            "password": "c"
         },
-        "userResetPasswordToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZmlyc3ROYW1lIjoiS2FrYSIsImxhc3ROYW1lIjoiZ3YiLCJlbWFpbCI6InZpdmVrLmlpdGQ5M0BnbWFpbC5jb20ifSwiaWF0IjoxNjMzNDU5NzI1fQ.W3tJ5Vq7cy8mMvU9XFY8nfdlLB-BS85nfIwDLK39F10"
+        "userResetPasswordToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZmlyc3ROYW1lIjoiS2FrYSIsImxhc3ROYW1lIjoiZ3YiLCJlbWFpbCI6InZpdmVrLmlpdGQ5M0BnbWFpbC5jb20ifSwiaWF0IjoxNjMzNDU5NzI1fQ.W3tJ5Vq7cy8mMvU9XFY8nfdlLB-BS85nfIwDLK39F10",
+        "userResetPasswordInvalidToken": "Bearer InR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZmlyc3ROYW1lIjoiS2FrYSIsImxhc3ROYW1lIjoiZ3YiLCJlbWFpbCI6InZpdmVrLmlpdGQ5M0BnbWFpbC5jb20ifSwiaWF0IjoxNjMzNDU5NzI1fQ.W3tJ5Vq7cy8mMvU9XFY8nfdlLB-BS85nfIwDLK39F10"
     }
 }

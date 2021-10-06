@@ -34,7 +34,6 @@ class Helper {
 
   validateToken = (req, res, next) => {
     try {
-      console.log("validation done");
       const header = req.headers.authorization;
       const myArr = header.split(" ");
       const token = myArr[1];
