@@ -291,7 +291,7 @@
                     "201": {
                         "description": "Create note succesfully !!"
                     },
-                    "400": {
+                    "401": {
                         "description": "Please enter Valid Token"
                     },
                     "500": {
