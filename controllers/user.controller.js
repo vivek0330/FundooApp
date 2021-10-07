@@ -2,7 +2,6 @@
 /* eslint-disable comma-dangle */
 const userService = require("../service/user.service.js");
 const utility = require("../middleware/joiValidation");
-const helper = require("../middleware/hash&token");
 const logger = require("../logger/logger");
 
 class UserController {
@@ -130,7 +129,11 @@ class UserController {
   // reset password
   resetPassword = (req, res) => {
     try {
-      const loginValidation = utility.resetSchema.validate(req.body.inputData);
+      const inputData = {
+        email: req.user.dataForToken.email,
+        password: req.body.password
+      };
+      const loginValidation = utility.resetSchema.validate(inputData);
       if (loginValidation.error) {
         logger.error("Invalid password");
         res.status(422).send({
@@ -139,14 +142,6 @@ class UserController {
         });
         return;
       }
-      const header = req.headers.authorization;
-      const myArr = header.split(" ");
-      const token = myArr[1];
-      const tokenData = helper.getEmailFromToken(token);
-      const inputData = {
-        email: tokenData.dataForToken.email,
-        password: req.body.password
-      };
 
       userService.resetPassword(inputData, (error, userData) => {
         if (error) {

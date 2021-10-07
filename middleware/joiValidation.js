@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 /* eslint-disable no-control-regex */
 /* eslint-disable prefer-regex-literals */
 const Joi = require("joi");
@@ -27,20 +28,6 @@ class Validation {
       .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
-  // loginAuth = Joi.object({
-  //   email: Joi.string()
-  //     .pattern(
-  //       new RegExp(
-  //         "^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$"
-  //       )
-  //     )
-  //     .required(),
-
-  //   password: Joi.string()
-  //     .required()
-  //     // eslint-disable-next-line no-control-regex
-  //     .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
-  // });
   loginSchema = Joi.object({
     email: Joi.string()
       .required()
@@ -70,8 +57,16 @@ class Validation {
 
    resetSchema = Joi.object({
      email: Joi.string().required(),
-     password: Joi.string().min(8).required().pattern(new RegExp("^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})"))
-   })
+     password: Joi.string()
+       .min(8)
+       .max(20)
+       .pattern(
+         new RegExp(
+           "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+         )
+       )
+       .required()
+   });
 }
 
 module.exports = new Validation();

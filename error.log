@@ -936,3 +936,17 @@
 {"_original":{"email":"vivek.iitd93@gmail.com","password":"C@llw@it1996"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"C@llw@it1996"},"message":"\"password\" with value \"C@llw@it1996\" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-10-07T07:19:52.179Z"}
 {"level":"error","timestamp":"2021-10-07T07:21:15.602Z"}
 {"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-07T07:21:15.604Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:52:31.034Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:52:40.304Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:52:47.630Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:55:26.700Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:55:28.227Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:55:32.705Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:56:09.501Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:56:14.241Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:17.055Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:21.545Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:25.310Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:28.210Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:48.514Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:53.384Z"}
