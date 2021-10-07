@@ -1,4 +1,12 @@
 /* eslint-disable comma-dangle */
+
+/**
+ * @description   : It is use create log files for successfull operation as well as for
+ *                  failed operation.
+ * @package       : winston
+ * @file          : logger.js
+ * @author        : Vivek Varshney
+*/
 const { format, createLogger, transports } = require("winston");
 const { timestamp, combine, json } = format;
 

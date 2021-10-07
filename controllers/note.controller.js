@@ -1,6 +1,19 @@
+/*****************************************************************************
+ * @description   : It is used to taking the request from the client side and give the response and
+ *                  validating whether the input is correct or not.
+ * @file          : note.controller.js
+ * @author        : Vivek Varshney
+ *****************************************************************************/
+
 const noteService = require("../service/note.services");
 const logger = require("../logger/logger");
 class Note {
+  /**
+    * @description function written to create notes into the database
+    * @param {*} a valid req body is expected
+    * @param {*} res
+    * @returns response
+    */
     createNote =(req, res) => {
       try {
         const note = {

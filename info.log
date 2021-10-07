@@ -2431,3 +2431,6 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T18:07:50.588Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T18:07:50.650Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T18:07:50.770Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T18:08:09.642Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T18:08:09.706Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T18:08:09.847Z"}

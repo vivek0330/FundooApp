@@ -13,6 +13,11 @@ class Helper {
     });
   };
 
+  /**
+     * @description   : creating token using jsonwebtoken module
+     * @param {data} as data which comes from the body of postmen
+     * @module        : jwt
+    */
   token = (data) => {
     const dataForToken = {
       id: data._id,
@@ -23,6 +28,13 @@ class Helper {
     return jwt.sign({ dataForToken }, process.env.SECRET_KEY);
   };
 
+  /**
+    * @description function checks and validates the user token and authorises only if token is correct
+    * @param {*} req
+    * @param {*} res
+    * @param {*} next
+    * @returns
+    */
    validateToken = (req, res, next) => {
      const header = req.headers.authorization;
      const myArr = header.split(" ");

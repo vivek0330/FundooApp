@@ -1,7 +1,26 @@
+/*********************************************************************
+ * Execution    : 1. Default node with npm   cmd> node server.js
+ *                2. If nodemon installed    cmd> npm run server
+ *
+ * Purpose      : Controls the operations of notes creation and other CRUD
+ *
+ * @description: It is use to taking the request from the client and gives the response.
+ *
+ * @file        : note.services.js
+ * @overview    : controls notes creation task
+ * @module      : this is necessary to register new user and give authorization.
+ * @author      : Vivek Varshney
+ *********************************************************************/
+
 const logger = require("../logger/logger");
 const noteModel = require("../models/note.model");
 
 class Service {
+  /**
+    * @description this function is written to send data models
+    * @param {*} A valid notesData is expected
+    * @returns error if it has error else data
+    */
     createNote = (note, callback) => {
       noteModel.createNote(note, (error, data) => {
         if (error) {

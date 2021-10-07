@@ -1,9 +1,22 @@
 /* eslint-disable no-useless-escape */
 /* eslint-disable no-control-regex */
 /* eslint-disable prefer-regex-literals */
+
+/**************************************************************************************************************
+ * @description   : It is use to validate the inputs we are getting from client side using joi and
+ *                  also using Regular expression to follow the pattern properly.
+ * @package       : joi
+ * @file          : joiValidation.js
+ * @author        : Vivek Varshney
+*****************************************************************************************************************/
+
 const Joi = require("joi");
 
 class Validation {
+  /**
+     * @description   : validating all parameters we are getting from the user for registration
+     * @method        : string, min, required, pattern of JOI
+    */
   registraionAuth = Joi.object({
     firstName: Joi.string()
       .min(3)
@@ -28,6 +41,10 @@ class Validation {
       .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
+  /**
+     * @description   : validating all parameters we are getting from the user for login
+     * @method        : string, min, required, pattern of JOI
+    */
   loginSchema = Joi.object({
     email: Joi.string()
       .required()

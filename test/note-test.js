@@ -1,5 +1,19 @@
 /* eslint-disable node/handle-callback-err */
 /* eslint-disable no-undef */
+
+/*********************************************************************
+ * Execution    : 1. Default run test cases   cmd> npm run test
+ *                2. If nodemon installed    cmd> npm run server
+ *
+ * Purpose      : To test the API's
+ *
+ * @description : tests all the positive and negative cases
+ *
+ * @file        : test/note-test.js
+ * @overview    : tests the HTTP methods with different possibilities
+ * @module      : this is necessary to make sure the program works properly
+ * @author      : Vivek Varshney
+ *********************************************************************/
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const noteDB = require("./note.json");
