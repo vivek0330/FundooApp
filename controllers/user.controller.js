@@ -146,7 +146,7 @@ class UserController {
       userService.resetPassword(inputData, (error, userData) => {
         if (error) {
           logger.error("did not data from service to controller");
-          return res.status(401).send({
+          return res.status(400).send({
             message: error,
             success: false
           });

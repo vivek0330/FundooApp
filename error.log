@@ -950,3 +950,31 @@
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:28.210Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:48.514Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T16:57:53.384Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-07T17:09:48.403Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-07T17:09:49.419Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.457Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.507Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.600Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.649Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.689Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.758Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.792Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.839Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:09:49.895Z"}
+{"_original":{"email":"Lt@gail.com","password":"Lt@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lt@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:09:50.100Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:09:50.136Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:09:50.137Z"}
+{"_original":{"email":"pallllllli@gmail.com","password":"Lat@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lat@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:09:50.174Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:09:50.207Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:09:50.208Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-07T17:09:50.290Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:09:50.490Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-07T17:11:13.411Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:11:13.508Z"}
+{"level":"error","message":"Internal server error","timestamp":"2021-10-07T17:11:51.310Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:11:51.441Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:12:27.850Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:17:55.083Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:18:20.051Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:18:49.395Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:20:16.640Z"}
