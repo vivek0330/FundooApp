@@ -978,3 +978,21 @@
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:18:20.051Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:18:49.395Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:20:16.640Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-07T17:24:45.359Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.380Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.403Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.446Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.460Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.933Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.960Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.977Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:47.003Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:47.043Z"}
+{"_original":{"email":"Lt@gail.com","password":"Lt@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lt@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:24:47.187Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.228Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.230Z"}
+{"_original":{"email":"pallllllli@gmail.com","password":"Lat@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lat@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:24:47.245Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.267Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.268Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-07T17:24:47.289Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:24:47.461Z"}

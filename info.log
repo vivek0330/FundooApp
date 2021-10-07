@@ -2388,3 +2388,39 @@
 {"level":"info","message":"getting upadated password in data","timestamp":"2021-10-07T17:20:16.595Z"}
 {"level":"info","message":"Password reset succesfully","timestamp":"2021-10-07T17:20:16.596Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:20:16.640Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T17:24:45.016Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T17:24:45.064Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-07T17:24:45.241Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-07T17:24:45.242Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-07T17:24:45.359Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-07T17:24:45.360Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.380Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.402Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.445Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:45.460Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.933Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.960Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:46.977Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:47.003Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-07T17:24:47.042Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-07T17:24:47.152Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-07T17:24:47.155Z"}
+{"_original":{"email":"Lt@gail.com","password":"Lt@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lt@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:24:47.187Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.228Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.230Z"}
+{"_original":{"email":"pallllllli@gmail.com","password":"Lat@@"},"details":[{"context":{"key":"password","label":"password","limit":8,"value":"Lat@@"},"message":"\"password\" length must be at least 8 characters long","path":["password"],"type":"string.min"}],"level":"error","timestamp":"2021-10-07T17:24:47.244Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.267Z"}
+{"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.268Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-07T17:24:47.289Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-07T17:24:47.317Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-07T17:24:47.452Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-07T17:24:47.452Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:24:47.461Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-07T17:24:50.917Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T17:37:22.226Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T17:37:22.258Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-07T17:37:53.924Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-07T17:37:53.935Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-07T17:38:13.440Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-07T17:38:13.442Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T17:39:21.141Z"}

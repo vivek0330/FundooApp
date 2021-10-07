@@ -1,15 +1,10 @@
-const helper = require("../middleware/hash&token");
 const noteService = require("../service/note.services");
 const logger = require("../logger/logger");
 class Note {
     createNote =(req, res) => {
       try {
-        const header = req.headers.authorization;
-        const myArr = header.split(" ");
-        const token = myArr[1];
-        const tokenData = helper.getEmailFromToken(token);
         const note = {
-          userId: tokenData.dataForToken.id,
+          userId: req.user.dataForToken.id,
           title: req.body.title,
           description: req.body.description
         };
