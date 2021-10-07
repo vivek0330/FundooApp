@@ -2424,3 +2424,10 @@
 {"level":"info","message":" token generated ","timestamp":"2021-10-07T17:38:13.440Z"}
 {"level":"info","message":"User logged in successfully","timestamp":"2021-10-07T17:38:13.442Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T17:39:21.141Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T17:42:59.601Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T18:07:16.950Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T18:07:16.999Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T18:07:17.119Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T18:07:50.588Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T18:07:50.650Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T18:07:50.770Z"}

@@ -11,7 +11,7 @@ class Note {
         noteService.createNote(note, (error, data) => {
           if (error) {
             logger.error("failed to post note");
-            return res.status(401).json({
+            return res.status(400).json({
               message: "failed to post note",
               success: false
             });
