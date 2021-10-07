@@ -2150,3 +2150,67 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T21:43:32.160Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T21:43:32.197Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-06T21:43:32.282Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-06T21:43:50.060Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-06T21:43:50.088Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-06T21:43:50.180Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-06T21:43:50.306Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-06T21:43:50.308Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-06T21:43:50.403Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-06T21:43:50.404Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.419Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.434Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.453Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.469Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.487Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.513Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.535Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.564Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-06T21:43:50.585Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-06T21:43:50.630Z"}
+{"level":"info","message":"getting token","timestamp":"2021-10-06T21:43:50.638Z"}
+{"level":"info","message":"User successfully logged In","timestamp":"2021-10-06T21:43:50.640Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-06T21:43:50.669Z"}
+{"level":"info","message":"Please check your email and password first !!","timestamp":"2021-10-06T21:43:50.669Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-06T21:43:50.670Z"}
+{"level":"error","message":"Invalid Credentials","timestamp":"2021-10-06T21:43:50.688Z"}
+{"level":"info","message":"Please check your email and password first !!","timestamp":"2021-10-06T21:43:50.689Z"}
+{"level":"error","message":"Incorrect email and password","timestamp":"2021-10-06T21:43:50.697Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-06T21:43:50.722Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-06T21:43:50.768Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-06T21:43:50.906Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-06T21:43:50.907Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-06T21:43:54.225Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T04:56:10.857Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T04:56:10.894Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-07T04:56:29.788Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T04:56:44.694Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T04:56:44.731Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T04:56:51.943Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T04:56:51.985Z"}
+{"level":"info","message":"Something is good","timestamp":"2021-10-07T04:57:02.246Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T07:14:34.105Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T07:14:34.148Z"}
+{"_original":{"email":"vivek.iitd93@gmail.com","password":"vivekghjghjghfgnxfgbxdfgbxdfbhzxdthzsdthgzsedthgefgdjghjhjghjvg677"},"details":[{"context":{"key":"password","label":"password","limit":20,"value":"vivekghjghjghfgnxfgbxdfgbxdfbhzxdthzsdthgzsedthgefgdjghjhjghjvg677"},"message":"\"password\" length must be less than or equal to 20 characters long","path":["password"],"type":"string.max"}],"level":"error","timestamp":"2021-10-07T07:14:47.006Z"}
+{"level":"error","timestamp":"2021-10-07T07:14:47.331Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T07:16:06.649Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T07:16:06.685Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-07T07:16:22.032Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-07T07:16:22.033Z"}
+{"_original":{"email":"vivek.iitd93@gmail.com","password":"vivek1234567"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"vivek1234567"},"message":"\"password\" with value \"vivek1234567\" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-10-07T07:16:37.360Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-07T07:16:37.504Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T07:18:33.992Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T07:18:34.033Z"}
+{"_original":{"email":"vivek.iitd93@gmail.com","password":"Ca@1vvvv"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"Ca@1vvvv"},"message":"\"password\" with value \"Ca@1vvvv\" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-10-07T07:18:56.872Z"}
+{"level":"error","timestamp":"2021-10-07T07:18:57.098Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T07:19:33.635Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T07:19:33.690Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-07T07:19:36.208Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-07T07:19:36.210Z"}
+{"_original":{"email":"vivek.iitd93@gmail.com","password":"C@llw@it1996"},"details":[{"context":{"key":"password","label":"password","regex":{},"value":"C@llw@it1996"},"message":"\"password\" with value \"C@llw@it1996\" fails to match the required pattern: /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})/","path":["password"],"type":"string.pattern.base"}],"level":"error","timestamp":"2021-10-07T07:19:52.178Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-07T07:19:52.331Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T07:20:53.796Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T07:20:53.838Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-07T07:21:01.495Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-07T07:21:01.513Z"}
+{"level":"error","timestamp":"2021-10-07T07:21:15.602Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-07T07:21:15.603Z"}

@@ -27,19 +27,32 @@ class Validation {
       .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
-  loginAuth = Joi.object({
+  // loginAuth = Joi.object({
+  //   email: Joi.string()
+  //     .pattern(
+  //       new RegExp(
+  //         "^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$"
+  //       )
+  //     )
+  //     .required(),
+
+  //   password: Joi.string()
+  //     .required()
+  //     // eslint-disable-next-line no-control-regex
+  //     .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
+  // });
+  loginSchema = Joi.object({
     email: Joi.string()
+      .required()
       .pattern(
         new RegExp(
-          "^[a-zA-Z0-9]+([+_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$"
+          "^(?:(?!.*?[.]{2})[a-zA-Z0-9](?:[a-zA-Z0-9._+!%-]{1,64}|)|\"[a-zA-Z0-9.+! -]{1,64}\")@[a-zA-Z0-9][a-zA-Z0-9.-]+(.[a-z]{2,}|.[0-9]{1,})$"
         )
-      )
-      .required(),
-
+      ),
     password: Joi.string()
+      .min(8)
+      .max(20)
       .required()
-      // eslint-disable-next-line no-control-regex
-      .pattern(new RegExp("(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"))
   });
 
   authenticateLogin = Joi.object({
@@ -57,7 +70,7 @@ class Validation {
 
    resetSchema = Joi.object({
      email: Joi.string().required(),
-     password: Joi.string().min(8).required()
+     password: Joi.string().min(8).required().pattern(new RegExp("^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#$%^&*])(?=.{8,})"))
    })
 }
 
