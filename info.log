@@ -2434,3 +2434,98 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-07T18:08:09.642Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-07T18:08:09.706Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-07T18:08:09.847Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T02:56:15.843Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T02:56:15.872Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-08T02:56:38.591Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-08T02:56:38.593Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-08T03:03:24.717Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-08T03:03:27.507Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-08T03:04:43.943Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-08T03:04:43.944Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-08T03:05:03.094Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-08T03:05:05.799Z"}
+{"level":"error","timestamp":"2021-10-08T03:06:04.886Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T03:06:04.889Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T03:06:28.904Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T03:06:28.913Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-08T03:06:49.005Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-08T03:06:51.801Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T03:07:26.542Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T03:07:26.573Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-08T03:07:45.036Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-08T03:07:45.039Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T03:07:56.973Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T03:07:56.985Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T19:42:41.492Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T19:42:41.531Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T19:48:33.281Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T19:48:33.324Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-08T19:50:50.270Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-08T19:50:54.182Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-08T19:52:05.481Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-08T19:52:05.482Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T19:52:26.166Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T19:52:26.179Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-08T19:52:59.482Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T19:56:17.678Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T19:56:17.708Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T19:58:46.149Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T19:58:46.190Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:01:35.228Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:01:35.349Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:03:14.792Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:03:14.826Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:03:45.518Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T20:03:45.521Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:06:26.722Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:06:26.754Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:15:24.270Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:15:24.306Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:18:14.148Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:18:14.152Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:18:14.303Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:19:07.843Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:19:07.888Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:19:13.921Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:19:13.922Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:19:14.123Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:20:33.841Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:20:33.885Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:20:41.712Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:20:41.723Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:20:41.919Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:21:04.919Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:21:04.959Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-08T20:21:19.580Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-08T20:21:23.144Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-08T20:22:04.238Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-08T20:22:04.239Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:22:22.158Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:22:22.159Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:22:22.287Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:23:55.449Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:23:55.492Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:24:18.020Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:24:18.052Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:24:21.512Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:24:21.512Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:24:21.707Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:25:51.965Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:25:51.999Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:25:59.342Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:25:59.342Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:25:59.515Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:50:22.394Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:50:22.423Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.415Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.415Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:50:25.534Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T20:55:14.808Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T20:55:14.837Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T20:55:20.527Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T20:55:20.533Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:01:46.658Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:01:46.687Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T21:01:55.137Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T21:01:55.142Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-08T21:02:53.154Z"}

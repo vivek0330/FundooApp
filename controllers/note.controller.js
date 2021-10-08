@@ -17,7 +17,7 @@ class Note {
     createNote =(req, res) => {
       try {
         const note = {
-          userId: req.user.dataForToken.id,
+          userId: req.userData.dataForToken.id,
           title: req.body.title,
           description: req.body.description
         };
@@ -45,6 +45,40 @@ class Note {
         });
       }
     }
+
+    /**
+    * @description function written to get notes into the database
+    * @param {*} a valid req body is expected
+    * @param {*} res
+    * @returns response
+    */
+
+  getNote = (req, res) => {
+    try {
+      const id = { id: req.userData.dataForToken.id };
+      noteService.getNote((id), (err, data) => {
+        if (err) {
+          logger.error("Failed to get all notes");
+          return res.status(400).json({
+            message: "failed to get note",
+            success: false
+          });
+        } else {
+          logger.info("All notes retrieved");
+          return res.status(200).json({
+            message: "Notes retieved succesfully",
+            success: true,
+            data: data
+          });
+        }
+      });
+    } catch {
+      logger.error("Error occured while retrieving notes");
+      return res.status(500).json({
+        message: "internal Error"
+      });
+    }
+  }
 }
 
 module.exports = new Note();

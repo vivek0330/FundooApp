@@ -85,35 +85,22 @@ class UserModel {
    * @description     : It uses to login the registered user
    * @param           : signInData, callback
    */
-  // signInUser = (signInData, callback) => {
-  //   Register.findOne({ email: signInData.email }, (error, data) => {
-  //     if (error) {
-  //       logger.error("Something is wrong");
-  //       return callback(error, null);
-  //     } else if (!data) {
-  //       logger.error("Invalid Credentials");
-  //       return callback("invalid Credentials", null);
-  //     } else {
-  //       logger.info("Something is good");
-  //       return callback(null, data);
-  //     }
-  //   });
-  // };
-  loginModel = (loginInfo, callback) => {
-    try {
-      Register.findOne({ email: loginInfo.email }, (error, data) => {
-        if (error) {
-          return callback(error, null);
-        } else if (!data) {
-          return callback("Invalid email", null);
-        } else {
-          return callback(null, data);
-        }
-      });
-    } catch (error) {
-      callback("Internal error", null);
-    }
-  }
+
+   loginModel = (loginInfo, callback) => {
+     try {
+       Register.findOne({ email: loginInfo.email }, (error, data) => {
+         if (error) {
+           return callback(error, null);
+         } else if (!data) {
+           return callback("Invalid email", null);
+         } else {
+           return callback(null, data);
+         }
+       });
+     } catch (error) {
+       callback("Internal error", null);
+     }
+   }
 
    forgotPassword = (data, callback) => {
      Register.findOne({ email: data.email }, (error, data) => {
@@ -129,7 +116,7 @@ class UserModel {
   resetPassword = async (userData, callback) => {
     const hashPass = bcrypt.hashSync(userData.password, 10);
     const data = await Register.findOne({ email: userData.email });
-    Register.findByIdAndUpdate(data.id, { firstName: data.firstName, lastName: data.lastName, password: hashPass }, { new: true }, (error, data) => {
+    Register.findByIdAndUpdate(data.id, { firstName: data.firstName, lastName: data.lastName, password: hashPass }, (error, data) => {
       if (error) {
         logger.error(error);
         return callback(error, null);

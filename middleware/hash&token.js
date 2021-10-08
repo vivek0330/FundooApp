@@ -36,6 +36,7 @@ class Helper {
     * @returns
     */
    validateToken = (req, res, next) => {
+     console.log("run middle ware");
      const header = req.headers.authorization;
      const myArr = header.split(" ");
      const token = myArr[1];
@@ -45,7 +46,7 @@ class Helper {
            if (error) {
              return res.status(400).send({ success: false, message: "Invalid Token" });
            } else {
-             req.user = decodedToken;
+             req.userData = decodedToken;
              next();
            }
          });

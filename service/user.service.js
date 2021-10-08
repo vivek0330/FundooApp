@@ -19,47 +19,27 @@ class UserService {
     });
   };
 
-  // user sign in
-  // signInUser = (signInInfo, callback) => {
-  //   userModel.signInUser(signInInfo, (error, data) => {
-  //     if (data) {
-  //       // const check = signInInfo.password == data.password;
-  //       const check = bcrypt.compare(signInInfo.pasword, data.pasword);
-
-  //       if (check === false) {
-  //         logger.error("invalid Password");
-  //         return callback("invalid Password", null);
-  //       } else {
-  //         const token = helper.token(signInInfo);
-  //         logger.info("getting token");
-  //         return callback(null, token);
-  //       }
-  //     } else {
-  //       logger.info("Please check your email and password first !!");
-  //       return callback("Please check your email and password !!");
-  //     }
-  //   });
-  // };
-  userLogin = (InfoLogin, callback) => {
-    userModel.loginModel(InfoLogin, (error, data) => {
-      if (data) {
-        // validate will take boolean value true and false
-        bcrypt.compare(InfoLogin.password, data.password, (error, validate) => {
-          if (!validate) {
-            logger.error(error);
-            return callback(error + "Invalid Password", null);
-          } else {
-            logger.info(" token generated ");
-            const token = helper.token(InfoLogin);
-            return callback(null, token);
-          }
-        });
-      } else {
-        logger.error(error);
-        return callback(error);
-      }
-    });
-  }
+  // login
+   userLogin = (InfoLogin, callback) => {
+     userModel.loginModel(InfoLogin, (error, data) => {
+       if (data) {
+         // validate will take boolean value true and false
+         bcrypt.compare(InfoLogin.password, data.password, (error, validate) => {
+           if (!validate) {
+             logger.error(error);
+             return callback(error + "Invalid Password", null);
+           } else {
+             logger.info(" token generated ");
+             const token = helper.token(InfoLogin);
+             return callback(null, token);
+           }
+         });
+       } else {
+         logger.error(error);
+         return callback(error);
+       }
+     });
+   }
 
    forgotPassword = (email, callback) => {
      userModel.forgotPassword(email, (error, data) => {

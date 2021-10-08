@@ -18,4 +18,6 @@ module.exports = (app) => {
 
   // notes creation api - POST request
   app.post("/createnotes", middleware.validateToken, noteController.createNote);
+
+  app.get("/getnotes", middleware.validateToken, noteController.getNote);
 };

@@ -996,3 +996,19 @@
 {"level":"error","message":"Invalid email","timestamp":"2021-10-07T17:24:47.268Z"}
 {"level":"error","message":"Invalid email id","timestamp":"2021-10-07T17:24:47.289Z"}
 {"level":"error","message":"Invalid password","timestamp":"2021-10-07T17:24:47.461Z"}
+{"level":"error","timestamp":"2021-10-08T03:06:04.887Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T03:06:04.889Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:18:14.149Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:18:14.154Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:19:13.921Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:19:13.922Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:20:41.712Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:20:41.724Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:22:22.158Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:22:22.159Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:24:21.512Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:24:21.513Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:25:59.342Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:25:59.342Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.415Z"}
+{"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.416Z"}

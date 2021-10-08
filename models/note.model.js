@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const logger = require("../logger/logger");
 
 const noteSchema = mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "Register" },
 
   title: {
     type: String
@@ -11,6 +12,7 @@ const noteSchema = mongoose.Schema({
     required: true,
     minlength: 2
   }
+
 }, {
   timestamps: true
 }
@@ -40,6 +42,16 @@ class Model {
         }
       });
     }
+
+     getNote = (id, callback) => {
+       NoteRegister.find({ userId: id.id }, (err, data) => {
+         if (err) {
+           return callback(err, null);
+         } else {
+           return callback(null, data);
+         }
+       });
+     }
 }
 
 module.exports = new Model();
