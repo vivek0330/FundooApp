@@ -27,4 +27,7 @@ module.exports = (app) => {
 
   // update data through id
   app.put("/updatenotes/:id", middleware.validateToken, noteController.updateNoteById);
+
+  // delete data by id
+  app.delete("/deletenotes/:id", middleware.validateToken, noteController.deleteNoteById);
 };
