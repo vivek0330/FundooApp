@@ -2635,3 +2635,8 @@
 {"level":"error","message":"failed to post note","timestamp":"2021-10-09T03:35:28.674Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T03:35:42.979Z"}
 {"level":"info","message":"All notes retrieved","timestamp":"2021-10-09T03:37:25.059Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T03:50:11.129Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T03:50:11.196Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T03:57:41.301Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T03:57:41.373Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-09T03:58:16.742Z"}

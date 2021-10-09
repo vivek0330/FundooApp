@@ -66,13 +66,13 @@ class Note {
       noteService.getNote((id), (err, data) => {
         if (err) {
           logger.error("Failed to get all notes");
-          return res.status(500).json({
+          return res.status(401).json({
             message: "failed to get note",
             success: false
           });
         } else {
           logger.info("All notes retrieved");
-          return res.status(200).json({
+          return res.status(201).json({
             message: "Notes retieved succesfully",
             success: true,
             data: data
