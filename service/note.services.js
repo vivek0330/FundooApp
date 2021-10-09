@@ -42,5 +42,13 @@ class Service {
        }
      });
    }
+
+    getNoteById = async (id) => {
+      try {
+        return await noteModel.getNoteById(id);
+      } catch (err) {
+        return err;
+      }
+    }
 }
 module.exports = new Service();

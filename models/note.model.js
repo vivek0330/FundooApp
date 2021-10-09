@@ -43,15 +43,23 @@ class Model {
       });
     }
 
-  getNote = (id, callback) => {
-    NoteRegister.find({ userId: id.id }, (err, data) => {
-      if (err) {
-        return callback(err, null);
-      } else {
-        return callback(null, data);
+    getNote = (id, callback) => {
+      NoteRegister.find({ userId: id.id }, (err, data) => {
+        if (err) {
+          return callback(err, null);
+        } else {
+          return callback(null, data);
+        }
+      });
+    }
+
+    getNoteById = async (id) => {
+      try {
+        return await NoteRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
+      } catch (err) {
+        return err;
       }
-    });
-  }
+    }
 }
 
 module.exports = new Model();

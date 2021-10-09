@@ -19,5 +19,9 @@ module.exports = (app) => {
   // notes creation api - POST request
   app.post("/createnotes", middleware.validateToken, noteController.createNote);
 
+  // get note api
   app.get("/getnotes", middleware.validateToken, noteController.getNote);
+
+  // get not by id
+  app.get("/getnotes/:id", middleware.validateToken, noteController.getNoteById);
 };

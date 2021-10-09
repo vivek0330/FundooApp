@@ -1,3 +1,4 @@
+/* eslint-disable no-throw-literal */
 /*****************************************************************************
  * @description   : It is used to taking the request from the client side and give the response and
  *                  validating whether the input is correct or not.
@@ -83,6 +84,38 @@ class Note {
       logger.error("Error occured while retrieving notes");
       return res.status(500).json({
         message: "internal Error"
+      });
+    }
+  }
+
+  /**
+    * @description function written to get notes by id into the database
+    * @param {*} a valid req body is expected
+    * @param {*} res
+    * @
+    */
+
+  getNoteById = async (req, res) => {
+    try {
+      const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };
+      console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
+      const data = await noteService.getNoteById(id);
+      if (data.message) {
+        return res.status(404).json({
+          message: "Note not found",
+          success: false
+        });
+      }
+      return res.status(200).json({
+        message: "Note retrieved succesfully",
+        success: true,
+        data: data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        message: "Note not updated",
+        success: false,
+        data: err
       });
     }
   }
