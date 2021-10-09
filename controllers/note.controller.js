@@ -119,6 +119,47 @@ class Note {
       });
     }
   }
+
+  /**
+    * @description function written to update notes by id into the database
+    * @param {*} a valid req body is expected
+    * @param {*} res
+    * @
+    */
+
+  updateNoteById =(req, res) => {
+    try {
+      const updateNote = {
+        id: req.params.id,
+        userId: req.userData.dataForToken.id,
+        title: req.body.title,
+        description: req.body.description
+      };
+      console.log("note for controller :: " + updateNote);
+      noteService.updateNoteById(updateNote, (error, data) => {
+        if (error) {
+          logger.error("failed to update note");
+          return res.status(400).json({
+            message: "failed to update note",
+            success: false
+          });
+        } else {
+          logger.info("Successfully inserted note");
+          return res.status(201).send({
+            message: "Successfully update note",
+            success: true,
+            data: data
+          });
+        }
+      });
+    } catch {
+      logger.error("Internal server error");
+      return res.status(500).json({
+        message: "Error occured",
+        success: false
+      });
+    }
+  }
 }
 
 module.exports = new Note();

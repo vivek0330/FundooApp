@@ -24,4 +24,7 @@ module.exports = (app) => {
 
   // get not by id
   app.get("/getnotes/:id", middleware.validateToken, noteController.getNoteById);
+
+  // update data through id
+  app.put("/updatenotes/:id", middleware.validateToken, noteController.updateNoteById);
 };

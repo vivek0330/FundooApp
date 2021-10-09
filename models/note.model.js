@@ -60,6 +60,20 @@ class Model {
         return err;
       }
     }
+
+     updateNoteById = (updatedNote, callback) => {
+       try {
+         NoteRegister.findByIdAndUpdate(updatedNote.id, { title: updatedNote.title, description: updatedNote.description }, (err, data) => {
+           if (err) {
+             return callback(err, null);
+           } else {
+             return callback(null, data);
+           }
+         });
+       } catch (err) {
+         return callback(err, null);
+       }
+     }
 }
 
 module.exports = new Model();
