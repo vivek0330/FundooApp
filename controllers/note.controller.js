@@ -16,11 +16,18 @@ class Note {
     */
     createNote =(req, res) => {
       try {
+        if ((!req.body.title) || (!req.body.description)) {
+          return res.status(400).send({
+            success: false,
+            message: "Please fill details..! Note can not be empty"
+          });
+        };
         const note = {
           userId: req.userData.dataForToken.id,
           title: req.body.title,
           description: req.body.description
         };
+        console.log("note for controller :: " + note);
         noteService.createNote(note, (error, data) => {
           if (error) {
             logger.error("failed to post note");
@@ -59,7 +66,7 @@ class Note {
       noteService.getNote((id), (err, data) => {
         if (err) {
           logger.error("Failed to get all notes");
-          return res.status(400).json({
+          return res.status(500).json({
             message: "failed to get note",
             success: false
           });

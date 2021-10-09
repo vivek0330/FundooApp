@@ -51,47 +51,47 @@ class UserController {
   };
 
   // sign in user
+signIn = (req, res) => {
+  try {
+    const userLoginInfo = {
+      email: req.body.email,
+      password: req.body.password
+    };
+    console.log("userLogininfo :: " + userLoginInfo);
+    const loginValidation = utility.loginSchema.validate(userLoginInfo);
+    if (loginValidation.error) {
+      logger.error(loginValidation.error);
+      res.status(422).send({
+        success: false,
+        message: loginValidation.error.message
+      });
+    }
+    userService.userLogin(userLoginInfo, (error, data) => {
+      if (error) {
+        logger.error(error);
+        return res.status(401).json({
+          success: false,
+          message: "Unable to login. Please enter correct info",
+          error
+        });
+      }
+      logger.info("User logged in successfully");
+      return res.status(201).json({
+        success: true,
+        message: "User logged in successfully",
+        token: data
+      });
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Error while Login",
+      data: null
+    });
+  }
+};
 
- signIn = (req, res) => {
-   try {
-     const userLoginInfo = {
-       email: req.body.email,
-       password: req.body.password
-     };
-     const loginValidation = utility.loginSchema.validate(userLoginInfo);
-     if (loginValidation.error) {
-       logger.error(loginValidation.error);
-       res.status(422).send({
-         success: false,
-         message: loginValidation.error.message
-       });
-     }
-     userService.userLogin(userLoginInfo, (error, token) => {
-       if (error) {
-         logger.error(error);
-         return res.status(401).json({
-           success: false,
-           message: "Unable to login. Please enter correct info",
-           error
-         });
-       }
-       logger.info("User logged in successfully");
-       return res.status(201).json({
-         success: true,
-         message: "User logged in successfully",
-         token: token
-       });
-     });
-   } catch (error) {
-     return res.status(500).json({
-       success: false,
-       message: "Error while Login",
-       data: null
-     });
-   }
- };
-
- // forgot password
+// forgot password
    forgotPassword=(req, res) => {
      try {
        const email = req.body;

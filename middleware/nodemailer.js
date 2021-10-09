@@ -7,10 +7,6 @@ const logger = require("../logger/logger");
 
 exports.sendEmail = (data) => {
   const transporter = nodemailer.createTransport({
-    // host: "smtp.gmail.com",
-    // port: 587,
-    // secure: false,
-    // requireTLS: true,
     service: "gmail",
     auth: {
       user: process.env.Email,
@@ -31,7 +27,7 @@ exports.sendEmail = (data) => {
   };
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      logger.error(error);
+      logger.error("err nodemailer :: " + error);
       // console.log(error);
     } else {
       logger.info("Email has been sent, Please kindly follow the steps !!", info.response);

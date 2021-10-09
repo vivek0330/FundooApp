@@ -2529,3 +2529,109 @@
 {"level":"info","message":" token generated ","timestamp":"2021-10-08T21:01:55.137Z"}
 {"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T21:01:55.142Z"}
 {"level":"info","message":"All notes retrieved","timestamp":"2021-10-08T21:02:53.154Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:21:49.775Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:21:49.801Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:01.000Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:01.002Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:05.760Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:05.760Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:08.212Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:08.213Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:09.285Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:09.287Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:10.367Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:10.367Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:12.032Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:12.033Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:12.965Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:12.965Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:22:50.025Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:22:50.054Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:53.003Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:53.004Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:23:50.508Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:23:50.540Z"}
+{"level":"error","timestamp":"2021-10-08T21:23:54.681Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:23:54.682Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:26:54.105Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:26:54.135Z"}
+{"level":"error","timestamp":"2021-10-08T21:26:57.587Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:26:57.588Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:29:28.625Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:29:28.653Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:32.414Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:32.415Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:34.424Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:34.424Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:35.445Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:35.446Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:36.285Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:36.286Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:30:48.318Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:30:48.347Z"}
+{"level":"error","timestamp":"2021-10-08T21:30:51.867Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:30:51.867Z"}
+{"level":"error","timestamp":"2021-10-08T21:30:53.100Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:30:53.101Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-08T21:32:06.997Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-08T21:32:07.030Z"}
+{"level":"error","timestamp":"2021-10-08T21:32:10.414Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:32:10.414Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-08T21:33:02.745Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-08T21:33:02.750Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:41:14.989Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:41:15.020Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:41:44.546Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:41:44.557Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:44:30.887Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:44:30.919Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:44:35.452Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:44:35.469Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-09T02:47:50.195Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-09T02:47:50.198Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:52:50.541Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:52:50.544Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:54:48.895Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:54:48.924Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:54:53.401Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:54:53.424Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:56:26.687Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:56:26.714Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:56:28.895Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:56:28.914Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:58:06.249Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:58:06.277Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T02:58:19.961Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T02:58:19.988Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T02:58:23.190Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T02:58:23.208Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T02:59:24.821Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T03:01:16.342Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T03:01:16.371Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-09T03:01:51.853Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:03:47.789Z"}
+{"code":"EDNS","command":"CONN","hostname":"smtp.gmail.com","level":"error","syscall":"queryA","timestamp":"2021-10-09T03:05:03.615Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T03:14:46.017Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T03:14:46.047Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:14:50.027Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:16:05.817Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:24:01.168Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:25:16.797Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:26:05.866Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:27:21.516Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T03:29:19.486Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T03:29:19.541Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:29:24.545Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-09T03:29:27.849Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-09T03:31:05.312Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-09T03:31:08.071Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-09T03:32:53.162Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-09T03:32:53.171Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-09T03:33:18.566Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-09T03:33:18.569Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T03:34:07.491Z"}
+{"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.667Z"}
+{"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.669Z"}
+{"level":"error","message":"failed to post note","timestamp":"2021-10-09T03:35:28.674Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T03:35:42.979Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-09T03:37:25.059Z"}

@@ -1012,3 +1012,44 @@
 {"level":"error","message":"Internal error","timestamp":"2021-10-08T20:25:59.342Z"}
 {"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.415Z"}
 {"level":"error","message":"Internal error","timestamp":"2021-10-08T20:50:25.416Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:01.001Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:01.002Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:05.760Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:05.760Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:08.212Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:08.213Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:09.286Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:09.288Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:10.367Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:10.367Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:12.032Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:12.033Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:12.965Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:12.965Z"}
+{"level":"error","timestamp":"2021-10-08T21:22:53.004Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:22:53.005Z"}
+{"level":"error","timestamp":"2021-10-08T21:23:54.681Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:23:54.682Z"}
+{"level":"error","timestamp":"2021-10-08T21:26:57.588Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:26:57.588Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:32.414Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:32.415Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:34.424Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:34.425Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:35.445Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:35.446Z"}
+{"level":"error","timestamp":"2021-10-08T21:29:36.286Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:29:36.286Z"}
+{"level":"error","timestamp":"2021-10-08T21:30:51.867Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:30:51.868Z"}
+{"level":"error","timestamp":"2021-10-08T21:30:53.100Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:30:53.101Z"}
+{"level":"error","timestamp":"2021-10-08T21:32:10.414Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-08T21:32:10.414Z"}
+{"code":"EDNS","command":"CONN","hostname":"smtp.gmail.com","level":"error","syscall":"queryA","timestamp":"2021-10-09T03:05:03.615Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:16:05.818Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:25:16.797Z"}
+{"level":"error","message":"err nodemailer :: Error: queryA ETIMEOUT smtp.gmail.com","timestamp":"2021-10-09T03:27:21.516Z"}
+{"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.667Z"}
+{"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.671Z"}
+{"level":"error","message":"failed to post note","timestamp":"2021-10-09T03:35:28.675Z"}
