@@ -1053,3 +1053,39 @@
 {"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.667Z"}
 {"_message":"NoteRegister validation failed","errors":{"description":{"kind":"minlength","message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","name":"ValidatorError","path":"description","properties":{"message":"Path `description` (`❤`) is shorter than the minimum allowed length (2).","minlength":2,"path":"description","type":"minlength","value":"❤"},"value":"❤"}},"level":"error","timestamp":"2021-10-09T03:35:28.671Z"}
 {"level":"error","message":"failed to post note","timestamp":"2021-10-09T03:35:28.675Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-09T04:04:27.110Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.131Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.150Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.170Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.190Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.209Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.223Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.235Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.250Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:04:27.267Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-09T04:04:27.288Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-09T04:04:27.493Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-09T04:08:34.437Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.455Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.475Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.495Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.526Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.555Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.570Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.592Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.609Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:34.638Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-09T04:08:34.664Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-09T04:08:34.907Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-09T04:08:57.847Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.863Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.883Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.905Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.928Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.949Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.969Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:57.983Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:58.013Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-09T04:08:58.040Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-09T04:08:58.070Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-09T04:08:58.280Z"}

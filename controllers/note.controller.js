@@ -66,7 +66,7 @@ class Note {
       noteService.getNote((id), (err, data) => {
         if (err) {
           logger.error("Failed to get all notes");
-          return res.status(401).json({
+          return res.status(400).json({
             message: "failed to get note",
             success: false
           });

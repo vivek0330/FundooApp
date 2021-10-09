@@ -23,6 +23,7 @@ const server = require("../server");
 chai.should();
 chai.use(chaiHttp);
 
+// create test cases
 describe("create notes api", () => {
   it("notes", (done) => {
     const token = noteDB.notes.validToken;
@@ -54,6 +55,33 @@ describe("create notes api", () => {
       .post("/createnotes")
       .set({ authorization: token })
       .send(createNotes)
+      .end((err, res) => {
+        res.should.have.status(400);
+        done();
+      });
+  });
+});
+
+// get note test cases
+describe("get notes api", () => {
+  it("notes", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    chai
+      .request(server)
+      .get("/getnotes")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(201);
+        done();
+      });
+  });
+
+  it("givenCreateNotes_whenInvalidToken_shouldNotbeGet", (done) => {
+    const token = noteDB.notes.getNoteWithInValidToken;
+    chai
+      .request(server)
+      .get("/getnotes")
+      .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
         done();
