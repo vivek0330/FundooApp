@@ -4,5 +4,11 @@
         "invalidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY",
         "getNoteWithValidToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTU1NWRkNjk3MmFjZThhNmU1MDkiLCJmaXJzdE5hbWUiOiJHYW5lc2giLCJsYXN0TmFtZSI6Imd2IiwiZW1haWwiOiJnYW5lc2hnYXZoYWQ5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzM3NTAzOTh9.6V3rC5r0Jhr34iuBCEUIggc_OkmqYk14znDeJA6DpHg",
         "getNoteWithInValidToken": "bearer eyJ.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTU1NWRkNjk3MmFjZThhNmU1MDkiLCJmaXJzdE5hbWUiOiJHYW5lc2giLCJsYXN0TmFtZSI6Imd2IiwiZW1haWwiOiJnYW5lc2hnYXZoYWQ5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzM3NTAzOTh9.6V3rC5r0Jhr34iuBCEUIggc_OkmqYk14znDeJA6DpHg"
+    },
+    "updateNote": {
+        "validData": {
+            "title": "Domino",
+            "description": "Pizza 🍕"
+        }
     }
 }

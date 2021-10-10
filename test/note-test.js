@@ -88,3 +88,34 @@ describe("get notes api", () => {
       });
   });
 });
+
+// update note test cases
+describe("Udate notes api", () => {
+  it("givenPoperDetails_ShouldUpdateNote", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    const note = noteDB.updateNote.validData;
+    chai
+      .request(server)
+      .put("/updatenotes/6162b06457eadf4fa2945b43")
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(201);
+        done();
+      });
+  });
+
+  it("givenInvalidToken_ShouldUpdateNote", (done) => {
+    const token = noteDB.notes.getNoteWithInValidToken;
+    const note = noteDB.updateNote.validData;
+    chai
+      .request(server)
+      .put("/updatenotes/6162b06457eadf4fa2945b43")
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(400);
+        done();
+      });
+  });
+});
