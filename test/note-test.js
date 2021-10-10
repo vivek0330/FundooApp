@@ -146,3 +146,18 @@ describe("delete notes api", () => {
       });
   });
 });
+
+// get data by id
+describe("Get notes by ID api", () => {
+  it("givenPoperDetails_ShouldGetNote", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    chai
+      .request(server)
+      .get("/getnotes/6155e2bf001d0213dce6480d")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+});

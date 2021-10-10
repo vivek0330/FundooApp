@@ -2869,3 +2869,7 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T16:41:43.651Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T16:42:39.438Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T16:42:39.470Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T16:43:44.391Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T16:43:44.425Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T16:50:36.136Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T16:50:36.169Z"}
