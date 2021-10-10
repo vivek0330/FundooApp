@@ -139,7 +139,7 @@ class Note {
       noteService.updateNoteById(updateNote, (error, data) => {
         if (error) {
           logger.error("failed to update note");
-          return res.status(400).json({
+          return res.status(401).json({
             message: "failed to update note",
             success: false
           });

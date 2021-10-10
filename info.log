@@ -2785,3 +2785,13 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T17:06:29.158Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T17:07:03.988Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T17:07:04.020Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-09T18:35:04.675Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-09T18:35:04.713Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T18:37:31.678Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-09T18:37:33.414Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T08:35:24.781Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T08:35:24.809Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T08:39:41.636Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T08:39:41.662Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-10T08:42:48.499Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-10T08:43:53.553Z"}
