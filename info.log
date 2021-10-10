@@ -2795,3 +2795,5 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T08:39:41.662Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-10T08:42:48.499Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-10T08:43:53.553Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-10T08:51:05.887Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-10T08:51:05.922Z"}
