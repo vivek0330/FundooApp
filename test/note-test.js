@@ -90,7 +90,7 @@ describe("get notes api", () => {
 });
 
 // update note test cases
-describe("Udate notes api", () => {
+describe("Update notes api", () => {
   it("givenPoperDetails_ShouldUpdateNote", (done) => {
     const token = noteDB.notes.getNoteWithValidToken;
     const note = noteDB.updateNote.validData;
@@ -113,6 +113,33 @@ describe("Udate notes api", () => {
       .put("/updatenotes/6162b06457eadf4fa2945b43")
       .set({ authorization: token })
       .send(note)
+      .end((err, res) => {
+        res.should.have.status(400);
+        done();
+      });
+  });
+});
+
+// delete note test cases
+describe("delete notes api", () => {
+  it("givenPoperDetails_ShouldDeleteNote", (done) => {
+    const token = noteDB.notes.getNoteWithValidToken;
+    chai
+      .request(server)
+      .delete("/deletenotes/61630b5d2f6b2e71d545ac9b")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+
+  it("givenInvalidToken_ShouldUpdateNote", (done) => {
+    const token = noteDB.notes.getNoteWithInValidToken;
+    chai
+      .request(server)
+      .delete("/deletenotes/6162b06457eadf4fa2945b43")
+      .set({ authorization: token })
       .end((err, res) => {
         res.should.have.status(400);
         done();

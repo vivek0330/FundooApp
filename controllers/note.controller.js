@@ -17,12 +17,6 @@ class Note {
     */
     createNote =(req, res) => {
       try {
-        if ((!req.body.title) || (!req.body.description)) {
-          return res.status(400).send({
-            success: false,
-            message: "Please fill details..! Note can not be empty"
-          });
-        };
         const note = {
           userId: req.userData.dataForToken.id,
           title: req.body.title,
