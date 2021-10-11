@@ -3019,3 +3019,6 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:54:16.720Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:54:16.765Z"}
 {"level":"info","message":"Label inserted","timestamp":"2021-10-11T15:54:47.295Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:11:06.321Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:11:06.347Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:11:34.878Z"}

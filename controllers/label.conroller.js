@@ -81,7 +81,7 @@ class Label {
         });
       } catch (err) {
         return res.status(500).json({
-          message: "label not updated",
+          message: "server error",
           success: false,
           data: err
         });
