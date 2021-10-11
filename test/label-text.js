@@ -86,3 +86,34 @@ describe("get label api", () => {
       });
   });
 });
+
+// update note test cases
+describe("Update label api", () => {
+  it("givenPoperDetails_ShouldUpdateNote", (done) => {
+    const token = labelDB.label.getNoteWithValidToken;
+    const label = labelDB.updatelabel.validData;
+    chai
+      .request(server)
+      .put("/updatenotes/616448f978bd883893b336ca")
+      .set({ authorization: token })
+      .send(label)
+      .end((err, res) => {
+        res.should.have.status(201);
+        done();
+      });
+  });
+
+  it("givenInvalidToken_ShouldNotUpdateLabel", (done) => {
+    const token = labelDB.label.getNoteWithInValidToken;
+    const note = labelDB.updatelabel.validData;
+    chai
+      .request(server)
+      .put("/updatenotes/616448f978bd883893b336ca")
+      .set({ authorization: token })
+      .send(note)
+      .end((err, res) => {
+        res.should.have.status(400);
+        done();
+      });
+  });
+});

@@ -3050,3 +3050,12 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:45:10.489Z"}
 {"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:45:10.580Z"}
 {"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:45:10.633Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:45:53.697Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:45:53.732Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:45:53.823Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:45:53.877Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:47:09.334Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:47:09.374Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:47:09.465Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:47:09.528Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:47:09.566Z"}
