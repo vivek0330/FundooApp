@@ -41,6 +41,9 @@ module.exports = (app) => {
   // get single label by ID api - GET request
   app.get("/labelGet/:id", middleware.validateToken, labelController.labelGetById);
 
+  // update single label by ID api - PUT request
+  app.put("/labelUpdate/:id", middleware.validateToken, labelController.updateLabelById);
+
   // delete label by ID api - DELETE request
   app.delete("/labelDelete/:id", middleware.validateToken, labelController.labelDeleteById);
 };

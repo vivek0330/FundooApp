@@ -44,6 +44,20 @@ class Model {
         }
       }
 
+      updateLabelById = (updateLabel, callback) => {
+        try {
+          LabelRegister.findByIdAndUpdate(updateLabel.id, { labelName: updateLabel.labelName }, { new: true }, (err, data) => {
+            if (err) {
+              return callback(err, null);
+            } else {
+              return callback(null, data);
+            }
+          });
+        } catch (err) {
+          return callback(err, null);
+        }
+      }
+
       labelDeleteById = async (id) => {
         try {
           return await LabelRegister.findOneAndDelete({ $and: [{ _id: id.noteId }, { userId: id.userId }] }, { new: true });

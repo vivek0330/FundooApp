@@ -2995,3 +2995,22 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:11:47.510Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:12:28.702Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:12:28.732Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:15:08.740Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:15:08.765Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:25:06.523Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:25:06.550Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T15:26:40.434Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:31:38.627Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:31:38.656Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:32:51.679Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:32:51.704Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:33:01.131Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:33:07.748Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:33:09.774Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:34:24.873Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:34:24.900Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:34:30.964Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:34:36.999Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:38:15.331Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:38:15.362Z"}
+{"level":"info","message":"Successfully Update note","timestamp":"2021-10-11T15:38:20.538Z"}

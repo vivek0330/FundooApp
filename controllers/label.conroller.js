@@ -88,6 +88,39 @@ class Label {
       }
     }
 
+    updateLabelById =(req, res) => {
+      try {
+        const updateLabel = {
+          id: req.params.id,
+          userId: req.userData.dataForToken.id,
+          labelName: req.body.labelName
+        };
+        console.log(updateLabel);
+        labelServices.updateLabelById(updateLabel, (error, data) => {
+          if (error) {
+            logger.error("failed to update note");
+            return res.status(400).json({
+              message: "failed to update note",
+              success: false
+            });
+          } else {
+            logger.info("Successfully Update note");
+            return res.status(201).send({
+              message: "Successfully update label",
+              success: true,
+              data: data
+            });
+          }
+        });
+      } catch {
+        logger.error("Internal server error");
+        return res.status(500).json({
+          message: "Error occured",
+          success: false
+        });
+      }
+    }
+
     labelDeleteById = async (req, res) => {
       try {
         const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };

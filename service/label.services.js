@@ -1,4 +1,5 @@
 const labelModel = require("../models/label.model");
+const logger = require("../logger/logger");
 
 class Service {
     labelCreate = (label, resolve, reject) => {
@@ -19,6 +20,18 @@ class Service {
        } catch (err) {
          return err;
        }
+     }
+
+     updateLabelById = (updateLabel, callback) => {
+       labelModel.updateLabelById(updateLabel, (error, data) => {
+         if (error) {
+           logger.error(error);
+           return callback(error, null);
+         } else {
+           return callback(null, data);
+         }
+       }
+       );
      }
 
      labelDeleteById = async (id) => {
