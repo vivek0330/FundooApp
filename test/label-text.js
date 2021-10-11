@@ -59,3 +59,30 @@ describe("create label api", () => {
       });
   });
 });
+
+// get note test cases
+describe("get label api", () => {
+  it("label", (done) => {
+    const token = labelDB.label.getNoteWithValidToken;
+    chai
+      .request(server)
+      .get("/labelGet/all")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+
+  it("givenCreateNotes_whenInvalidToken_shouldNotbeGet", (done) => {
+    const token = labelDB.label.getNoteWithInValidToken;
+    chai
+      .request(server)
+      .get("/labelGet/all")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(400);
+        done();
+      });
+  });
+});

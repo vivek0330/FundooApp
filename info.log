@@ -3040,3 +3040,13 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:42:57.820Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:42:57.850Z"}
 {"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:42:57.936Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:43:23.429Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:43:23.464Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:43:23.553Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:44:51.277Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:44:51.303Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:44:51.395Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:45:10.453Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:45:10.489Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:45:10.580Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:45:10.633Z"}
