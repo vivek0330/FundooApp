@@ -144,3 +144,18 @@ describe("delete notes api", () => {
       });
   });
 });
+
+// get data by id
+describe("Get notes by ID api", () => {
+  it("givenPoperDetails_ShouldGetNote", (done) => {
+    const token = labelDB.label.getNoteWithValidToken;
+    chai
+      .request(server)
+      .get("/labelGet/616448f978bd883893b336ca")
+      .set({ authorization: token })
+      .end((err, res) => {
+        res.should.have.status(200);
+        done();
+      });
+  });
+});
