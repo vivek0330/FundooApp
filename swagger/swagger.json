@@ -109,6 +109,17 @@
             "example": {
                 "labelName": "Write a title here....."
             }
+        },
+        "updatelabel": {
+            "type": "object",
+            "properties": {
+                "labelName": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "labelName": "Write a title here....."
+            }
         }
     },
     "info": {
@@ -598,6 +609,55 @@
                     },
                     "404": {
                         "description": "label not found"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/labelUpdate/{id}": {
+            "put": {
+                "tags": [
+                    "update label"
+                ],
+                "description": "update a label by ID for perticuler person id !!",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for vaidation",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "Id of note you want to update",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "note",
+                        "description": "Note body",
+                        "schema": {
+                            "$ref": "#/definitions/updatelabel"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "update note succesfully !!"
+                    },
+                    "400": {
+                        "description": "failed to update note"
                     },
                     "500": {
                         "description": "Internal server error"
