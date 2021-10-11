@@ -1,4 +1,5 @@
 const labelServices = require("../service/label.services");
+const validate = require("../middleware/joiValidation");
 const logger = require("../logger/logger");
 
 class Label {
@@ -8,6 +9,15 @@ class Label {
           labelName: req.body.labelName,
           userId: req.userData.dataForToken.id
         };
+        const valid = validate.validateLabel.validate(req.body);
+        if (valid.error) {
+          logger.error("Invalid label body");
+          return res.status(400).send({
+            message: "Please enter valid label",
+            success: false,
+            error: valid.error
+          });
+        }
         labelServices.labelCreate(label, resolve, reject);
         function resolve (data) {
           logger.info("Label inserted");

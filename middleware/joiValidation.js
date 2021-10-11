@@ -86,7 +86,7 @@ class Validation {
    });
 
    validateLabel = Joi.object({
-     labelName: Joi.string().required()
+     labelName: Joi.string().min(3).required()
    })
 }
 
