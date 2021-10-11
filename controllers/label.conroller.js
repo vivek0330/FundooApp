@@ -88,25 +88,30 @@ class Label {
       }
     }
 
-  // labelDeleteById = (req, res) => {
-  //   const id = req.params.id;
-  //   labelServices.labelDeleteById(id, (resolve, reject) => {
-  //     if (resolve) {
-  //       logger.info("Found label 🔖 by id");
-  //       res.status(200).send({
-  //         message: "label 🔖 Found",
-  //         success: true,
-  //         data: resolve
-  //       });
-  //     } else {
-  //       logger.error("Label 🔖 not ❌ found by id");
-  //       res.status(500).send({
-  //         message: "label 🔖 not ❌ Found",
-  //         success: false
-  //       });
-  //     }
-  //   });
-  // }
+    labelDeleteById = async (req, res) => {
+      try {
+        const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };
+        console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
+        const data = await labelServices.labelDeleteById(id);
+        console.log(data);
+        if (data.message) {
+          return res.status(404).json({
+            message: "label not found",
+            success: false
+          });
+        }
+        return res.status(200).json({
+          message: "label Delete succesfully",
+          success: true
+        });
+      } catch (err) {
+        return res.status(500).json({
+          message: "label not Delete",
+          success: false,
+          data: err
+        });
+      }
+    }
 }
 
 module.exports = new Label();

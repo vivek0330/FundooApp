@@ -2978,3 +2978,20 @@
 {"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:29:05.693Z"}
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:36:36.236Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:36:36.270Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:56:06.654Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:56:06.714Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T15:03:34.350Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:05:09.012Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:05:09.045Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:05:24.262Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:05:24.299Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:07:40.877Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:07:40.906Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:08:33.151Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:08:33.185Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:09:55.853Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:09:55.877Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:11:47.478Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:11:47.510Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T15:12:28.702Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T15:12:28.732Z"}

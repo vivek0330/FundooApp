@@ -20,6 +20,14 @@ class Service {
          return err;
        }
      }
+
+     labelDeleteById = async (id) => {
+       try {
+         return await labelModel.labelDeleteById(id);
+       } catch (err) {
+         return err;
+       }
+     }
 }
 
 module.exports = new Service();

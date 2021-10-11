@@ -43,6 +43,14 @@ class Model {
           return err;
         }
       }
+
+      labelDeleteById = async (id) => {
+        try {
+          return await LabelRegister.findOneAndDelete({ $and: [{ _id: id.noteId }, { userId: id.userId }] }, { new: true });
+        } catch (err) {
+          return err;
+        }
+      }
 }
 
 module.exports = new Model();
