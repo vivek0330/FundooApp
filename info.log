@@ -3059,3 +3059,23 @@
 {"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:47:09.465Z"}
 {"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:47:09.528Z"}
 {"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:47:09.566Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:48:05.986Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:48:06.022Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:48:06.114Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:48:06.173Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:48:06.220Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:52:04.337Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:52:04.373Z"}
+{"level":"error","message":"Invalid label body","timestamp":"2021-10-11T16:52:04.430Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:52:04.529Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:52:04.569Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:53:24.302Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:53:24.337Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:53:24.436Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:53:24.488Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:53:24.525Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T16:54:30.640Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T16:54:30.681Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T16:54:30.768Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T16:54:30.827Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-11T16:54:30.865Z"}
