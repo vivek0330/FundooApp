@@ -98,6 +98,17 @@
                 "title": "Write a title here.....",
                 "description": "Write a description here....."
             }
+        },
+        "label": {
+            "type": "object",
+            "properties": {
+                "labelName": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "labelName": "Write a title here....."
+            }
         }
     },
     "info": {
@@ -471,6 +482,50 @@
                         "description": "Delete note succesfully !!"
                     },
                     "401": {
+                        "description": "Please enter Valid Token"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/labelCreate": {
+            "post": {
+                "tags": [
+                    "Create Lebal"
+                ],
+                "description": "Create a  Label !!",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for vaidation",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "name": "create Label",
+                        "in": "body",
+                        "description": "Label's body",
+                        "schema": {
+                            "$ref": "#/definitions/label"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "schema": {
+                    "$ref": "#/definitions/label"
+                },
+                "responses": {
+                    "201": {
+                        "description": "Create Label succesfully !!"
+                    },
+                    "400": {
                         "description": "Please enter Valid Token"
                     },
                     "500": {
