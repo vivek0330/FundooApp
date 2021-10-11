@@ -533,6 +533,36 @@
                     }
                 }
             }
+        },
+        "/labelGet/all": {
+            "get": {
+                "tags": [
+                    "Get Label"
+                ],
+                "description": "Get a label for perticuler person id !!",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for vaidation",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get note succesfully !!"
+                    },
+                    "404": {
+                        "description": "Labels 🔖 not ❌ found "
+                    }
+                }
+            }
         }
     }
 }
