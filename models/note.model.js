@@ -63,7 +63,7 @@ class Model {
 
      updateNoteById = (updatedNote, callback) => {
        try {
-         NoteRegister.findByIdAndUpdate(updatedNote.id, { title: updatedNote.title, description: updatedNote.description }, (err, data) => {
+         NoteRegister.findByIdAndUpdate(updatedNote.id, { title: updatedNote.title, description: updatedNote.description }, { new: true }, (err, data) => {
            if (err) {
              return callback(err, null);
            } else {

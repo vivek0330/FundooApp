@@ -25,7 +25,6 @@ class Helper {
       lastName: data.lastName,
       email: data.email
     };
-    console.log(dataForToken);
     return jwt.sign({ dataForToken }, process.env.SECRET_KEY);
   };
 
@@ -48,7 +47,7 @@ class Helper {
              return res.status(400).send({ success: false, message: "Invalid Token" });
            } else {
              req.userData = decodedToken;
-             console.log(req.userData + " req.userData");
+             console.log("req.userData :: " + req.userData);
              next();
            }
          });

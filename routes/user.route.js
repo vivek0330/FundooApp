@@ -7,6 +7,7 @@
 const userController = require("../controllers/user.controller.js");
 const middleware = require("../middleware/hash&token");
 const noteController = require("../controllers/note.controller");
+const labelController = require("../controllers/label.conroller");
 
 module.exports = (app) => {
   app.post("/register", userController.registration);
@@ -30,4 +31,7 @@ module.exports = (app) => {
 
   // delete data by id
   app.delete("/deletenotes/:id", middleware.validateToken, noteController.deleteNoteById);
+
+  // label creation api - Post request
+  app.post("/labelCreate", middleware.validateToken, labelController.labelCreate);
 };
