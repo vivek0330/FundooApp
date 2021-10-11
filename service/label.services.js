@@ -12,6 +12,12 @@ class Service {
          .then((data) => { callback(data, null); })
          .catch((err) => { callback(null, err); });
      }
+
+      labelGetById = (id, callback) => {
+        labelModel.labelGetById(id)
+          .then((data) => { callback(data, null); })
+          .catch((err) => { callback(null, err); });
+      }
 }
 
 module.exports = new Service();

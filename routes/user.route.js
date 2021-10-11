@@ -37,4 +37,7 @@ module.exports = (app) => {
 
   // get all labels api - Get request
   app.get("/labelGet/all", middleware.validateToken, labelController.labelGetAll);
+
+  // get single label by ID api - GET request
+  app.get("/labelGet/:id", middleware.validateToken, labelController.labelGetById);
 };

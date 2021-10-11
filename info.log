@@ -2941,3 +2941,11 @@
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T12:52:16.717Z"}
 {"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T12:52:20.645Z"}
 {"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T12:52:23.837Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T13:33:02.322Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T13:33:02.355Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T13:33:47.289Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T13:33:47.331Z"}
+{"level":"info","message":"Found label by id","timestamp":"2021-10-11T13:34:29.463Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T13:34:49.812Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T13:34:49.842Z"}
+{"level":"info","message":"Found label by id","timestamp":"2021-10-11T13:34:55.974Z"}
