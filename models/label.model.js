@@ -36,12 +36,12 @@ class Model {
         });
       }
 
-      labelGetById = (id) => {
-        return new Promise((resolve, reject) => {
-          LabelRegister.findById(id)
-            .then((data) => { resolve(data); })
-            .catch((err) => reject(err));
-        });
+      labelGetById = async (id) => {
+        try {
+          return await LabelRegister.find({ $and: [{ _id: id.noteId }, { userId: id.userId }] });
+        } catch (err) {
+          return err;
+        }
       }
 }
 

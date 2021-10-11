@@ -2949,3 +2949,32 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T13:34:49.812Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T13:34:49.842Z"}
 {"level":"info","message":"Found label by id","timestamp":"2021-10-11T13:34:55.974Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:21:32.674Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:21:32.706Z"}
+{"level":"error","timestamp":"2021-10-11T14:21:36.941Z"}
+{"level":"error","message":"undefinedInvalid Password","timestamp":"2021-10-11T14:21:36.942Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-11T14:22:20.198Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-11T14:22:23.543Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-11T14:23:12.864Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-11T14:23:12.865Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-11T14:23:24.523Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-11T14:23:24.526Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T14:23:53.131Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-11T14:24:12.672Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-11T14:24:26.698Z"}
+{"level":"info","message":"Found label 🔖 by id","timestamp":"2021-10-11T14:24:41.313Z"}
+{"level":"info","message":"Found label 🔖 by id","timestamp":"2021-10-11T14:24:46.807Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:26:06.542Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:26:06.575Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:27:17.552Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:27:17.582Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:27:22.912Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:27:42.244Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:27:44.058Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:28:01.212Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-11T14:28:17.737Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-11T14:28:17.741Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:28:32.377Z"}
+{"level":"error","message":"Label 🔖 not ❌ found by id","timestamp":"2021-10-11T14:29:05.693Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-11T14:36:36.236Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-11T14:36:36.270Z"}
