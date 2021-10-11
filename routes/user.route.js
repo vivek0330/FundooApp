@@ -34,4 +34,7 @@ module.exports = (app) => {
 
   // label creation api - Post request
   app.post("/labelCreate", middleware.validateToken, labelController.labelCreate);
+
+  // get all labels api - Get request
+  app.get("/labelGet/all", middleware.validateToken, labelController.labelGetAll);
 };

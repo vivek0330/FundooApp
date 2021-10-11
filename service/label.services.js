@@ -6,6 +6,12 @@ class Service {
         .then((data) => resolve(data))
         .catch(() => reject());
     }
+
+     labelGetAll =(id, callback) => {
+       labelModel.labelGetAll(id)
+         .then((data) => { callback(data, null); })
+         .catch((err) => { callback(null, err); });
+     }
 }
 
 module.exports = new Service();

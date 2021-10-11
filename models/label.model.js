@@ -26,6 +26,15 @@ class Model {
            .catch(() => reject());
        });
      }
+
+      labelGetAll = (id) => {
+        return new Promise((resolve, reject) => {
+          LabelRegister.find({ userId: id }).then((data) => {
+            resolve(data);
+          })
+            .catch(() => reject());
+        });
+      }
 }
 
 module.exports = new Model();

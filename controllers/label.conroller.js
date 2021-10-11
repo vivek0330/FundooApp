@@ -42,6 +42,26 @@ class Label {
         });
       }
     }
+
+    labelGetAll = (req, res) => {
+      const id = req.userData.dataForToken.id;
+      labelServices.labelGetAll(id, (resolve, reject) => {
+        if (resolve.length > 0) {
+          logger.info("Found all labels 🔖");
+          res.status(200).send({
+            message: "labels 🔖 retrieved ✔",
+            success: true,
+            data: resolve
+          });
+        } else {
+          logger.error("Label 🔖 Not ❌ found");
+          res.status(404).send({
+            message: "Labels 🔖 not ❌ found ",
+            success: false
+          });
+        }
+      });
+    }
 }
 
 module.exports = new Label();
