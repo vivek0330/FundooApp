@@ -129,6 +129,17 @@
                 }
             },
             "example": {
+                "Id": "Write a labelId here....."
+            }
+        },
+        "Deletelabel": {
+            "type": "object",
+            "properties": {
+                "labelId": {
+                    "type": "string"
+                }
+            },
+            "example": {
                 "labelId": "Write a labelId here....."
             }
         }
@@ -756,6 +767,55 @@
                 "responses": {
                     "200": {
                         "description": "Added succesfully !!"
+                    },
+                    "401": {
+                        "description": "Please enter Valid Token"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/deleteLabelFromNote/{id}": {
+            "post": {
+                "tags": [
+                    "Delete label in note"
+                ],
+                "description": "delete label in note and add note in label !!",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for vaidation",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "Id of note you want to update",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "note",
+                        "description": "Note body",
+                        "schema": {
+                            "$ref": "#/definitions/Deletelabel"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Deleted succesfully !!"
                     },
                     "401": {
                         "description": "Please enter Valid Token"
