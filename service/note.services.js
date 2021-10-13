@@ -79,5 +79,14 @@ class Service {
         return error;
       }
     }
+
+    deleteLabel = async (id) => {
+      try {
+        const data = await noteModel.deleteLabel(id);
+        return data;
+      } catch (error) {
+        return error;
+      }
+    }
 }
 module.exports = new Service();

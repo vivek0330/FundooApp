@@ -212,6 +212,26 @@ class Note {
       });
     }
   }
+
+  deleteLabel = async (req, res) => {
+    try {
+      const id = {
+        labelId: req.body.labelId,
+        noteId: req.params.id
+      };
+      await noteService.deleteLabel(id);
+      res.status(201).send({
+        message: "Label deleted",
+        success: true
+      });
+    } catch (error) {
+      res.status(500).send({
+        message: "Label wasnt deleted",
+        success: false,
+        error: error
+      });
+    }
+  }
 }
 
 module.exports = new Note();
