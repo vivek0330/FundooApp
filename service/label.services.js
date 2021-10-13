@@ -41,6 +41,14 @@ class Service {
          return err;
        }
      }
+
+     async addNoteId (id) {
+       try {
+         return await labelModel.addNoteId(id);
+       } catch (err) {
+         return err;
+       }
+     }
 }
 
 module.exports = new Service();

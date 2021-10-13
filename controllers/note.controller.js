@@ -8,6 +8,8 @@
 
 const noteService = require("../service/note.services");
 const logger = require("../logger/logger");
+const labelController = require("./label.conroller");
+// const labelService = require("../service/label.services");
 class Note {
   /**
     * @description function written to create notes into the database
@@ -183,6 +185,30 @@ class Note {
         message: "Note not updated",
         success: false,
         data: err
+      });
+    }
+  }
+
+  addLabelById = async (req, res) => {
+    try {
+      const id = {
+        noteId: req.params.id,
+        labelId: req.body.Id,
+        userId: req.userData.dataForToken.id
+      };
+      console.log(id);
+      const labels = await noteService.addLabelById(id);
+      await labelController.addNoteId(id);
+      res.status(200).send({
+        message: "Label added",
+        success: true,
+        data: labels
+      });
+    } catch (err) {
+      res.status(500).send({
+        message: "Label wasnt added",
+        success: false,
+        error: err
       });
     }
   }

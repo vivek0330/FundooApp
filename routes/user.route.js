@@ -46,4 +46,6 @@ module.exports = (app) => {
 
   // delete label by ID api - DELETE request
   app.delete("/labelDelete/:id", middleware.validateToken, labelController.labelDeleteById);
+
+  app.post("/addlabel/:id", middleware.validateToken, noteController.addLabelById);
 };

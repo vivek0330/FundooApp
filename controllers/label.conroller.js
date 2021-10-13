@@ -124,10 +124,9 @@ class Label {
     labelDeleteById = async (req, res) => {
       try {
         const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };
-        console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
         const data = await labelServices.labelDeleteById(id);
         console.log(data);
-        if (data.message) {
+        if (!data) {
           return res.status(404).json({
             message: "label not found",
             success: false
@@ -145,6 +144,15 @@ class Label {
         });
       }
     }
+
+     addNoteId = async (id, res) => {
+       try {
+         await labelServices.addNoteId(id);
+         return;
+       } catch (err) {
+         return err;
+       }
+     }
 }
 
 module.exports = new Label();
