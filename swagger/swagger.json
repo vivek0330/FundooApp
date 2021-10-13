@@ -120,6 +120,17 @@
             "example": {
                 "labelName": "Write a title here....."
             }
+        },
+        "Addlabel": {
+            "type": "object",
+            "properties": {
+                "labelId": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "labelId": "Write a labelId here....."
+            }
         }
     },
     "info": {
@@ -699,6 +710,55 @@
                     },
                     "404": {
                         "description": "label not found"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/addlabel/{id}": {
+            "post": {
+                "tags": [
+                    "Add label in note"
+                ],
+                "description": "Add label in note and add note in label !!",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "description": "Token for vaidation",
+                        "schema": {
+                            "type": "string",
+                            "required": true
+                        }
+                    },
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "description": "Id of note you want to update",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "in": "body",
+                        "name": "note",
+                        "description": "Note body",
+                        "schema": {
+                            "$ref": "#/definitions/Addlabel"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Added succesfully !!"
+                    },
+                    "401": {
+                        "description": "Please enter Valid Token"
                     },
                     "500": {
                         "description": "Internal server error"

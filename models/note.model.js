@@ -99,7 +99,7 @@ class Model {
      deleteLabel = async (id) => {
        try {
          return await NoteRegister.findByIdAndUpdate(id.noteId,
-           { $pull: { labelId: id.labelId } }, { multi: true });
+           { $pull: { labelId: id.labelId } }, { new: true });
        } catch (error) {
          return error;
        }
