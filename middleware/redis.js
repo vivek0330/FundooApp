@@ -50,8 +50,26 @@ class Redis {
        } else if (redis_data) {
          logger.info("getLabels successfully retrieved");
          res.status(200).send({
-           redis_LabelById: JSON.parse(redis_data),
+           redis_NotesById: JSON.parse(redis_data),
            message: "getlabels successfully retrieved",
+           success: true
+         });
+       } else {
+         next();
+       }
+     });
+   }
+
+   redis_LabelById = (req, res, next) => {
+     client.get("getLabelById", (error, redis_data) => {
+       if (error) {
+         logger.error(error);
+         throw error;
+       } else if (redis_data) {
+         logger.info("getLabels successfully retrieved");
+         res.status(200).send({
+           redis_LabelById: JSON.parse(redis_data),
+           message: "getLabels successfully retrieved",
            success: true
          });
        } else {

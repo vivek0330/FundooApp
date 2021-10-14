@@ -40,7 +40,7 @@ module.exports = (app) => {
   app.get("/labelGet/all", middleware.validateToken, redis.redis_Label, labelController.labelGetAll);
 
   // get single label by ID api - GET request
-  app.get("/labelGet/:id", middleware.validateToken, labelController.labelGetById);
+  app.get("/labelGet/:id", middleware.validateToken, redis.redis_LabelById, labelController.labelGetById);
 
   // update single label by ID api - PUT request
   app.put("/labelUpdate/:id", middleware.validateToken, labelController.updateLabelById);

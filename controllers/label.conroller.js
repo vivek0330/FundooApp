@@ -68,15 +68,17 @@ class Label {
     labelGetById = async (req, res) => {
       try {
         const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };
-        console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
+        // console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
         const data = await labelServices.labelGetById(id);
+        // console.log(data);
         if (data.message) {
           return res.status(404).json({
             message: "label not found",
             success: false
           });
         }
-        return res.status(200).json({
+        redisjs.setData("getLabelById", 60, JSON.stringify(data));
+        return res.status(201).json({
           message: "label retrieved succesfully",
           success: true,
           data: data

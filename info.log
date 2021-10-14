@@ -4122,3 +4122,14 @@
 {"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T21:50:47.093Z"}
 {"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T21:50:47.994Z"}
 {"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T21:50:49.266Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T22:10:06.157Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T22:10:06.183Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T22:10:30.514Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T22:10:30.541Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T22:13:33.692Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T22:13:33.722Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T22:13:36.872Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T22:13:45.005Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T22:15:35.218Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T22:15:35.245Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T22:16:50.111Z"}
