@@ -8,6 +8,7 @@ const userController = require("../controllers/user.controller.js");
 const middleware = require("../middleware/hash&token");
 const noteController = require("../controllers/note.controller");
 const labelController = require("../controllers/label.conroller");
+const redis = require("../middleware/redis");
 
 module.exports = (app) => {
   app.post("/register", userController.registration);
@@ -21,7 +22,7 @@ module.exports = (app) => {
   app.post("/createnotes", middleware.validateToken, noteController.createNote);
 
   // get note api
-  app.get("/getnotes", middleware.validateToken, noteController.getNote);
+  app.get("/getnotes", middleware.validateToken, redis.redis_port, noteController.getNote);
 
   // get not by id
   app.get("/getnotes/:id", middleware.validateToken, noteController.getNoteById);
@@ -36,7 +37,7 @@ module.exports = (app) => {
   app.post("/labelCreate", middleware.validateToken, labelController.labelCreate);
 
   // get all labels api - Get request
-  app.get("/labelGet/all", middleware.validateToken, labelController.labelGetAll);
+  app.get("/labelGet/all", middleware.validateToken, redis.redis_Label, labelController.labelGetAll);
 
   // get single label by ID api - GET request
   app.get("/labelGet/:id", middleware.validateToken, labelController.labelGetById);

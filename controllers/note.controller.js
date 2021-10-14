@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-throw-literal */
 /*****************************************************************************
  * @description   : It is used to taking the request from the client side and give the response and
@@ -10,6 +11,7 @@ const noteService = require("../service/note.services");
 const logger = require("../logger/logger");
 const labelController = require("./label.conroller");
 const validate = require("../middleware/joiValidation");
+const redisjs = require("../middleware/redis");
 class Note {
   /**
     * @description function written to create notes into the database
@@ -77,6 +79,7 @@ class Note {
             success: false
           });
         } else {
+          redisjs.setData("getAll", 60, JSON.stringify(data));
           logger.info("All notes retrieved");
           return res.status(201).json({
             message: "Notes retieved succesfully",
