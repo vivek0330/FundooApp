@@ -113,15 +113,17 @@ class Note {
           message: "Note not found",
           success: false
         });
+      } else {
+        redisjs.setData("getNotesById", 60, JSON.stringify(data));
+        return res.status(200).json({
+          message: "Note retrieved succesfully",
+          success: true,
+          data: data
+        });
       }
-      return res.status(200).json({
-        message: "Note retrieved succesfully",
-        success: true,
-        data: data
-      });
     } catch (err) {
       return res.status(500).json({
-        message: "Note not updated",
+        message: "Note not found",
         success: false,
         data: err
       });

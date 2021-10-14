@@ -33,7 +33,25 @@ class Redis {
          logger.info("getLabels successfully retrieved");
          res.status(200).send({
            redis_Label: JSON.parse(redis_data),
-           message: "getNotes successfully retrieved",
+           message: "getLabels successfully retrieved",
+           success: true
+         });
+       } else {
+         next();
+       }
+     });
+   }
+
+   redis_NOteById = (req, res, next) => {
+     client.get("getNotesById", (error, redis_data) => {
+       if (error) {
+         logger.error(error);
+         throw error;
+       } else if (redis_data) {
+         logger.info("getLabels successfully retrieved");
+         res.status(200).send({
+           redis_LabelById: JSON.parse(redis_data),
+           message: "getlabels successfully retrieved",
            success: true
          });
        } else {

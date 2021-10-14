@@ -25,7 +25,7 @@ module.exports = (app) => {
   app.get("/getnotes", middleware.validateToken, redis.redis_port, noteController.getNote);
 
   // get not by id
-  app.get("/getnotes/:id", middleware.validateToken, noteController.getNoteById);
+  app.get("/getnotes/:id", middleware.validateToken, redis.redis_NOteById, noteController.getNoteById);
 
   // update data through id
   app.put("/updatenotes/:id", middleware.validateToken, noteController.updateNoteById);
