@@ -4090,3 +4090,12 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T21:21:25.196Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T21:21:25.224Z"}
 {"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-14T21:21:34.368Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T21:27:56.512Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T21:27:56.538Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-14T21:28:01.107Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T21:29:14.699Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T21:29:14.727Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T21:30:11.090Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T21:30:11.121Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-14T21:30:15.220Z"}
+{"level":"info","message":"getNotes successfully retrieved","timestamp":"2021-10-14T21:30:17.865Z"}

@@ -3,14 +3,16 @@
 /* eslint-disable camelcase */
 const redis = require("redis");
 const client = redis.createClient();
+const logger = require("../logger/logger.js");
 
 class Redis {
    redis_port = (req, res, next) => {
      client.get("getAll", (error, redis_data) => {
        if (error) {
+         logger.error(error);
          throw error;
        } else if (redis_data) {
-         console.log("connected");
+         logger.info("getNotes successfully retrieved");
          res.status(200).send({
            redis_data: JSON.parse(redis_data),
            message: "getNotes successfully retrieved",
@@ -25,9 +27,10 @@ class Redis {
    redis_Label = (req, res, next) => {
      client.get("getLabel", (error, redis_data) => {
        if (error) {
+         logger.error(error);
          throw error;
        } else if (redis_data) {
-         console.log("connected");
+         logger.info("getLabels successfully retrieved");
          res.status(200).send({
            redis_Label: JSON.parse(redis_data),
            message: "getNotes successfully retrieved",
