@@ -3955,3 +3955,63 @@
 {"level":"info","message":" token generated ","timestamp":"2021-10-14T11:29:24.465Z"}
 {"level":"info","message":"User logged in successfully","timestamp":"2021-10-14T11:29:24.466Z"}
 {"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-14T11:29:27.222Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T11:30:02.913Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T11:30:02.950Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-14T11:30:03.045Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-14T11:30:03.107Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T11:30:03.146Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T11:30:03.208Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-14T11:30:03.247Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T11:30:03.278Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-14T11:30:03.468Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-14T11:30:03.469Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-14T11:30:03.558Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-14T11:30:03.558Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.574Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.593Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.611Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.629Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.648Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.661Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.680Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.701Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:30:03.716Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-14T11:30:03.736Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-14T11:30:03.773Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-14T11:30:03.910Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-14T11:30:03.910Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-14T11:30:03.919Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-14T11:30:04.117Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-14T11:30:04.118Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-14T11:30:07.294Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T11:55:58.028Z"}
+{"level":"info","message":"Label inserted","timestamp":"2021-10-14T11:55:58.128Z"}
+{"level":"info","message":"Found all labels 🔖","timestamp":"2021-10-14T11:55:58.192Z"}
+{"level":"error","message":"Invalid note body","timestamp":"2021-10-14T11:55:58.225Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T11:55:58.309Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-14T11:55:58.353Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T11:55:58.392Z"}
+{"level":"info","message":"getting user data","timestamp":"2021-10-14T11:55:58.629Z"}
+{"level":"info","message":"USer Registered Successfully","timestamp":"2021-10-14T11:55:58.631Z"}
+{"level":"error","message":"getting some error registration","timestamp":"2021-10-14T11:55:58.727Z"}
+{"level":"info","message":"User Already Exit","timestamp":"2021-10-14T11:55:58.728Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.742Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.759Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.777Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.792Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.808Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.826Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.844Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.858Z"}
+{"level":"error","message":"if getting a Wrong Validation","timestamp":"2021-10-14T11:55:58.876Z"}
+{"level":"error","message":"Invalid email id","timestamp":"2021-10-14T11:55:58.894Z"}
+{"level":"info","message":"Email forgot password link sent succesfully","timestamp":"2021-10-14T11:55:58.933Z"}
+{"level":"info","message":"getting upadated password in data","timestamp":"2021-10-14T11:55:59.058Z"}
+{"level":"info","message":"Password reset succesfully","timestamp":"2021-10-14T11:55:59.058Z"}
+{"level":"error","message":"Invalid password","timestamp":"2021-10-14T11:55:59.067Z"}
+{"level":"info","message":" token generated ","timestamp":"2021-10-14T11:55:59.183Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2021-10-14T11:55:59.184Z"}
+{"level":"info","message":"Email has been sent, Please kindly follow the steps !!","timestamp":"2021-10-14T11:56:02.650Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T11:56:16.096Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T11:56:16.129Z"}
+{"level":"error","message":"Invalid note body","timestamp":"2021-10-14T11:56:44.713Z"}

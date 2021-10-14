@@ -96,6 +96,15 @@ class Label {
           labelName: req.body.labelName
         };
         console.log(updateLabel);
+        const valid = validate.validateLabel.validate(req.body);
+        if (valid.error) {
+          logger.error("Invalid label body");
+          return res.status(400).send({
+            message: "Please enter valid label",
+            success: false,
+            error: valid.error
+          });
+        }
         labelServices.updateLabelById(updateLabel, (error, data) => {
           if (error) {
             logger.error("failed to update note");

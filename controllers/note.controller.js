@@ -9,7 +9,7 @@
 const noteService = require("../service/note.services");
 const logger = require("../logger/logger");
 const labelController = require("./label.conroller");
-// const labelService = require("../service/label.services");
+const validate = require("../middleware/joiValidation");
 class Note {
   /**
     * @description function written to create notes into the database
@@ -25,6 +25,15 @@ class Note {
           description: req.body.description
         };
         console.log("note for controller :: " + note);
+        const valid = validate.validateNote.validate(req.body);
+        if (valid.error) {
+          logger.error("Invalid note body");
+          return res.status(422).send({
+            message: "Please enter valid label",
+            success: false,
+            error: valid.error
+          });
+        }
         noteService.createNote(note, (error, data) => {
           if (error) {
             logger.error("failed to post note");
@@ -132,6 +141,15 @@ class Note {
         description: req.body.description
       };
       console.log("note for controller :: " + updateNote);
+      const valid = validate.validateNote.validate(req.body);
+      if (valid.error) {
+        logger.error("Invalid note body");
+        return res.status(422).send({
+          message: "Please enter valid label",
+          success: false,
+          error: valid.error
+        });
+      }
       noteService.updateNoteById(updateNote, (error, data) => {
         if (error) {
           logger.error("failed to update note");
