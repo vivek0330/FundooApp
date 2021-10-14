@@ -49,5 +49,5 @@ module.exports = (app) => {
 
   app.post("/addlabel/:id", middleware.validateToken, noteController.addLabelById);
 
-  app.post("/deleteLabelFromNote/:id", middleware.validateToken, noteController.deleteLabel);
+  app.delete("/deleteLabelFromNote/:id", middleware.validateToken, noteController.deleteLabel);
 };

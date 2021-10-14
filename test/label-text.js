@@ -120,17 +120,17 @@ describe("Update label api", () => {
 
 // delete note test cases
 describe("delete notes api", () => {
-  it("givenPoperDetails_ShouldDeleteNote", (done) => {
-    const token = labelDB.label.getNoteWithValidToken;
-    chai
-      .request(server)
-      .delete("/labelDelete/616468d64dab5d648095d278")
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(200);
-        done();
-      });
-  });
+//   it("givenPoperDetails_ShouldDeleteNote", (done) => {
+//     const token = labelDB.label.getNoteWithValidToken;
+//     chai
+//       .request(server)
+//       .delete("/labelDelete/616468d64dab5d648095d278")
+//       .set({ authorization: token })
+//       .end((err, res) => {
+//         res.should.have.status(200);
+//         done();
+//       });
+//   });
 
   it("givenInvalidToken_ShouldUpdateNote", (done) => {
     const token = labelDB.label.getNoteWithInValidToken;

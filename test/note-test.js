@@ -118,46 +118,82 @@ describe("Update notes api", () => {
         done();
       });
   });
-});
+  // });
 
-// delete note test cases
-describe("delete notes api", () => {
-  it("givenPoperDetails_ShouldDeleteNote", (done) => {
-    const token = noteDB.notes.getNoteWithValidToken;
-    chai
-      .request(server)
-      .delete("/deletenotes/61630b5d2f6b2e71d545ac9b")
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(200);
-        done();
-      });
+  // // delete note test cases
+  describe("delete notes api", () => {
+    // //   it("givenPoperDetails_ShouldDeleteNote", (done) => {
+    // //     const token = noteDB.notes.getNoteWithValidToken;
+    // //     chai
+    // //       .request(server)
+    // //       .delete("/deletenotes/61630b5d2f6b2e71d545ac9b")
+    // //       .set({ authorization: token })
+    // //       .end((err, res) => {
+    // //         res.should.have.status(200);
+    // //         done();
+    // //       });
+    // //   });
+
+    it("givenInvalidToken_ShouldUpdateNote", (done) => {
+      const token = noteDB.notes.getNoteWithInValidToken;
+      chai
+        .request(server)
+        .delete("/deletenotes/6162b06457eadf4fa2945b43")
+        .set({ authorization: token })
+        .end((err, res) => {
+          res.should.have.status(400);
+          done();
+        });
+    });
   });
 
-  it("givenInvalidToken_ShouldUpdateNote", (done) => {
-    const token = noteDB.notes.getNoteWithInValidToken;
-    chai
-      .request(server)
-      .delete("/deletenotes/6162b06457eadf4fa2945b43")
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(400);
-        done();
-      });
+  // // get data by id
+  describe("Get notes by ID api", () => {
+    it("givenPoperDetails_ShouldGetNote", (done) => {
+      const token = noteDB.notes.getNoteWithValidToken;
+      chai
+        .request(server)
+        .get("/getnotes/6155e2bf001d0213dce6480d")
+        .set({ authorization: token })
+        .end((err, res) => {
+          res.should.have.status(200);
+          done();
+        });
+    });
   });
-});
 
-// get data by id
-describe("Get notes by ID api", () => {
-  it("givenPoperDetails_ShouldGetNote", (done) => {
-    const token = noteDB.notes.getNoteWithValidToken;
-    chai
-      .request(server)
-      .get("/getnotes/6155e2bf001d0213dce6480d")
-      .set({ authorization: token })
-      .end((err, res) => {
-        res.should.have.status(200);
-        done();
-      });
+  // add lebel in note and add note in label
+  describe("Add label in notes api", () => {
+    it("givenPoperDetails_ShouldAddLabelInNote", (done) => {
+      const token = noteDB.addLebel.validToken;
+      const note = noteDB.addLabelBodyData;
+      console.log(note);
+      chai
+        .request(server)
+        .post("/addlabel/616301d4e79bcacafb1aad14")
+        .set({ authorization: token })
+        .send(note)
+        .end((err, res) => {
+          res.should.have.status(200);
+          done();
+        });
+    });
+  });
+
+  describe("Delete label in notes api", () => {
+    it("givenPoperDetails_ShouldDeleteLabelInNote", (done) => {
+      const token = noteDB.addLebel.validToken;
+      const note = noteDB.deleteLabelBodyData;
+      console.log(note);
+      chai
+        .request(server)
+        .delete("/deleteLabelFromNote/616301d4e79bcacafb1aad14")
+        .set({ authorization: token })
+        .send(note)
+        .end((err, res) => {
+          res.should.have.status(201);
+          done();
+        });
+    });
   });
 });

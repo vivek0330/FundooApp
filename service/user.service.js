@@ -31,7 +31,6 @@ class UserService {
            } else {
              logger.info(" token generated ");
              const token = helper.token(data);
-             console.log("Services login token :: " + token);
              return callback(null, token);
            }
          });

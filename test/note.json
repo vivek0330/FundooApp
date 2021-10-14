@@ -10,5 +10,14 @@
             "title": "Pizza Hut 🍗",
             "description": "Pizza 🍕"
         }
+    },
+    "addLebel": {
+        "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiaWQiOiI2MTU1ZTJiZjAwMWQwMjEzZGNlNjQ4MGQiLCJmaXJzdE5hbWUiOiJLYWthIiwibGFzdE5hbWUiOiJndiIsImVtYWlsIjoidml2ZWsuaWl0ZDkzQGdtYWlsLmNvbSJ9LCJpYXQiOjE2MzM5NjI0OTd9.38TIs5kEmTZLGcpak1k-yKeuBwQGNefulVhP3ra99OY"
+    },
+    "addLabelBodyData": {
+        "Id": "616468f54dab5d648095d27a"
+    },
+    "deleteLabelBodyData": {
+        "labelId": "616468f54dab5d648095d27a"
     }
 }

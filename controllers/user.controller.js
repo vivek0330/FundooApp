@@ -51,47 +51,49 @@ class UserController {
   };
 
   // sign in user
-signIn = (req, res) => {
-  try {
-    const userLoginInfo = {
-      email: req.body.email,
-      password: req.body.password
-    };
-    console.log("userLogininfo :: " + userLoginInfo);
-    const loginValidation = utility.loginSchema.validate(userLoginInfo);
-    if (loginValidation.error) {
-      logger.error(loginValidation.error);
-      res.status(422).send({
-        success: false,
-        message: loginValidation.error.message
-      });
-    }
-    userService.userLogin(userLoginInfo, (error, data) => {
-      if (error) {
-        logger.error(error);
-        return res.status(401).json({
+  signIn = (req, res) => {
+    try {
+      const userLoginInfo = {
+        email: req.body.email,
+        password: req.body.password
+      };
+      console.log("userLogininfo :: " + userLoginInfo.email);
+      console.log("userLogininfo :: " + userLoginInfo.password);
+      const loginValidation = utility.loginSchema.validate(userLoginInfo);
+      if (loginValidation.error) {
+        logger.error(loginValidation.error);
+        res.status(422).send({
           success: false,
-          message: "Unable to login. Please enter correct info",
-          error
+          message: loginValidation.error.message
         });
       }
-      logger.info("User logged in successfully");
-      return res.status(201).json({
-        success: true,
-        message: "User logged in successfully",
-        token: data
+      userService.userLogin(userLoginInfo, (error, data) => {
+        if (error) {
+          logger.error("Unable to login. Please enter correct info");
+          return res.status(401).send({
+            success: false,
+            message: "Unable to login. Please enter correct info",
+            error
+          });
+        } else {
+          logger.info("User logged in successfully");
+          return res.status(201).send({
+            success: true,
+            message: "User logged in successfully",
+            token: data
+          });
+        }
       });
-    });
-  } catch (error) {
-    return res.status(500).json({
-      success: false,
-      message: "Error while Login",
-      data: null
-    });
-  }
-};
+    } catch (error) {
+      return res.status(500).send({
+        success: false,
+        message: "Error while Login",
+        data: null
+      });
+    }
+  };
 
-// forgot password
+  // forgot password
    forgotPassword=(req, res) => {
      try {
        const email = req.body;
