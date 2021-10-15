@@ -109,12 +109,14 @@ class Note {
       console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
       const data = await noteService.getNoteById(id);
       if (data.message) {
+        logger.error("Note not found");
         return res.status(404).json({
           message: "Note not found",
           success: false
         });
       } else {
         redisjs.setData("getNotesById", 60, JSON.stringify(data));
+        logger.info("Note retrieved succesfully");
         return res.status(200).json({
           message: "Note retrieved succesfully",
           success: true,
@@ -122,8 +124,9 @@ class Note {
         });
       }
     } catch (err) {
+      logger.error("Server error");
       return res.status(500).json({
-        message: "Note not found",
+        message: "Server error",
         success: false,
         data: err
       });
@@ -194,19 +197,22 @@ class Note {
       console.log(`Test: ${req.userData.dataForToken.id} and ${req.params.id}`);
       const data = await noteService.deleteNoteById(id);
       if (data.message) {
+        logger.error("Note not found");
         return res.status(404).json({
           message: "Note not found",
           success: false
         });
       }
+      logger.info("Note deleted successfully");
       return res.status(200).json({
         message: "Note Deleted succesfully",
         success: true,
         data: data
       });
     } catch (err) {
+      logger.error("Server error");
       return res.status(500).json({
-        message: "Note not updated",
+        message: "Server error",
         success: false,
         data: err
       });
@@ -229,6 +235,7 @@ class Note {
         data: labels
       });
     } catch (err) {
+      logger.error("Server error thats why Label not added");
       res.status(500).send({
         message: "Label wasnt added",
         success: false,
@@ -249,6 +256,7 @@ class Note {
         success: true
       });
     } catch (error) {
+      logger.error("Server Error");
       res.status(500).send({
         message: "Label wasnt deleted",
         success: false,
