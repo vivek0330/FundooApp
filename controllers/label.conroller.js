@@ -94,18 +94,21 @@ class Label {
         const data = await labelServices.labelGetById(id);
         // console.log(data);
         if (data.message) {
+          logger.error("label not found");
           return res.status(404).json({
             message: "label not found",
             success: false
           });
         }
         redisjs.setData("getLabelById", 60, JSON.stringify(data));
+        logger.info("label retrieved succesfullys");
         return res.status(201).json({
           message: "label retrieved succesfully",
           success: true,
           data: data
         });
       } catch (err) {
+        logger.error("Error Server");
         return res.status(500).json({
           message: "server error",
           success: false,
@@ -173,16 +176,19 @@ class Label {
         const data = await labelServices.labelDeleteById(id);
         console.log(data);
         if (!data) {
+          logger.error("Label not found");
           return res.status(404).json({
             message: "label not found",
             success: false
           });
         }
+        logger.info("Label added succesfully");
         return res.status(200).json({
           message: "label Delete succesfully",
           success: true
         });
       } catch (err) {
+        logger.error("Server Internal Problem");
         return res.status(500).json({
           message: "label not Delete",
           success: false,
@@ -196,6 +202,7 @@ class Label {
          await labelServices.addNoteId(id);
          return;
        } catch (err) {
+         logger.error(err);
          return err;
        }
      }
