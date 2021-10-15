@@ -1,9 +1,21 @@
+/**************************************************************************
+ *
+ * @file            : label.controller.js
+ * @author          : Vivek VArshney
+ * @version         : 1.0.0
+ *
+ **************************************************************************/
 const labelServices = require("../service/label.services");
 const validate = require("../middleware/joiValidation");
 const logger = require("../logger/logger");
 const redisjs = require("../middleware/redis");
 
 class Label {
+    /**
+      * @description function written to create label into database
+      * @param {*} a valid req body is expected
+      * @param {*} res
+      */
     labelCreate = (req, res) => {
       try {
         const label = {
@@ -44,6 +56,11 @@ class Label {
       }
     }
 
+    /**
+      * @description function written to get all labels
+      * @param {*} req
+      * @param {*} res
+      */
     labelGetAll = (req, res) => {
       const id = req.userData.dataForToken.id;
       labelServices.labelGetAll(id, (resolve, reject) => {
@@ -65,6 +82,11 @@ class Label {
       });
     }
 
+    /**
+      * @description function written to get label by ID
+      * @param {*} req
+      * @param {*} res
+      */
     labelGetById = async (req, res) => {
       try {
         const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };
@@ -92,6 +114,11 @@ class Label {
       }
     }
 
+    /**
+      * @description function written to update label
+      * @param {*} a valid req body is expected
+      * @param {*} res
+      */
     updateLabelById =(req, res) => {
       try {
         const updateLabel = {
@@ -135,6 +162,11 @@ class Label {
       }
     }
 
+    /**
+      * @description function written to delete label by ID
+      * @param {*} req
+      * @param {*} res
+      */
     labelDeleteById = async (req, res) => {
       try {
         const id = { userId: req.userData.dataForToken.id, noteId: req.params.id };

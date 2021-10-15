@@ -6,6 +6,12 @@ const client = redis.createClient();
 const logger = require("../logger/logger.js");
 
 class Redis {
+  /**
+    * @description function written to provide data to user in minimal time using caching
+    * @param {*} a req valid request is expected
+    * @param {*} res depends on the request of user
+    * @param {*} if there is no data function calls for next function
+    */
    redis_port = (req, res, next) => {
      client.get("getAll", (error, redis_data) => {
        if (error) {
@@ -24,6 +30,12 @@ class Redis {
      });
    }
 
+   /**
+     * @description function written to provide data to user in minimal time using caching
+     * @param {*} a req valid request is expected
+     * @param {*} res depends on the request of user
+     * @param {*} if there is no data function calls for next function
+     */
    redis_Label = (req, res, next) => {
      client.get("getLabel", (error, redis_data) => {
        if (error) {
@@ -42,6 +54,12 @@ class Redis {
      });
    }
 
+   /**
+     * @description function written to provide data to user in minimal time using caching
+     * @param {*} a req valid request is expected
+     * @param {*} res depends on the request of user
+     * @param {*} if there is no data function calls for next function
+     */
    redis_NOteById = (req, res, next) => {
      client.get("getNotesById", (error, redis_data) => {
        if (error) {
@@ -60,6 +78,12 @@ class Redis {
      });
    }
 
+   /**
+    * @description function written to provide data to user in minimal time using caching
+    * @param {*} a req valid request is expected
+    * @param {*} res depends on the request of user
+    * @param {*} if there is no data function calls for next function
+    */
    redis_LabelById = (req, res, next) => {
      client.get("getLabelById", (error, redis_data) => {
        if (error) {
@@ -78,10 +102,18 @@ class Redis {
      });
    }
 
+   /**
+    * @description setting data to key into redis
+    * @param userId
+    * @param data
+    */
    setData = (key, time, redis_data) => {
      client.setex(key, time, redis_data);
    };
 
+   /**
+    * @description clearing cache
+    */
    clearCache = (key) => {
      client.del(key, (err, res) => {
        if (err) {

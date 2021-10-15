@@ -1,10 +1,23 @@
 /* eslint-disable no-undef */
 /* eslint-disable comma-dangle */
+
+/**
+ * @description   : It is use to taking the request from the client and gives the response and
+ *                  validating whether the input is correct or not.
+ * @file          : user.controller.js
+ * @author        : Vivek Varshney
+*/
 const userService = require("../service/user.service.js");
 const utility = require("../middleware/joiValidation");
 const logger = require("../logger/logger");
 
 class UserController {
+  /**
+   * @description   : creates an note in fundooNote
+   * @param         : httpRequest and httpResponse
+   * @method        : validate it compares the authSchema properties and the data coming
+   *                  from the object and using services file method
+   */
   registration = (req, res) => {
     try {
       const user = {
@@ -50,7 +63,11 @@ class UserController {
     }
   };
 
-  // sign in user
+  /**
+   * @description   : login an user in fundooNote
+   * @param         : httpRequest and httpResponse
+   * @method        : services file method for login having an object and callback
+  */
   signIn = (req, res) => {
     try {
       const userLoginInfo = {
@@ -93,7 +110,13 @@ class UserController {
     }
   };
 
-  // forgot password
+   /**
+   * @description     : used when a user forgot his/her password
+   * @param {httprequest} : req
+   * @param {httpresponse} : res
+   * @method          : forgotPasssword
+   * @file            : user.controller.js
+  */
    forgotPassword=(req, res) => {
      try {
        const email = req.body;
@@ -128,7 +151,14 @@ class UserController {
      }
    }
 
-  // reset password
+  /**
+   * @description     : used when a user forgot his/her password
+   * @param {httprequest} : req
+   * @param {httpresponse} : res
+   * @method          : resetPassword
+   * @package         : jwt
+   * @file            : user.controller.js
+  */
   resetPassword = (req, res) => {
     try {
       const inputData = {
