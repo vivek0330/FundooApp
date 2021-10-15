@@ -81,6 +81,17 @@ class Redis {
    setData = (key, time, redis_data) => {
      client.setex(key, time, redis_data);
    };
+
+   clearCache = (key) => {
+     client.del(key, (err, res) => {
+       if (err) {
+         logger.error("cache not cleared");
+       } else {
+         console.log("Cache cleared");
+         logger.info("Cache cleared");
+       }
+     });
+   }
 }
 
 module.exports = new Redis();

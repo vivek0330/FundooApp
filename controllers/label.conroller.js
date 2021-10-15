@@ -111,13 +111,14 @@ class Label {
         }
         labelServices.updateLabelById(updateLabel, (error, data) => {
           if (error) {
-            logger.error("failed to update note");
+            logger.error("failed to update label");
             return res.status(400).json({
-              message: "failed to update note",
+              message: "failed to update label",
               success: false
             });
           } else {
-            logger.info("Successfully Update note");
+            redisjs.clearCache("getLabelById");
+            logger.info("Successfully Update label");
             return res.status(201).send({
               message: "Successfully update label",
               success: true,

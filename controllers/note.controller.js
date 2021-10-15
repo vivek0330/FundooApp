@@ -163,6 +163,7 @@ class Note {
             success: false
           });
         } else {
+          redisjs.clearCache("getNotesById");
           logger.info("Successfully inserted note");
           return res.status(201).send({
             message: "Successfully update note",

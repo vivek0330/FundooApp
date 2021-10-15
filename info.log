@@ -4133,3 +4133,43 @@
 {"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T22:15:35.218Z"}
 {"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T22:15:35.245Z"}
 {"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T22:16:50.111Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:19:11.140Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:19:11.173Z"}
+{"level":"info","message":"All notes retrieved","timestamp":"2021-10-14T23:19:18.314Z"}
+{"level":"info","message":"getNotes successfully retrieved","timestamp":"2021-10-14T23:19:32.158Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:24:16.727Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:24:21.276Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:24:22.412Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:24:23.380Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:36:31.397Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:36:31.422Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:40:19.178Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:40:19.204Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:41:55.313Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:41:55.336Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:44:31.842Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:44:31.869Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:45:16.730Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:45:16.761Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:45:22.424Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:45:26.073Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:46:23.716Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:46:23.746Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:31.606Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:33.386Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:34.129Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:34.909Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:35.644Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:36.398Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:37.094Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:37.705Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:38.281Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:38.685Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:39.074Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:46:39.403Z"}
+{"level":"info","message":"Server is listing on port: 8080","timestamp":"2021-10-14T23:58:34.728Z"}
+{"level":"info","message":"sucessfully connected to the database","timestamp":"2021-10-14T23:58:34.846Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-14T23:58:47.426Z"}
+{"level":"info","message":"Successfully inserted note","timestamp":"2021-10-14T23:59:49.163Z"}
+{"level":"info","message":"Cache clearer","timestamp":"2021-10-14T23:59:49.167Z"}
+{"level":"info","message":"getLabels successfully retrieved","timestamp":"2021-10-15T00:00:32.917Z"}
