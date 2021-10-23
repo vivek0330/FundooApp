@@ -31,7 +31,7 @@ class Note {
         if (valid.error) {
           logger.error("Invalid note body");
           return res.status(422).send({
-            message: "Please enter valid label",
+            message: "Please enter valid note",
             success: false,
             error: valid.error
           });
@@ -148,12 +148,12 @@ class Note {
         title: req.body.title,
         description: req.body.description
       };
-      console.log("note for controller :: " + updateNote);
+      // console.log("note for controller :: " + updateNote);
       const valid = validate.validateNote.validate(req.body);
       if (valid.error) {
         logger.error("Invalid note body");
         return res.status(422).send({
-          message: "Please enter valid label",
+          message: "Please enter valid note",
           success: false,
           error: valid.error
         });
